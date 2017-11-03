@@ -17,13 +17,13 @@ ActiveRecord::Schema.define(version: 20171103031736) do
 
   create_table "scores", force: :cascade do |t|
     t.string "username"
-    t.string "points"
-    t.string "easy"
-    t.string "medium"
-    t.string "hard"
-    t.string "hardest"
-    t.string "jumps"
-    t.string "deaths"
+    t.float "points"
+    t.float "easy"
+    t.float "medium"
+    t.float "hard"
+    t.float "hardest"
+    t.integer "jumps"
+    t.integer "deaths"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
