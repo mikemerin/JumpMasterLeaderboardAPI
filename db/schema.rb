@@ -18,6 +18,11 @@ ActiveRecord::Schema.define(version: 20171104021112) do
   create_table "scores", force: :cascade do |t|
     t.integer "user_id"
     t.float "total"
+    t.integer "jumps"
+    t.integer "deaths"
+    t.integer "longest_streak"
+    t.string "bestjump_type"
+    t.float "bestjump_points"
     t.float "easy"
     t.integer "gate_jumps"
     t.integer "gate_streak"
@@ -82,28 +87,12 @@ ActiveRecord::Schema.define(version: 20171104021112) do
     t.integer "ddiamond_jumps"
     t.integer "ddiamond_streak"
     t.float "ddiamond_points"
-    t.integer "jumps"
-    t.integer "deaths"
-    t.integer "longest_streak"
-    t.string "bestjump_type"
-    t.float "bestjump_points"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.string "username"
-    t.integer "runs"
-    t.integer "jumps"
-    t.integer "deaths"
-    t.integer "longest"
-    t.string "bestjump_type"
-    t.float "bestjump_points"
-    t.float "easy"
-    t.float "medium"
-    t.float "hard"
-    t.float "hardest"
-    t.float "sum"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

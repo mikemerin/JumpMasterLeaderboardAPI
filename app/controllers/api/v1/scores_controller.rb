@@ -22,7 +22,13 @@ class Api::V1::ScoresController < ApplicationController
   def score_params
     params.require(:score).permit(
     :user_id,
+
     :total,
+    :jumps,
+    :deaths,
+    :longest_streak,
+    :bestjump_type,
+    :bestjump_points,
 
     :easy,
     :gate_jumps,
@@ -90,13 +96,7 @@ class Api::V1::ScoresController < ApplicationController
     :ninejump_points,
     :ddiamond_jumps,
     :ddiamond_streak,
-    :ddiamond_points,
-
-    :jumps,
-    :deaths,
-    :longest_streak,
-    :bestjump_type,
-    :bestjump_points
+    :ddiamond_points
     )
   end
 
