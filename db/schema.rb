@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171104021112) do
+ActiveRecord::Schema.define(version: 20171103031736) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "scores", force: :cascade do |t|
-    t.integer "user_id"
+    t.string "username"
     t.float "total"
     t.integer "jumps"
     t.integer "deaths"
@@ -87,12 +87,6 @@ ActiveRecord::Schema.define(version: 20171104021112) do
     t.integer "ddiamond_jumps"
     t.integer "ddiamond_streak"
     t.float "ddiamond_points"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string "username"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

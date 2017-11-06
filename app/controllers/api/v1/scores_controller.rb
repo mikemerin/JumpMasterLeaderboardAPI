@@ -21,7 +21,7 @@ class Api::V1::ScoresController < ApplicationController
 
   def score_params
     params.require(:score).permit(
-    :user_id,
+    :username,
 
     :total,
     :jumps,
