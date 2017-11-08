@@ -12,9 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20171103031736) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "scores", force: :cascade do |t|
     t.string "username"
     t.float "total"
