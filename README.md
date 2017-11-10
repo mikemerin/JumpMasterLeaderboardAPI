@@ -8,7 +8,7 @@ Type in the following commands to create the database, seed it with dummy data, 
 
 `rake db:load`
 `rake db:seed`
-`rails s` (starts the server on localhost:3001)
+`rails s` (starts the server on localhost:3000)
 
 
 to access the table go to `http://localhost:3000/api/v1/scores`
