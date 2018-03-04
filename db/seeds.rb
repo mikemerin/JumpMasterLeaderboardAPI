@@ -191,7 +191,7 @@ sgate_points: 33.37,
 platform_jumps: 15,
 platform_streak: 11,
 platform_points: 23.98,
-  
+
 medium: 221.41,
 medium_jumps: 90,
 cascade_jumps: 13,
@@ -209,7 +209,7 @@ shuriken_points: 34.32,
 hdiamond_jumps: 19,
 hdiamond_streak: 9,
 hdiamond_points: 56.04,
-  
+
 hard: 248.86,
 hard_jumps: 60,
 mjump1_jumps: 14,
@@ -227,7 +227,7 @@ vortex_points: 52.82,
 hourglass_jumps: 13,
 hourglass_streak: 9,
 hourglass_points: 58.01,
-  
+
 hardest: 393.24,
 hardest_jumps: 51,
 plane_jumps: 9,
@@ -244,7 +244,7 @@ ninejump_streak: 3,
 ninejump_points: 40.67,
 ddiamond_jumps: 7,
 ddiamond_streak: 4,
-ddiamond_points: 54.95,  
+ddiamond_points: 54.95,
 )
 
 Score.create(
@@ -331,7 +331,7 @@ ddiamond_points: 25.81
 )
 
 Score.create(
-username: "tehjman1993",
+username: "YoYoYoDude1",
 
 total: 1361.15,
 jumps: 398,
@@ -414,15 +414,15 @@ ddiamond_points: 13.81
 )
 
 Score.create(
-username: "YoYoYoDude1",
-  
+username: "ShadowsDieAway",
+
 total: 900.596213,
 jumps: 292,
 deaths: 171,
 longest_streak: 36,
 bestjump_type: "Corner",
 bestjump_points: 113.619082,
-  
+
 easy: 241.718561,
 easy_jumps: 139,
 gate_jumps: 52,
@@ -440,7 +440,7 @@ sgate_points: 17.538574,
 platform_jumps: 16,
 platform_streak: 13,
 platform_points: 26.572432,
-  
+
 medium: 180.333421,
 medium_jumps: 70,
 cascade_jumps: 17,
@@ -458,7 +458,7 @@ shuriken_points: 45.813101,
 hdiamond_jumps: 5,
 hdiamond_streak: 2,
 hdiamond_points: 10.60206,
-  
+
 hard: 115.324991,
 hard_jumps: 33,
 mjump1_jumps: 17,
@@ -476,7 +476,7 @@ vortex_points: 9.90309,
 hourglass_jumps: 10,
 hourglass_streak: 2,
 hourglass_points: 32.70927,
-  
+
 hardest: 363.21924,
 hardest_jumps: 50,
 plane_jumps: 15,
@@ -495,4 +495,3 @@ ddiamond_jumps: 7,
 ddiamond_streak: 3,
 ddiamond_points: 46.668908,
 )
-
