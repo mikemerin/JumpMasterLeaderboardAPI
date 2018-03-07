@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20171103031736) do
     t.float "bestjump_points"
     t.float "easy"
     t.integer "easy_jumps"
-    t.integer "gate_jumps"
+    t.string "gate_jumps"
     t.integer "gate_streak"
     t.float "gate_points"
     t.integer "diagonal_jumps"
