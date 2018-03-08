@@ -11,7 +11,7 @@ class CreateScores < ActiveRecord::Migration[5.1]
       t.float :bestjump_points
 
       t.float :easy_points
-      t.string :easy_jumps
+      t.integer :easy_jumps
       t.integer :gate_jumps
       t.integer :gate_streak
       t.float :gate_points
