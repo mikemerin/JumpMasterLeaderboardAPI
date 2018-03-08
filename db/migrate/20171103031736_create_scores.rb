@@ -10,8 +10,8 @@ class CreateScores < ActiveRecord::Migration[5.1]
       t.string :bestjump_type
       t.float :bestjump_points
 
-      t.float :easy
-      t.integer :easy_jumps
+      t.float :easy_points
+      t.string :easy_jumps
       t.integer :gate_jumps
       t.integer :gate_streak
       t.float :gate_points
@@ -28,7 +28,7 @@ class CreateScores < ActiveRecord::Migration[5.1]
       t.integer :platform_streak
       t.float :platform_points
 
-      t.float :medium
+      t.float :medium_points
       t.integer :medium_jumps
       t.integer :cascade_jumps
       t.integer :cascade_streak
@@ -46,7 +46,7 @@ class CreateScores < ActiveRecord::Migration[5.1]
       t.integer :hdiamond_streak
       t.float :hdiamond_points
 
-      t.float :hard
+      t.float :hard_points
       t.integer :hard_jumps
       t.integer :mjump1_jumps
       t.integer :mjump1_streak
@@ -64,7 +64,7 @@ class CreateScores < ActiveRecord::Migration[5.1]
       t.integer :hourglass_streak
       t.float :hourglass_points
 
-      t.float :hardest
+      t.float :hardest_points
       t.integer :hardest_jumps
       t.integer :plane_jumps
       t.integer :plane_streak
