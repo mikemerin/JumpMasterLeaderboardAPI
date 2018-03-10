@@ -12,13 +12,8 @@ class Api::V1::ScoresController < ApplicationController
     end
   end
 
-  def show
-    @score = Score.find(params[:id])
-    render json: @score
-  end
-
   def top
-    @score = Score.order(:total).reverse[0...params[:id]]
+    @score = Score.order(:total).reverse[0...params[:num]]
     render json: @score
   end
 
@@ -26,6 +21,12 @@ class Api::V1::ScoresController < ApplicationController
     @scores = Score.order(:total).reverse[0...3]
     render json: @scores
   end
+
+  def show
+    @score = Score.find(params[:id])
+    render json: @score
+  end
+
 
   private
 
