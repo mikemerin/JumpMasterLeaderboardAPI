@@ -5,7 +5,7 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
-namespace :heroku do
+namespace :db_heroku do
 
     desc "reload and scrape"
     task :reload => :environment do
