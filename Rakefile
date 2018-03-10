@@ -5,15 +5,19 @@ require_relative 'config/application'
 
 Rails.application.load_tasks
 
-namespace :db do
+namespace :heroku do
 
-  desc "heroku new"
-  task :heroku => :environment do
-    system("pg:reset DATABASE_URL --confirm jumpmasterapi")
-    system("rake db:migrate")
-    system("rake db:seed")
-    puts 'Database Ready and Seeded'
-  end
+    desc "reload and scrape"
+    task :reload => :environment do
+      system("heroku pg:reset DATABASE_URL --confirm jumpmasterapi")
+      system("heroku run rake db:migrate")
+      system("heroku run rake db:seed")
+      puts 'Database Ready and Seeded'
+    end
+
+end
+
+namespace :db do
 
   desc "load and prep for scraping"
   task :load => :environment do
