@@ -7,6 +7,14 @@ Rails.application.load_tasks
 
 namespace :db do
 
+  desc "heroku new"
+  task :heroku => :environment do
+    system("pg:reset DATABASE_URL --confirm jumpmasterapi")
+    system("rake db:migrate")
+    system("rake db:seed")
+    puts 'Database Ready and Seeded'
+  end
+
   desc "load and prep for scraping"
   task :load => :environment do
     system("rake db:create")
