@@ -13,8 +13,7 @@ class Api::V1::ScoresController < ApplicationController
   end
 
   def top
-    byebug
-    @score = Score.order(:total).reverse[0...params[:num]]
+    @score = Score.order(:total).reverse[0]
     render json: @score
   end
 
