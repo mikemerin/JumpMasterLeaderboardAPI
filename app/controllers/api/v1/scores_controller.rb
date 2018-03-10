@@ -30,8 +30,8 @@ class Api::V1::ScoresController < ApplicationController
     :bestjump_type,
     :bestjump_points,
 
-    :easy_jumps,
     :easy_points,
+    :easy_jumps,
     :gate_jumps,
     :gate_streak,
     :gate_points,
@@ -48,8 +48,8 @@ class Api::V1::ScoresController < ApplicationController
     :platform_streak,
     :platform_points,
 
-    :medium_jumps,
     :medium_points,
+    :medium_jumps,
     :cascade_jumps,
     :cascade_streak,
     :cascade_points,
@@ -66,8 +66,8 @@ class Api::V1::ScoresController < ApplicationController
     :hdiamond_streak,
     :hdiamond_points,
 
-    :hard_jumps,
     :hard_points,
+    :hard_jumps,
     :mjump1_jumps,
     :mjump1_streak,
     :mjump1_points,
@@ -84,8 +84,8 @@ class Api::V1::ScoresController < ApplicationController
     :hourglass_streak,
     :hourglass_points,
 
-    :hardest_jumps,
     :hardest_points,
+    :hardest_jumps,
     :plane_jumps,
     :plane_streak,
     :plane_points,

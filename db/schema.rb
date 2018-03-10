@@ -14,15 +14,12 @@ ActiveRecord::Schema.define(version: 20171103031736) do
 
   create_table "scores", force: :cascade do |t|
     t.string "username"
-    t.integer "testing_this_out"
     t.float "total"
     t.integer "jumps"
     t.integer "deaths"
     t.integer "longest_streak"
     t.string "bestjump_type"
     t.float "bestjump_points"
-    t.float "workingeasyp"
-    t.integer "workingeasyj"
     t.float "easy_points"
     t.integer "easy_jumps"
     t.string "gate_jumps"

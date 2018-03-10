@@ -2,15 +2,13 @@ class CreateScores < ActiveRecord::Migration[5.1]
   def change
     create_table :scores do |t|
       t.string :username
+
       t.float :total
       t.integer :jumps
       t.integer :deaths
       t.integer :longest_streak
       t.string :bestjump_type
       t.float :bestjump_points
-
-      t.float :workingeasyp
-      t.integer :workingeasyj
 
       t.float :easy_points
       t.integer :easy_jumps
