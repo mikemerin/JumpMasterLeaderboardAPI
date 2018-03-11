@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       resources :scores, only: [:index, :create, :show, :top]
       get '/top', to: 'scores#top'
       get '/top_three', to: 'scores#top_three'
-      get '/top_n/(:num)', to: 'scores#top_n'
+      get '/top_ten', to: 'scores#top_ten'
 
     end
   end

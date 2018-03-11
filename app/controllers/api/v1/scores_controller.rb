@@ -22,8 +22,8 @@ class Api::V1::ScoresController < ApplicationController
     render json: @scores
   end
 
-  def top_n
-    @score = Score.order(:total).reverse[0...params[:num]]
+  def top_ten
+    @score = Score.order(:total).reverse[0...10]
     render json: @score
   end
 
