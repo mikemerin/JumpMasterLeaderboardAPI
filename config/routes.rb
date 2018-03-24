@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       get '/top', to: 'scores#top'
       get '/top_three', to: 'scores#top_three'
       get '/top_ten', to: 'scores#top_ten'
+      get '/top_jumps', to: 'scores#top_jumps'
 
     end
   end

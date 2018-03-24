@@ -27,7 +27,7 @@ class Api::V1::ScoresController < ApplicationController
     render json: @score
   end
 
-  def top_individuals
+  def top_jumps
     array = [
       'gate_jumps','gate_streak','gate_points',
       'diagonal_jumps','diagonal_streak','diagonal_points',
