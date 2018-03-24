@@ -50,7 +50,11 @@ class Api::V1::ScoresController < ApplicationController
       'ninejump_jumps','ninejump_streak','ninejump_points',
       'ddiamond_jumps','ddiamond_streak','ddiamond_points' ]
     @scores = {}
-    @array.each { |jump| @scores[jump] = Score.order(jump).reverse.first[jump] }
+    @array.each do |jump|
+      score = Score.order(jump).reverse.first[jump]
+      score = '%.2f' % score if score.class == Float
+      @scores[jump] = score
+    end
     render json: @scores
   end
 
