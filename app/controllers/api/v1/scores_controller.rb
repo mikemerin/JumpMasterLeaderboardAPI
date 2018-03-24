@@ -49,7 +49,8 @@ class Api::V1::ScoresController < ApplicationController
       'valve_jumps','valve_streak','valve_points',
       'ninejump_jumps','ninejump_streak','ninejump_points',
       'ddiamond_jumps','ddiamond_streak','ddiamond_points' ]
-    @scores = @array.map { |jump| {jump => Score.order(jump).reverse.first[jump] } }
+    @scores = {}
+    @scores = @array.each { |jump| @scores[jump] = Score.order(jump).reverse.first[jump] }
     render json: @scores
   end
 
