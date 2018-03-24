@@ -28,7 +28,7 @@ class Api::V1::ScoresController < ApplicationController
   end
 
   def top_jumps
-    array = [
+    @array = [
       'gate_jumps','gate_streak','gate_points',
       'diagonal_jumps','diagonal_streak','diagonal_points',
       'fjump_jumps','fjump_streak','fjump_points',
@@ -49,8 +49,8 @@ class Api::V1::ScoresController < ApplicationController
       'valve_jumps','valve_streak','valve_points',
       'ninejump_jumps','ninejump_streak','ninejump_points',
       'ddiamond_jumps','ddiamond_streak','ddiamond_points' ]
-    @scores = array.map { |jump| {jump => Score.order(jump).reverse.first[jump] } }
-    render json: scores
+    @scores = @array.map { |jump| {jump => Score.order(jump).reverse.first[jump] } }
+    render json: @scores
   end
 
   def show
