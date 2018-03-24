@@ -52,7 +52,7 @@ class Api::V1::ScoresController < ApplicationController
     @scores = {}
     @array.each do |jump|
       score = Score.order(jump).reverse.first[jump]
-      score = '%.2f' % score if score.class == Float
+      score = (score*100).round/100.0 if score.class == Float
       @scores[jump] = score
     end
     render json: @scores
