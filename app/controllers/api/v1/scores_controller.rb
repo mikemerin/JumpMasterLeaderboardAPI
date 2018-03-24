@@ -50,7 +50,7 @@ class Api::V1::ScoresController < ApplicationController
       'ninejump_jumps','ninejump_streak','ninejump_points',
       'ddiamond_jumps','ddiamond_streak','ddiamond_points' ]
     @scores = {}
-    @scores = @array.each { |jump| @scores[jump] = Score.order(jump).reverse.first[jump] }
+    @array.each { |jump| @scores[jump] = Score.order(jump).reverse.first[jump] }
     render json: @scores
   end
 
