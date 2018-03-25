@@ -51,17 +51,18 @@ class Api::V1::ScoresController < ApplicationController
       'ddiamond_jumps','ddiamond_streak','ddiamond_points' ]
     @scores = [];
     @jumps = {};
-    array.each_with_index do |jump, i|
-    score = Score.order(jump).reverse.first[jump]
-    score = (score*100).round/100.0 if score.class == Float
-    if i % 3 == 0
-      @jumps = {}
-      @jumps["jumps"] = score
-    elsif i % 3 == 1
-      @jumps["streak"] = score
-    elsif i % 3 == 2
-      @jumps["points"] = score
-      @scores << @jumps
+    @array.each_with_index do |jump, i|
+      score = Score.order(jump).reverse.first[jump]
+      score = (score*100).round/100.0 if score.class == Float
+      if i % 3 == 0
+        @jumps = {}
+        @jumps["jumps"] = score
+      elsif i % 3 == 1
+        @jumps["streak"] = score
+      elsif i % 3 == 2
+        @jumps["points"] = score
+        @scores << @jumps
+      end
     end
 
     render json: @scores
