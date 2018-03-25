@@ -64,7 +64,6 @@ class Api::V1::ScoresController < ApplicationController
       @scores << @jumps
     end
 
-  end
     render json: @scores
   end
 
