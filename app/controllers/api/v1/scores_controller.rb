@@ -27,7 +27,48 @@ class Api::V1::ScoresController < ApplicationController
     render json: @score
   end
 
-  def top_jumps_num
+  def top_jumps_each
+    @array = [
+      'gate_jumps','gate_streak','gate_points',
+      'diagonal_jumps','diagonal_streak','diagonal_points',
+      'fjump_jumps','fjump_streak','fjump_points',
+      'sgate_jumps','sgate_streak','sgate_points',
+      'platform_jumps','platform_streak','platform_points',
+      'cascade_jumps','cascade_streak','cascade_points',
+      'tbone_jumps','tbone_streak','tbone_points',
+      'mjump2_jumps','mjump2_streak','mjump2_points',
+      'shuriken_jumps','shuriken_streak','shuriken_points',
+      'hdiamond_jumps','hdiamond_streak','hdiamond_points',
+      'mjump1_jumps','mjump1_streak','mjump1_points',
+      'diamond_jumps','diamond_streak','diamond_points',
+      'bubble_jumps','bubble_streak','bubble_points',
+      'vortex_jumps','vortex_streak','vortex_points',
+      'hourglass_jumps','hourglass_streak','hourglass_points',
+      'plane_jumps','plane_streak','plane_points',
+      'corner_jumps','corner_streak','corner_points',
+      'valve_jumps','valve_streak','valve_points',
+      'ninejump_jumps','ninejump_streak','ninejump_points',
+      'ddiamond_jumps','ddiamond_streak','ddiamond_points' ]
+    @scores = [];
+    @jumps = {};
+    array.each_with_index do |jump, i|
+    score = Score.order(jump).reverse.first[jump]
+    score = (score*100).round/100.0 if score.class == Float
+    if i % 3 == 0
+      @jumps = {}
+      @jumps["jumps"] = score
+    elsif i % 3 == 1
+      @jumps["streak"] = score
+    elsif i % 3 == 2
+      @jumps["points"] = score
+      @scores << @jumps
+    end
+
+  end
+    render json: @scores
+  end
+
+  def top_jumps_nums
     @array = [
       'gate_jumps','gate_streak','gate_points',
       'diagonal_jumps','diagonal_streak','diagonal_points',
