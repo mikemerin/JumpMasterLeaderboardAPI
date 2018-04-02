@@ -493,7 +493,7 @@ ninejump_streak: 4,
 ninejump_points: 74.756355,
 ddiamond_jumps: 7,
 ddiamond_streak: 3,
-ddiamond_points: 46.668908,
+ddiamond_points: 46.668908
 )
 
 
@@ -577,11 +577,11 @@ ninejump_streak: 4,
 ninejump_points: 54.911356,
 ddiamond_jumps: 5,
 ddiamond_streak: 4,
-ddiamond_points: 31.901056,
+ddiamond_points: 31.901056
 )
 
 
-Score.create (
+Score.create(
 username: "ShadowsDieAway",
 total: 1120.007522,
 jumps: 349,
@@ -659,7 +659,7 @@ ddiamond_streak: 4,
 ddiamond_points: 31.901056
 )
 
-Score.create (
+Score.create(
 username: "Denferok",
 total: 1334.149625,
 jumps: 412,
@@ -1202,5 +1202,5 @@ ninejump_streak: 3,
 ninejump_points: 43.890756,
 ddiamond_jumps: 2,
 ddiamond_streak: 1,
-ddiamond_points: 10,
+ddiamond_points: 10
 )
