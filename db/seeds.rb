@@ -815,7 +815,7 @@ ddiamond_streak: 3,
 ddiamond_points: 43.890756
 )
 
-Score.create (
+Score.create(
 username: "Wolfiexe",
 total: 1148.08,
 jumps: 397,
