@@ -100,6 +100,7 @@ class Api::V1::ScoresController < ApplicationController
   def score_params
     params.require(:score).permit(
     :username,
+    :ipa;
 
     :total,
     :jumps,

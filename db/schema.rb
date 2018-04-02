@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 20171103031736) do
 
   create_table "scores", force: :cascade do |t|
     t.string "username"
+    t.string "ipa"
     t.float "total"
     t.integer "jumps"
     t.integer "deaths"

@@ -2,6 +2,7 @@ class CreateScores < ActiveRecord::Migration[5.1]
   def change
     create_table :scores do |t|
       t.string :username
+      t.string :ipa
 
       t.float :total
       t.integer :jumps
