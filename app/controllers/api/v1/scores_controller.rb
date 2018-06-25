@@ -1,7 +1,7 @@
 class Api::V1::ScoresController < ApplicationController
 
   def version
-    render json: { "version" => "1.0", "notes" => "more stats" }
+    render json: { "version" => "1.0", "notes" => "Complete Game!" }
   end
 
   def index
