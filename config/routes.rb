@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       get '/top_jumps_each', to: 'scores#top_jumps_each'
       get '/top_three', to: 'scores#top_three'
       get '/top_ten', to: 'scores#top_ten'
+      get '/version', to: 'scores#version'
 
     end
   end

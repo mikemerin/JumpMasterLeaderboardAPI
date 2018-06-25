@@ -1,5 +1,9 @@
 class Api::V1::ScoresController < ApplicationController
 
+  def version
+    render json: { "version" : "1.0" }
+  end
+
   def index
     @scores = Score.all
     render json: @scores
