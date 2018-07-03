@@ -9,12 +9,12 @@ class Api::V1::ScoresController < ApplicationController
     render json: @scores
   end
 
-  def index_unique
+  def unique
     @scores = Score.order(:total).reverse.uniq { |x| x[:username] }.order(:id)
     render json: @scores
   end
 
-  def index_dev
+  def mdev
     @scores = Score.all
     @scores.each { |x| x.delete('ipa') }
     render json: @scores

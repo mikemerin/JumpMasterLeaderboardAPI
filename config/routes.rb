@@ -11,8 +11,8 @@ Rails.application.routes.draw do
       get '/top_three', to: 'scores#top_three'
       get '/top_ten', to: 'scores#top_ten'
       get '/version', to: 'scores#version'
-      get '/index_dev', to: 'scores#index_dev'
-      get '/index_unique', to: 'scores#index_unique'
+      get '/mdev', to: 'scores#mdev'
+      get '/unique', to: 'scores#unique'
 
     end
   end
