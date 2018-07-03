@@ -9,11 +9,26 @@ class Api::V1::ScoresController < ApplicationController
     render json: @scores
   end
 
+  def index_unique
+    @scores = Score.order(:total).reverse.uniq { |x| x[:username] }.order(:id)
+    render json: @scores
+  end
+
+  def index_dev
+    @scores = Score.all
+    render @scores.as_json
+  end
+
   def create
     @score = Score.new(score_params)
     if @score.save
       render json: @score
     end
+  end
+
+  def top
+    @score = Score.order(:total).reverse[0]
+    render json: @score
   end
 
   def top
