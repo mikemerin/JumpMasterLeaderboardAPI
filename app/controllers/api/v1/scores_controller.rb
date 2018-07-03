@@ -34,6 +34,7 @@ class Api::V1::ScoresController < ApplicationController
 
   def top_three
     @scores = Score.order(:total).reverse[0...3]
+    @scores.each { |x| x.delete('ipa') }
     render json: @scores
   end
 
