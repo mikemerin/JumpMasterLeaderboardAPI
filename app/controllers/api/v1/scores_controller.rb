@@ -16,7 +16,8 @@ class Api::V1::ScoresController < ApplicationController
 
   def index_dev
     @scores = Score.all
-    render @scores.as_json
+    @scores.each { |x| x.delete('ipa') }
+    render json: @scores
   end
 
   def create
