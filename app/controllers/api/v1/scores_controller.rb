@@ -16,8 +16,8 @@ class Api::V1::ScoresController < ApplicationController
 
   def mdev
     @scores = Score.all
-    @scores.each { |x| x.delete('ipa') }
-    render json: @scores
+    n_ip = @scores.attribute_names.delete_if { |x| x['ddiamond_points']}
+    render json: @scores.select(n_ip)
   end
 
   def create
