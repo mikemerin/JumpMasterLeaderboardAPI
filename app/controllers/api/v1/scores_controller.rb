@@ -34,12 +34,11 @@ class Api::V1::ScoresController < ApplicationController
 
   def top_three
     @scores = Score.order(:total).reverse[0...3]
-    @scores.each { |x| x.delete('ipa') }
     render json: @scores
   end
 
   def top_ten
-    @score = Score.order(:total).reverse[0...10]
+    @score = Score.order(:total).reverse.uniq { |x| x[:username] }[0...10]
     render json: @score
   end
 
