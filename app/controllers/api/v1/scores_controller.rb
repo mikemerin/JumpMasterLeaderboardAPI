@@ -42,7 +42,43 @@ class Api::V1::ScoresController < ApplicationController
     render json: @score
   end
 
+  def top_jumps_with_names
+    # array of hashes
+    @array = [
+      'gate', 'diagonal', 'fjump', 'sgate', 'platform',
+      'cascade', 'tbone', 'mjump2', 'shuriken', 'hdiamond',
+      'mjump1', 'diamond', 'bubble', 'vortex', 'hourglass',
+      'plane', 'corner', 'valve', 'ninejump', 'ddiamond'
+      ];
+
+      @jump_types = [];
+
+      @array.each do |jump|
+        ['_jumps', '_streak', '_points'].each do |type|
+          @jump_types << jump + type;
+        end
+      end
+
+      @scores = {};
+
+      @jump_types.each do |type|
+        @scores[type] = { 'username' => '', 'number' => 0 };
+      end
+
+      Score.all.each do |score|
+        @jump_types.each do |type|
+          if (score[type.to_sym] > @scores[type]['number']) then
+            @scores[type]['number'] = score[type.to_sym];
+            @scores[type]['username'] = score[:'username'];
+          end
+        end
+      end
+
+    render json: @scores
+  end
+
   def top_jumps_each
+    # array of hashes
     @array = [
       'gate_jumps','gate_streak','gate_points',
       'diagonal_jumps','diagonal_streak','diagonal_points',
@@ -84,6 +120,7 @@ class Api::V1::ScoresController < ApplicationController
   end
 
   def top_jumps_nums
+    # just gives the numerical values
     @array = [
       'gate_jumps','gate_streak','gate_points',
       'diagonal_jumps','diagonal_streak','diagonal_points',
@@ -115,6 +152,7 @@ class Api::V1::ScoresController < ApplicationController
   end
 
   def top_jumps
+    # one big hash
     @array = [
       'gate_jumps','gate_streak','gate_points',
       'diagonal_jumps','diagonal_streak','diagonal_points',
