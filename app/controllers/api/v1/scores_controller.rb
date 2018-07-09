@@ -80,6 +80,7 @@ class Api::V1::ScoresController < ApplicationController
               @scores[type]['multi'][score[:'username']] << score[:'id'];
             else
               @scores[type]['multi'][score[:'username']] = score[:'id'];
+            end
           end
         end
       end
