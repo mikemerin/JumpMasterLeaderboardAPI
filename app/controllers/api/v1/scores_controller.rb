@@ -62,7 +62,7 @@ class Api::V1::ScoresController < ApplicationController
       @scores = {};
 
       @jump_types.each do |type|
-        @scores[type] = { 'username' => '', 'multi' => [], 'id' => [], 'number' => 0 };
+        @scores[type] = { 'username' => '', 'multi' => {}, 'id' => '', 'number' => 0 };
       end
 
       Score.all.each do |score|
@@ -70,12 +70,13 @@ class Api::V1::ScoresController < ApplicationController
           if (score[type.to_sym].round(2) > @scores[type]['number']) then
             @scores[type]['number'] = score[type.to_sym].round(2);
             @scores[type]['username'] = score[:'username'];
-            @scores[type]['multi'] = [score[:'username']];
+            @scores[type]['multi'] = {};
+            @scores[type]['multi'][score[:'username']]['username'] = [score[:'id']];
             @scores[type]['id'] = [score[:'id']];
           elsif (score[type.to_sym].round(2) == @scores[type]['number']) then
             @scores[type]['username'] = 'Multiple People';
-            @scores[type]['multi'] << score[:'username'];
-            @scores[type]['id'] << score[:'id'];
+            @scores[type]['id'] << '';
+            @scores[type]['multi'][score[:'username']]['username'] = [score[:'id']];            
           end
         end
       end
