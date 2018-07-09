@@ -67,15 +67,15 @@ class Api::V1::ScoresController < ApplicationController
 
       Score.all.each do |score|
         @jump_types.each do |type|
-          # if better
-          if score[type.to_sym] > @scores[type]['number'] then
+          # if better than
+          if (score[type.to_sym] > @scores[type]['number']) then
             @scores[type]['number'] = score[type.to_sym].round(2);
             @scores[type]['username'] = score[:'username'];
             @scores[type]['multi'] = score[:'username'];
             @scores[type]['id'] = score[:'id'].to_s;
           # if tied
-        elsif score[type.to_sym] == @scores[type]['number'] then
-            @scores[type]['username'] = 'Multiple People';
+          #elsif (score[type.to_sym] == @scores[type]['number']) then
+          #  @scores[type]['username'] = 'Multiple People';
             #@scores[type]['multi'] += ", " + score[:'username'];
             #@scores[type]['id'] += ", " + score[:'id'].to_s;
           end
