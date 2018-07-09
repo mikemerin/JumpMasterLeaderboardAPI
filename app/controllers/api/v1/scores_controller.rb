@@ -72,7 +72,7 @@ class Api::V1::ScoresController < ApplicationController
             @scores[type]['username'] = score[:'username'];
             @scores[type]['multi'] = {};
             @scores[type]['multi'][score[:'username']] = [score[:'id']];
-            @scores[type]['id'] = [score[:'id']];
+            @scores[type]['id'] = score[:'id'];
           elsif (score[type.to_sym].round(2) == @scores[type]['number']) then
             if (@scores[type]['multi'][score[:'username']]) then
               @scores[type]['multi'][score[:'username']] << score[:'id'];
