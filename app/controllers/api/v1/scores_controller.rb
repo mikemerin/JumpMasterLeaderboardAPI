@@ -72,6 +72,10 @@ class Api::V1::ScoresController < ApplicationController
             @scores[type]['username'] = score[:'username'];
             @scores[type]['multi'] = [score[:'username']];
             @scores[type]['id'] = score[:'id'];
+          elsif (score[type.to_sym] == @scores[type]['number']) then
+            @scores[type]['username'] = 'Multiple People';
+            @scores[type]['multi'] << score[:'username'];
+            @scores[type]['id'] << score[:'id'];
           end
         end
       end
