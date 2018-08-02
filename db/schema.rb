@@ -96,11 +96,11 @@ ActiveRecord::Schema.define(version: 20171103031736) do
   create_table "jumps", force: :cascade do |t|
     t.string "username"
     t.string "ipa"
-    t.integer "jump_name"
+    t.string "jump_name"
     t.integer "deaths"
-    t.float "points"
-    t.string "jumps"
+    t.integer "jumps"
     t.integer "streak"
+    t.float "points"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
