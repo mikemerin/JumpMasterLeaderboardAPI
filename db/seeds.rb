@@ -53140,5 +53140,4 @@ ddiamond_streak: 0,
 ddiamond_points: 0,
 created_at: "2018-08-01T12:25:58.069Z",
 updated_at: "2018-08-01T12:25:58.069Z"
-}
-]
+)
