@@ -248,89 +248,9 @@ Jump.create(
 
 
 
+
 Score.create(
-id: 719,
-username: "Summer",
-ipa: "113.85.113.109",
-total: 800.93227,
-jumps: 284,
-deaths: 283,
-longest_streak: 17,
-bestjump_type: "T-Bone",
-bestjump_points: 75.784565,
-easy_points: 148.260066,
-easy_jumps: 104,
-gate_jumps: 39,
-gate_streak: 17,
-gate_points: 65.804741,
-diagonal_jumps: 24,
-diagonal_streak: 5,
-diagonal_points: 30.094876,
-fjump_jumps: 11,
-fjump_streak: 4,
-fjump_points: 12.982271,
-sgate_jumps: 20,
-sgate_streak: 5,
-sgate_points: 26.219815,
-platform_jumps: 10,
-platform_streak: 5,
-platform_points: 13.158362,
-medium_points: 213.308263,
-medium_jumps: 81,
-cascade_jumps: 13,
-cascade_streak: 6,
-cascade_points: 33.873027,
-tbone_jumps: 26,
-tbone_streak: 8,
-tbone_points: 75.784565,
-mjump2_jumps: 14,
-mjump2_streak: 4,
-mjump2_points: 32.566602,
-shuriken_jumps: 15,
-shuriken_streak: 9,
-shuriken_points: 41.721586,
-hdiamond_jumps: 13,
-hdiamond_streak: 3,
-hdiamond_points: 29.362482,
-hard_points: 191.275166,
-hard_jumps: 54,
-mjump1_jumps: 12,
-mjump1_streak: 6,
-mjump1_points: 45.475087,
-diamond_jumps: 16,
-diamond_streak: 4,
-diamond_points: 58.615721,
-bubble_jumps: 9,
-bubble_streak: 3,
-bubble_points: 31.140634,
-vortex_jumps: 15,
-vortex_streak: 3,
-vortex_points: 50.043724,
-hourglass_jumps: 2,
-hourglass_streak: 1,
-hourglass_points: 6,
-hardest_points: 248.088775,
-hardest_jumps: 45,
-plane_jumps: 12,
-plane_streak: 3,
-plane_points: 65.395906,
-corner_jumps: 10,
-corner_streak: 1,
-corner_points: 50,
-valve_jumps: 12,
-valve_streak: 3,
-valve_points: 70.791812,
-ninejump_jumps: 7,
-ninejump_streak: 4,
-ninejump_points: 41.901056,
-ddiamond_jumps: 4,
-ddiamond_streak: 1,
-ddiamond_points: 20,
-created_at: "2018-07-23T05:03:07.765Z",
-updated_at: "2018-07-23T05:03:07.765Z"
-)
-Score.create(
-id: 6,
+
 username: "Wolfiexe",
 ipa: "86.158.198.240",
 total: 1563.575073,
@@ -411,7 +331,7 @@ created_at: "2018-06-11T04:35:17.256Z",
 updated_at: "2018-06-25T17:41:57.682Z"
 )
 Score.create(
-id: 8,
+
 username: "Mqpg",
 ipa: "174.116.98.45",
 total: 1562.01388,
@@ -492,7 +412,7 @@ created_at: "2018-06-11T04:35:32.881Z",
 updated_at: "2018-06-25T17:42:05.378Z"
 )
 Score.create(
-id: 10,
+
 username: "Stonk",
 ipa: "100.14.110.254",
 total: 1669.815697,
@@ -573,7 +493,7 @@ created_at: "2018-06-11T04:58:53.952Z",
 updated_at: "2018-06-25T17:42:22.649Z"
 )
 Score.create(
-id: 13,
+
 username: "GeoGeo222",
 ipa: "70.44.231.164",
 total: 1611.482889,
@@ -654,7 +574,7 @@ created_at: "2018-06-11T07:46:40.441Z",
 updated_at: "2018-06-25T17:42:51.253Z"
 )
 Score.create(
-id: 14,
+
 username: "Mqpg",
 ipa: "174.116.98.45",
 total: 2034.120609,
@@ -735,7 +655,7 @@ created_at: "2018-06-13T23:15:20.466Z",
 updated_at: "2018-06-25T17:42:54.415Z"
 )
 Score.create(
-id: 16,
+
 username: "MrSSFireball",
 ipa: "188.60.239.183",
 total: 1469.892793,
@@ -816,7 +736,7 @@ created_at: "2018-06-21T16:41:10.432Z",
 updated_at: "2018-06-25T17:43:02.302Z"
 )
 Score.create(
-id: 135,
+
 username: "Qingmeng",
 ipa: "114.107.158.229",
 total: 1450.01302,
@@ -897,7 +817,7 @@ created_at: "2018-07-02T06:36:06.398Z",
 updated_at: "2018-07-02T06:36:06.398Z"
 )
 Score.create(
-id: 136,
+
 username: "Anonymous",
 ipa: "183.154.150.225",
 total: 1177.888678,
@@ -978,7 +898,7 @@ created_at: "2018-07-02T06:41:34.974Z",
 updated_at: "2018-07-02T06:41:34.974Z"
 )
 Score.create(
-id: 145,
+
 username: "Cosowl",
 ipa: "",
 total: 725.833403,
@@ -1059,7 +979,7 @@ created_at: "2018-07-02T07:54:31.956Z",
 updated_at: "2018-07-02T07:54:31.956Z"
 )
 Score.create(
-id: 147,
+
 username: "SDWS",
 ipa: "119.88.136.82",
 total: 1429.115833,
@@ -1140,7 +1060,7 @@ created_at: "2018-07-02T08:09:16.919Z",
 updated_at: "2018-07-02T08:09:16.919Z"
 )
 Score.create(
-id: 149,
+
 username: "a17devil",
 ipa: "45.56.152.83",
 total: 2363.242027,
@@ -1221,7 +1141,7 @@ created_at: "2018-07-02T08:17:01.919Z",
 updated_at: "2018-07-02T08:17:01.919Z"
 )
 Score.create(
-id: 150,
+
 username: "Koslyn",
 ipa: "73.235.168.145",
 total: 1276.849631,
@@ -1302,7 +1222,7 @@ created_at: "2018-07-02T08:19:27.395Z",
 updated_at: "2018-07-02T08:19:27.395Z"
 )
 Score.create(
-id: 152,
+
 username: "Werum",
 ipa: "212.204.137.106",
 total: 725.190093,
@@ -1383,7 +1303,7 @@ created_at: "2018-07-02T08:27:39.781Z",
 updated_at: "2018-07-02T08:27:39.781Z"
 )
 Score.create(
-id: 157,
+
 username: "yanyang",
 ipa: "115.200.65.66",
 total: 1226.55688,
@@ -1464,7 +1384,7 @@ created_at: "2018-07-02T08:45:46.918Z",
 updated_at: "2018-07-02T08:45:46.918Z"
 )
 Score.create(
-id: 3,
+
 username: "Anonymous",
 ipa: "108.4.9.215",
 total: 580.816657,
@@ -1545,7 +1465,7 @@ created_at: "2018-06-11T04:10:28.142Z",
 updated_at: "2018-07-09T21:58:36.116Z"
 )
 Score.create(
-id: 2,
+
 username: "PiranhaTooth",
 ipa: "27.252.174.242",
 total: 1001.974952,
@@ -1626,7 +1546,7 @@ created_at: "2018-06-11T04:10:26.266Z",
 updated_at: "2018-06-25T17:38:26.936Z"
 )
 Score.create(
-id: 4,
+
 username: "letcreate123",
 ipa: "201.188.54.15",
 total: 1095.053744,
@@ -1707,7 +1627,7 @@ created_at: "2018-06-11T04:10:31.326Z",
 updated_at: "2018-06-25T17:41:37.481Z"
 )
 Score.create(
-id: 5,
+
 username: "GeoGeo222",
 ipa: "70.44.231.164",
 total: 1529.385688,
@@ -1788,7 +1708,7 @@ created_at: "2018-06-11T04:35:16.846Z",
 updated_at: "2018-06-25T17:41:50.761Z"
 )
 Score.create(
-id: 7,
+
 username: "bummerman222",
 ipa: "70.50.23.132",
 total: 1593.408513,
@@ -1869,7 +1789,7 @@ created_at: "2018-06-11T04:35:31.644Z",
 updated_at: "2018-06-25T17:42:01.479Z"
 )
 Score.create(
-id: 9,
+
 username: "bummerman222",
 ipa: "70.50.23.132",
 total: 1715.148826,
@@ -1950,7 +1870,7 @@ created_at: "2018-06-11T04:58:51.117Z",
 updated_at: "2018-06-25T17:42:18.339Z"
 )
 Score.create(
-id: 11,
+
 username: "Wolfiexe",
 ipa: "86.158.198.240",
 total: 1724.686449,
@@ -2031,7 +1951,7 @@ created_at: "2018-06-11T04:58:53.956Z",
 updated_at: "2018-06-25T17:42:27.392Z"
 )
 Score.create(
-id: 12,
+
 username: "letcreate123",
 ipa: "201.188.54.15",
 total: 1065.871134,
@@ -2112,7 +2032,7 @@ created_at: "2018-06-11T04:59:14.005Z",
 updated_at: "2018-06-25T17:42:32.758Z"
 )
 Score.create(
-id: 125,
+
 username: "JRocker873",
 ipa: "69.118.239.91",
 total: 1171.020859,
@@ -2193,7 +2113,7 @@ created_at: "2018-07-02T04:26:10.493Z",
 updated_at: "2018-07-02T04:26:10.493Z"
 )
 Score.create(
-id: 126,
+
 username: "Cosmoing",
 ipa: "173.179.180.114",
 total: 937.039641,
@@ -2274,7 +2194,7 @@ created_at: "2018-07-02T04:26:46.021Z",
 updated_at: "2018-07-02T04:26:46.021Z"
 )
 Score.create(
-id: 127,
+
 username: "q123",
 ipa: "113.100.227.119",
 total: 1370.615628,
@@ -2355,7 +2275,7 @@ created_at: "2018-07-02T04:31:15.345Z",
 updated_at: "2018-07-02T04:31:15.345Z"
 )
 Score.create(
-id: 129,
+
 username: "pieceofcheese87",
 ipa: "142.167.143.12",
 total: 1572.018645,
@@ -2436,7 +2356,7 @@ created_at: "2018-07-02T04:55:15.314Z",
 updated_at: "2018-07-02T04:55:15.314Z"
 )
 Score.create(
-id: 131,
+
 username: "Thenadertwo",
 ipa: "50.100.47.168",
 total: 1422.422533,
@@ -2517,7 +2437,7 @@ created_at: "2018-07-02T05:29:52.458Z",
 updated_at: "2018-07-02T05:29:52.458Z"
 )
 Score.create(
-id: 137,
+
 username: "Irkara",
 ipa: "36.5.111.27",
 total: 1113.720399,
@@ -2598,7 +2518,7 @@ created_at: "2018-07-02T06:54:58.612Z",
 updated_at: "2018-07-02T06:54:58.612Z"
 )
 Score.create(
-id: 140,
+
 username: "fanyone",
 ipa: "183.253.144.51",
 total: 1122.385614,
@@ -2679,7 +2599,7 @@ created_at: "2018-07-02T07:17:22.209Z",
 updated_at: "2018-07-02T07:17:22.209Z"
 )
 Score.create(
-id: 142,
+
 username: "Anonymous",
 ipa: "121.34.144.51",
 total: 767.166406,
@@ -2760,7 +2680,7 @@ created_at: "2018-07-02T07:28:38.188Z",
 updated_at: "2018-07-02T07:28:38.188Z"
 )
 Score.create(
-id: 161,
+
 username: "YellowMaster",
 ipa: "125.90.50.177",
 total: 1475.991274,
@@ -2841,7 +2761,7 @@ created_at: "2018-07-02T08:55:00.666Z",
 updated_at: "2018-07-02T08:55:00.666Z"
 )
 Score.create(
-id: 130,
+
 username: "lyzqs",
 ipa: "218.64.211.168",
 total: 857.304176,
@@ -2922,7 +2842,7 @@ created_at: "2018-07-02T05:18:48.782Z",
 updated_at: "2018-07-02T05:18:48.782Z"
 )
 Score.create(
-id: 132,
+
 username: "Cosmoing",
 ipa: "173.179.180.114",
 total: 1074.999095,
@@ -3003,7 +2923,7 @@ created_at: "2018-07-02T05:58:24.013Z",
 updated_at: "2018-07-02T05:58:24.013Z"
 )
 Score.create(
-id: 138,
+
 username: "George",
 ipa: "202.113.189.204",
 total: 1111.714123,
@@ -3084,7 +3004,7 @@ created_at: "2018-07-02T06:57:34.880Z",
 updated_at: "2018-07-02T06:57:34.880Z"
 )
 Score.create(
-id: 139,
+
 username: "Irkara",
 ipa: "36.5.111.27",
 total: 1231.380021,
@@ -3165,7 +3085,7 @@ created_at: "2018-07-02T07:12:03.963Z",
 updated_at: "2018-07-02T07:12:03.963Z"
 )
 Score.create(
-id: 141,
+
 username: "Irkara",
 ipa: "36.5.111.27",
 total: 1492.705783,
@@ -3246,7 +3166,7 @@ created_at: "2018-07-02T07:25:36.320Z",
 updated_at: "2018-07-02T07:25:36.320Z"
 )
 Score.create(
-id: 164,
+
 username: "JKSciFi",
 ipa: "58.167.92.33",
 total: 857.366622,
@@ -3327,7 +3247,7 @@ created_at: "2018-07-02T09:05:53.415Z",
 updated_at: "2018-07-02T09:05:53.415Z"
 )
 Score.create(
-id: 166,
+
 username: "Kamilia",
 ipa: "",
 total: 878.761527,
@@ -3408,7 +3328,7 @@ created_at: "2018-07-02T09:11:04.422Z",
 updated_at: "2018-07-02T09:11:04.422Z"
 )
 Score.create(
-id: 167,
+
 username: "earoke",
 ipa: "219.228.101.29",
 total: 1544.931802,
@@ -3489,7 +3409,7 @@ created_at: "2018-07-02T09:11:34.509Z",
 updated_at: "2018-07-02T09:11:34.509Z"
 )
 Score.create(
-id: 168,
+
 username: "YellowMaster",
 ipa: "125.90.50.177",
 total: 1672.320549,
@@ -3570,7 +3490,7 @@ created_at: "2018-07-02T09:13:04.335Z",
 updated_at: "2018-07-02T09:13:04.335Z"
 )
 Score.create(
-id: 169,
+
 username: "Danil2332",
 ipa: "46.191.183.67",
 total: 838.618319,
@@ -3651,7 +3571,7 @@ created_at: "2018-07-02T09:15:55.744Z",
 updated_at: "2018-07-02T09:15:55.744Z"
 )
 Score.create(
-id: 170,
+
 username: "cutedogs",
 ipa: "122.245.217.32",
 total: 1192.373589,
@@ -3732,7 +3652,7 @@ created_at: "2018-07-02T09:16:47.416Z",
 updated_at: "2018-07-02T09:16:47.416Z"
 )
 Score.create(
-id: 171,
+
 username: "wymcaT",
 ipa: "101.85.152.31",
 total: 1132.335416,
@@ -3813,7 +3733,7 @@ created_at: "2018-07-02T09:18:15.443Z",
 updated_at: "2018-07-02T09:18:15.443Z"
 )
 Score.create(
-id: 172,
+
 username: "Patitok",
 ipa: "76.64.89.59",
 total: 1510.155563,
@@ -3894,7 +3814,7 @@ created_at: "2018-07-02T09:32:03.064Z",
 updated_at: "2018-07-02T09:32:03.064Z"
 )
 Score.create(
-id: 173,
+
 username: "earoke",
 ipa: "219.228.101.29",
 total: 1721.649334,
@@ -3975,7 +3895,7 @@ created_at: "2018-07-02T09:32:07.394Z",
 updated_at: "2018-07-02T09:32:07.394Z"
 )
 Score.create(
-id: 174,
+
 username: "wymcaT",
 ipa: "101.85.152.31",
 total: 1329.96781,
@@ -4056,7 +3976,7 @@ created_at: "2018-07-02T09:42:07.158Z",
 updated_at: "2018-07-02T09:42:07.158Z"
 )
 Score.create(
-id: 175,
+
 username: "Anonymous",
 ipa: "1.50.216.42",
 total: 1235.993381,
@@ -4137,7 +4057,7 @@ created_at: "2018-07-02T09:47:10.943Z",
 updated_at: "2018-07-02T09:47:10.943Z"
 )
 Score.create(
-id: 134,
+
 username: "lyc",
 ipa: "14.20.130.1",
 total: 787.295622,
@@ -4218,7 +4138,7 @@ created_at: "2018-07-02T06:25:53.698Z",
 updated_at: "2018-07-02T06:25:53.698Z"
 )
 Score.create(
-id: 143,
+
 username: "SDWS",
 ipa: "119.88.136.82",
 total: 1200.362718,
@@ -4299,7 +4219,7 @@ created_at: "2018-07-02T07:48:58.595Z",
 updated_at: "2018-07-02T07:48:58.595Z"
 )
 Score.create(
-id: 144,
+
 username: "Anonymous",
 ipa: "115.66.14.232",
 total: 1396.015148,
@@ -4380,7 +4300,7 @@ created_at: "2018-07-02T07:50:43.762Z",
 updated_at: "2018-07-02T07:50:43.762Z"
 )
 Score.create(
-id: 146,
+
 username: "a17devil",
 ipa: "45.56.152.83",
 total: 2034.528456,
@@ -4461,7 +4381,7 @@ created_at: "2018-07-02T08:03:18.749Z",
 updated_at: "2018-07-02T08:03:18.749Z"
 )
 Score.create(
-id: 148,
+
 username: "dumrockproject",
 ipa: "98.225.36.73",
 total: 621.318796,
@@ -4542,7 +4462,7 @@ created_at: "2018-07-02T08:14:15.395Z",
 updated_at: "2018-07-02T08:14:15.395Z"
 )
 Score.create(
-id: 151,
+
 username: "Beastzzzz",
 ipa: "14.120.130.153",
 total: 1006.938172,
@@ -4623,7 +4543,7 @@ created_at: "2018-07-02T08:26:17.945Z",
 updated_at: "2018-07-02T08:26:17.945Z"
 )
 Score.create(
-id: 153,
+
 username: "Mintos",
 ipa: "",
 total: 700.715352,
@@ -4704,7 +4624,7 @@ created_at: "2018-07-02T08:29:40.770Z",
 updated_at: "2018-07-02T08:29:40.770Z"
 )
 Score.create(
-id: 154,
+
 username: "Nectar",
 ipa: "82.128.183.20",
 total: 1215.166678,
@@ -4785,7 +4705,7 @@ created_at: "2018-07-02T08:36:34.417Z",
 updated_at: "2018-07-02T08:36:34.417Z"
 )
 Score.create(
-id: 155,
+
 username: "Beastzzzz",
 ipa: "14.120.130.153",
 total: 1218.432682,
@@ -4866,7 +4786,7 @@ created_at: "2018-07-02T08:39:20.374Z",
 updated_at: "2018-07-02T08:39:20.374Z"
 )
 Score.create(
-id: 156,
+
 username: "123",
 ipa: "219.228.101.29",
 total: 1424.45724,
@@ -4947,7 +4867,7 @@ created_at: "2018-07-02T08:40:54.311Z",
 updated_at: "2018-07-02T08:40:54.311Z"
 )
 Score.create(
-id: 158,
+
 username: "Aronmoose",
 ipa: "94.13.81.142",
 total: 1130.086349,
@@ -5028,7 +4948,7 @@ created_at: "2018-07-02T08:48:01.787Z",
 updated_at: "2018-07-02T08:48:01.787Z"
 )
 Score.create(
-id: 159,
+
 username: "JKSciFi",
 ipa: "58.167.92.33",
 total: 793.054088,
@@ -5109,7 +5029,7 @@ created_at: "2018-07-02T08:51:09.436Z",
 updated_at: "2018-07-02T08:51:09.436Z"
 )
 Score.create(
-id: 160,
+
 username: "Retired",
 ipa: "84.101.143.172",
 total: 1527.313739,
@@ -5190,7 +5110,7 @@ created_at: "2018-07-02T08:54:01.951Z",
 updated_at: "2018-07-02T08:54:01.951Z"
 )
 Score.create(
-id: 162,
+
 username: "Akari",
 ipa: "",
 total: 263.948979,
@@ -5271,7 +5191,7 @@ created_at: "2018-07-02T08:57:15.391Z",
 updated_at: "2018-07-02T08:57:15.391Z"
 )
 Score.create(
-id: 163,
+
 username: "earoke",
 ipa: "219.228.101.29",
 total: 1427.136473,
@@ -5352,7 +5272,7 @@ created_at: "2018-07-02T08:57:53.104Z",
 updated_at: "2018-07-02T08:57:53.104Z"
 )
 Score.create(
-id: 165,
+
 username: "Umbrella2",
 ipa: "49.75.65.19",
 total: 1598.878909,
@@ -5433,7 +5353,7 @@ created_at: "2018-07-02T09:06:35.886Z",
 updated_at: "2018-07-02T09:06:35.886Z"
 )
 Score.create(
-id: 176,
+
 username: "cloudsmind",
 ipa: "183.156.69.169",
 total: 1420.759819,
@@ -5514,7 +5434,7 @@ created_at: "2018-07-02T09:51:23.078Z",
 updated_at: "2018-07-02T09:51:23.078Z"
 )
 Score.create(
-id: 178,
+
 username: "TCMint",
 ipa: "113.194.50.28",
 total: 927.71335,
@@ -5595,7 +5515,7 @@ created_at: "2018-07-02T10:02:15.955Z",
 updated_at: "2018-07-02T10:02:15.955Z"
 )
 Score.create(
-id: 179,
+
 username: "caibao",
 ipa: "101.224.13.207",
 total: 942.853959,
@@ -5676,7 +5596,7 @@ created_at: "2018-07-02T10:06:03.131Z",
 updated_at: "2018-07-02T10:06:03.131Z"
 )
 Score.create(
-id: 181,
+
 username: "Anonymous",
 ipa: "117.9.141.182",
 total: 1478.11946,
@@ -5757,7 +5677,7 @@ created_at: "2018-07-02T10:14:40.944Z",
 updated_at: "2018-07-02T10:14:40.944Z"
 )
 Score.create(
-id: 186,
+
 username: "Werum",
 ipa: "212.204.137.106",
 total: 1046.511837,
@@ -5838,7 +5758,7 @@ created_at: "2018-07-02T10:44:34.925Z",
 updated_at: "2018-07-02T10:44:34.925Z"
 )
 Score.create(
-id: 189,
+
 username: "bummerman222",
 ipa: "70.50.23.117",
 total: 2079.576793,
@@ -5919,7 +5839,7 @@ created_at: "2018-07-02T11:02:22.578Z",
 updated_at: "2018-07-02T11:02:22.578Z"
 )
 Score.create(
-id: 191,
+
 username: "ElRaimon2000",
 ipa: "88.24.117.229",
 total: 1307.378513,
@@ -6000,7 +5920,7 @@ created_at: "2018-07-02T11:34:21.476Z",
 updated_at: "2018-07-02T11:34:21.476Z"
 )
 Score.create(
-id: 192,
+
 username: "Anonymous",
 ipa: "115.198.169.8",
 total: 1127.119412,
@@ -6081,7 +6001,7 @@ created_at: "2018-07-02T11:40:06.907Z",
 updated_at: "2018-07-02T11:40:06.907Z"
 )
 Score.create(
-id: 193,
+
 username: "LONGLONG",
 ipa: "111.16.115.126",
 total: 1392.182907,
@@ -6162,7 +6082,7 @@ created_at: "2018-07-02T11:41:38.816Z",
 updated_at: "2018-07-02T11:41:38.816Z"
 )
 Score.create(
-id: 194,
+
 username: "caibao",
 ipa: "101.224.13.207",
 total: 1066.830647,
@@ -6243,7 +6163,7 @@ created_at: "2018-07-02T11:45:45.286Z",
 updated_at: "2018-07-02T11:45:45.286Z"
 )
 Score.create(
-id: 196,
+
 username: "Circus_Galop",
 ipa: "223.73.249.231",
 total: 925.750422,
@@ -6324,7 +6244,7 @@ created_at: "2018-07-02T11:58:25.182Z",
 updated_at: "2018-07-02T11:58:25.182Z"
 )
 Score.create(
-id: 180,
+
 username: "Anonymous",
 ipa: "1.50.216.42",
 total: 1276.224456,
@@ -6405,7 +6325,7 @@ created_at: "2018-07-02T10:13:11.963Z",
 updated_at: "2018-07-09T22:00:24.750Z"
 )
 Score.create(
-id: 177,
+
 username: "Anonymous",
 ipa: "1.50.216.42",
 total: 1245.20254,
@@ -6486,7 +6406,7 @@ created_at: "2018-07-02T10:00:25.237Z",
 updated_at: "2018-07-09T22:00:44.078Z"
 )
 Score.create(
-id: 720,
+
 username: "Summer",
 ipa: "113.85.113.109",
 total: 966.745796,
@@ -6567,7 +6487,7 @@ created_at: "2018-07-23T05:20:07.483Z",
 updated_at: "2018-07-23T05:20:07.483Z"
 )
 Score.create(
-id: 743,
+
 username: "jxws",
 ipa: "178.128.107.149",
 total: 859.082885,
@@ -6648,7 +6568,7 @@ created_at: "2018-07-29T02:50:58.258Z",
 updated_at: "2018-07-29T02:50:58.258Z"
 )
 Score.create(
-id: 774,
+
 username: "Chance",
 ipa: "112.0.98.168",
 total: 1705.127312,
@@ -6729,7 +6649,7 @@ created_at: "2018-08-01T15:28:36.357Z",
 updated_at: "2018-08-01T15:28:36.357Z"
 )
 Score.create(
-id: 182,
+
 username: "Anonymous",
 ipa: "125.30.46.75",
 total: 847.141602,
@@ -6810,7 +6730,7 @@ created_at: "2018-07-02T10:16:42.355Z",
 updated_at: "2018-07-02T10:16:42.355Z"
 )
 Score.create(
-id: 183,
+
 username: "caibao",
 ipa: "101.224.13.207",
 total: 1001.103612,
@@ -6891,7 +6811,7 @@ created_at: "2018-07-02T10:18:30.368Z",
 updated_at: "2018-07-02T10:18:30.368Z"
 )
 Score.create(
-id: 184,
+
 username: "Yagamoth",
 ipa: "213.202.56.95",
 total: 769.569438,
@@ -6972,7 +6892,7 @@ created_at: "2018-07-02T10:29:59.197Z",
 updated_at: "2018-07-02T10:29:59.197Z"
 )
 Score.create(
-id: 185,
+
 username: "SKY10w",
 ipa: "116.233.208.118",
 total: 753.5335,
@@ -7053,7 +6973,7 @@ created_at: "2018-07-02T10:38:41.485Z",
 updated_at: "2018-07-02T10:38:41.485Z"
 )
 Score.create(
-id: 187,
+
 username: "Cosowl",
 ipa: "",
 total: 1128.150709,
@@ -7134,7 +7054,7 @@ created_at: "2018-07-02T10:46:57.173Z",
 updated_at: "2018-07-02T10:46:57.173Z"
 )
 Score.create(
-id: 188,
+
 username: "bummerman222",
 ipa: "70.50.23.117",
 total: 1875.41686,
@@ -7215,7 +7135,7 @@ created_at: "2018-07-02T10:49:50.725Z",
 updated_at: "2018-07-02T10:49:50.725Z"
 )
 Score.create(
-id: 190,
+
 username: "Komachi",
 ipa: "83.97.146.38",
 total: 600.834795,
@@ -7296,7 +7216,7 @@ created_at: "2018-07-02T11:08:20.651Z",
 updated_at: "2018-07-02T11:08:20.651Z"
 )
 Score.create(
-id: 195,
+
 username: "Anonymous",
 ipa: "124.165.39.248",
 total: 883.943425,
@@ -7377,7 +7297,7 @@ created_at: "2018-07-02T11:53:10.781Z",
 updated_at: "2018-07-02T11:53:10.781Z"
 )
 Score.create(
-id: 197,
+
 username: "Torore",
 ipa: "183.69.209.207",
 total: 1803.675203,
@@ -7458,7 +7378,7 @@ created_at: "2018-07-02T12:03:26.047Z",
 updated_at: "2018-07-02T12:03:26.047Z"
 )
 Score.create(
-id: 198,
+
 username: "earoke",
 ipa: "219.228.101.29",
 total: 1685.809277,
@@ -7539,7 +7459,7 @@ created_at: "2018-07-02T12:18:55.555Z",
 updated_at: "2018-07-02T12:18:55.555Z"
 )
 Score.create(
-id: 199,
+
 username: "Torore",
 ipa: "183.69.209.207",
 total: 1945.324252,
@@ -7620,7 +7540,7 @@ created_at: "2018-07-02T12:20:45.293Z",
 updated_at: "2018-07-02T12:20:45.293Z"
 )
 Score.create(
-id: 200,
+
 username: "TCMint",
 ipa: "113.194.50.28",
 total: 1222.062591,
@@ -7701,7 +7621,7 @@ created_at: "2018-07-02T12:23:41.419Z",
 updated_at: "2018-07-02T12:23:41.419Z"
 )
 Score.create(
-id: 201,
+
 username: "everlasting",
 ipa: "124.76.4.54",
 total: 1021.057159,
@@ -7782,7 +7702,7 @@ created_at: "2018-07-02T12:26:10.858Z",
 updated_at: "2018-07-02T12:26:10.858Z"
 )
 Score.create(
-id: 202,
+
 username: "Ghost",
 ipa: "153.126.183.237",
 total: 919.181666,
@@ -7863,7 +7783,7 @@ created_at: "2018-07-02T12:31:43.959Z",
 updated_at: "2018-07-02T12:31:43.959Z"
 )
 Score.create(
-id: 203,
+
 username: "Torore",
 ipa: "183.69.209.207",
 total: 2077.294543,
@@ -7944,7 +7864,7 @@ created_at: "2018-07-02T12:35:41.110Z",
 updated_at: "2018-07-02T12:35:41.110Z"
 )
 Score.create(
-id: 204,
+
 username: "TCMint",
 ipa: "113.194.50.28",
 total: 1124.186056,
@@ -8025,7 +7945,7 @@ created_at: "2018-07-02T12:36:24.499Z",
 updated_at: "2018-07-02T12:36:24.499Z"
 )
 Score.create(
-id: 205,
+
 username: "axxl",
 ipa: "27.154.254.144",
 total: 1322.957178,
@@ -8106,7 +8026,7 @@ created_at: "2018-07-02T12:37:22.226Z",
 updated_at: "2018-07-02T12:37:22.226Z"
 )
 Score.create(
-id: 721,
+
 username: "caibai",
 ipa: "180.105.230.112",
 total: 799.250802,
@@ -8187,7 +8107,7 @@ created_at: "2018-07-23T11:21:03.126Z",
 updated_at: "2018-07-23T11:21:03.126Z"
 )
 Score.create(
-id: 207,
+
 username: "Anonymous",
 ipa: "58.154.170.252",
 total: 400.086134,
@@ -8268,7 +8188,7 @@ created_at: "2018-07-02T13:26:42.747Z",
 updated_at: "2018-07-02T13:26:42.747Z"
 )
 Score.create(
-id: 208,
+
 username: "Huse",
 ipa: "88.22.29.167",
 total: 1097.154157,
@@ -8349,7 +8269,7 @@ created_at: "2018-07-02T13:31:18.851Z",
 updated_at: "2018-07-02T13:31:18.851Z"
 )
 Score.create(
-id: 209,
+
 username: "changzi",
 ipa: "222.242.121.27",
 total: 905.232539,
@@ -8430,7 +8350,7 @@ created_at: "2018-07-02T13:42:05.576Z",
 updated_at: "2018-07-02T13:42:05.576Z"
 )
 Score.create(
-id: 210,
+
 username: "LONGLONG",
 ipa: "111.16.115.126",
 total: 1561.093341,
@@ -8511,7 +8431,7 @@ created_at: "2018-07-02T14:14:34.880Z",
 updated_at: "2018-07-02T14:14:34.880Z"
 )
 Score.create(
-id: 213,
+
 username: "PlayerDash2017",
 ipa: "190.47.69.238",
 total: 701.513083,
@@ -8592,7 +8512,7 @@ created_at: "2018-07-02T14:22:59.181Z",
 updated_at: "2018-07-02T14:22:59.181Z"
 )
 Score.create(
-id: 214,
+
 username: "Anonymous",
 ipa: "110.80.179.87",
 total: 590.251164,
@@ -8673,7 +8593,7 @@ created_at: "2018-07-02T14:24:55.444Z",
 updated_at: "2018-07-02T14:24:55.444Z"
 )
 Score.create(
-id: 215,
+
 username: "TimeLink",
 ipa: "83.135.202.14",
 total: 611.987617,
@@ -8754,7 +8674,7 @@ created_at: "2018-07-02T14:46:04.142Z",
 updated_at: "2018-07-02T14:46:04.142Z"
 )
 Score.create(
-id: 216,
+
 username: "Kiyoshi",
 ipa: "172.13.150.228",
 total: 1015.792587,
@@ -8835,7 +8755,7 @@ created_at: "2018-07-02T14:55:47.252Z",
 updated_at: "2018-07-02T14:55:47.252Z"
 )
 Score.create(
-id: 218,
+
 username: "bummerman222",
 ipa: "",
 total: 2021.766661,
@@ -8916,7 +8836,7 @@ created_at: "2018-07-02T15:29:05.395Z",
 updated_at: "2018-07-02T15:29:05.395Z"
 )
 Score.create(
-id: 219,
+
 username: "CakeEater",
 ipa: "",
 total: 789.758226,
@@ -8997,7 +8917,7 @@ created_at: "2018-07-02T15:33:19.018Z",
 updated_at: "2018-07-02T15:33:19.018Z"
 )
 Score.create(
-id: 222,
+
 username: "Skulldude",
 ipa: "177.192.253.5",
 total: 1102.154568,
@@ -9078,7 +8998,7 @@ created_at: "2018-07-02T16:22:11.448Z",
 updated_at: "2018-07-02T16:22:11.448Z"
 )
 Score.create(
-id: 223,
+
 username: "Kiyoshi",
 ipa: "172.13.150.228",
 total: 1418.692752,
@@ -9159,7 +9079,7 @@ created_at: "2018-07-02T16:41:01.909Z",
 updated_at: "2018-07-02T16:41:01.909Z"
 )
 Score.create(
-id: 224,
+
 username: "Fragnaticc",
 ipa: "186.19.126.181",
 total: 1408.596706,
@@ -9240,7 +9160,7 @@ created_at: "2018-07-02T17:20:20.233Z",
 updated_at: "2018-07-02T17:20:20.233Z"
 )
 Score.create(
-id: 225,
+
 username: "128_Up",
 ipa: "86.171.207.11",
 total: 1083.465132,
@@ -9321,7 +9241,7 @@ created_at: "2018-07-02T17:23:35.809Z",
 updated_at: "2018-07-02T17:23:35.809Z"
 )
 Score.create(
-id: 211,
+
 username: "BoshyGo11",
 ipa: "109.252.105.248",
 total: 296.014915,
@@ -9402,7 +9322,7 @@ created_at: "2018-07-02T14:15:42.690Z",
 updated_at: "2018-07-02T14:15:42.690Z"
 )
 Score.create(
-id: 217,
+
 username: "swag",
 ipa: "",
 total: 1113.036487,
@@ -9483,7 +9403,7 @@ created_at: "2018-07-02T15:06:07.320Z",
 updated_at: "2018-07-02T15:06:07.320Z"
 )
 Score.create(
-id: 220,
+
 username: "TimeLink",
 ipa: "83.135.202.14",
 total: 647.562239,
@@ -9564,7 +9484,7 @@ created_at: "2018-07-02T15:57:01.642Z",
 updated_at: "2018-07-02T15:57:01.642Z"
 )
 Score.create(
-id: 226,
+
 username: "Skulldude",
 ipa: "177.192.253.5",
 total: 1114.486529,
@@ -9645,7 +9565,7 @@ created_at: "2018-07-02T17:32:00.943Z",
 updated_at: "2018-07-02T17:32:00.943Z"
 )
 Score.create(
-id: 229,
+
 username: "Flowey",
 ipa: "184.189.71.180",
 total: 826.461675,
@@ -9726,7 +9646,7 @@ created_at: "2018-07-02T17:36:18.858Z",
 updated_at: "2018-07-02T17:36:18.858Z"
 )
 Score.create(
-id: 233,
+
 username: "128_Up",
 ipa: "86.171.207.11",
 total: 1250.049053,
@@ -9807,7 +9727,7 @@ created_at: "2018-07-02T17:53:23.410Z",
 updated_at: "2018-07-02T17:53:23.410Z"
 )
 Score.create(
-id: 236,
+
 username: "Erik7654ka",
 ipa: "89.0.141.49",
 total: 766.802104,
@@ -9888,7 +9808,7 @@ created_at: "2018-07-02T18:09:46.492Z",
 updated_at: "2018-07-02T18:09:46.492Z"
 )
 Score.create(
-id: 241,
+
 username: "tree",
 ipa: "65.94.167.44",
 total: 308.586496,
@@ -9969,7 +9889,7 @@ created_at: "2018-07-02T18:28:29.407Z",
 updated_at: "2018-07-02T18:28:29.407Z"
 )
 Score.create(
-id: 250,
+
 username: "JRocker873",
 ipa: "69.118.239.91",
 total: 1364.364467,
@@ -10050,7 +9970,7 @@ created_at: "2018-07-02T18:56:40.523Z",
 updated_at: "2018-07-02T18:56:40.523Z"
 )
 Score.create(
-id: 722,
+
 username: "Rumaine",
 ipa: "126.3.11.204",
 total: 1996.874695,
@@ -10131,7 +10051,7 @@ created_at: "2018-07-23T13:13:09.823Z",
 updated_at: "2018-07-23T13:13:09.823Z"
 )
 Score.create(
-id: 723,
+
 username: "Rumaine",
 ipa: "126.3.11.204",
 total: 1857.688724,
@@ -10212,7 +10132,7 @@ created_at: "2018-07-23T13:26:38.665Z",
 updated_at: "2018-07-23T13:26:38.665Z"
 )
 Score.create(
-id: 744,
+
 username: "Anonymous",
 ipa: "171.92.241.92",
 total: 505.616509,
@@ -10293,7 +10213,7 @@ created_at: "2018-07-29T02:57:57.091Z",
 updated_at: "2018-07-29T02:57:57.091Z"
 )
 Score.create(
-id: 775,
+
 username: "djoshi85",
 ipa: "68.129.98.23",
 total: 822.05977,
@@ -10374,7 +10294,7 @@ created_at: "2018-08-01T23:14:33.565Z",
 updated_at: "2018-08-01T23:14:33.565Z"
 )
 Score.create(
-id: 212,
+
 username: "a17devil",
 ipa: "111.194.45.61",
 total: 2605.898617,
@@ -10455,7 +10375,7 @@ created_at: "2018-07-02T14:17:13.809Z",
 updated_at: "2018-07-02T14:17:13.809Z"
 )
 Score.create(
-id: 221,
+
 username: "Skulldude",
 ipa: "177.192.253.5",
 total: 901.535183,
@@ -10536,7 +10456,7 @@ created_at: "2018-07-02T16:09:52.643Z",
 updated_at: "2018-07-02T16:09:52.643Z"
 )
 Score.create(
-id: 227,
+
 username: "Fragnaticc",
 ipa: "186.19.126.181",
 total: 1487.176429,
@@ -10617,7 +10537,7 @@ created_at: "2018-07-02T17:34:03.752Z",
 updated_at: "2018-07-02T17:34:03.752Z"
 )
 Score.create(
-id: 228,
+
 username: "Kiyoshi",
 ipa: "172.13.150.228",
 total: 1417.081324,
@@ -10698,7 +10618,7 @@ created_at: "2018-07-02T17:35:17.707Z",
 updated_at: "2018-07-02T17:35:17.707Z"
 )
 Score.create(
-id: 230,
+
 username: "Denferok",
 ipa: "80.217.98.83",
 total: 1459.639846,
@@ -10779,7 +10699,7 @@ created_at: "2018-07-02T17:39:13.949Z",
 updated_at: "2018-07-02T17:39:13.949Z"
 )
 Score.create(
-id: 235,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 816.533631,
@@ -10860,7 +10780,7 @@ created_at: "2018-07-02T18:07:12.068Z",
 updated_at: "2018-07-02T18:07:12.068Z"
 )
 Score.create(
-id: 238,
+
 username: "Erik7654ka",
 ipa: "89.0.141.49",
 total: 921.260492,
@@ -10941,7 +10861,7 @@ created_at: "2018-07-02T18:25:26.428Z",
 updated_at: "2018-07-02T18:25:26.428Z"
 )
 Score.create(
-id: 242,
+
 username: "Archi",
 ipa: "195.34.145.34",
 total: 780.534024,
@@ -11022,7 +10942,7 @@ created_at: "2018-07-02T18:32:35.006Z",
 updated_at: "2018-07-02T18:32:35.006Z"
 )
 Score.create(
-id: 724,
+
 username: "Rumaine",
 ipa: "126.3.11.204",
 total: 2089.423679,
@@ -11103,7 +11023,7 @@ created_at: "2018-07-23T13:39:51.114Z",
 updated_at: "2018-07-23T13:39:51.114Z"
 )
 Score.create(
-id: 248,
+
 username: "Loffah",
 ipa: "85.167.30.62",
 total: 615.280235,
@@ -11184,7 +11104,7 @@ created_at: "2018-07-02T18:53:09.706Z",
 updated_at: "2018-07-02T18:53:09.706Z"
 )
 Score.create(
-id: 253,
+
 username: "Neil",
 ipa: "99.239.104.53",
 total: 337.37689,
@@ -11265,7 +11185,7 @@ created_at: "2018-07-02T19:07:37.777Z",
 updated_at: "2018-07-02T19:07:37.777Z"
 )
 Score.create(
-id: 254,
+
 username: "Jaimers",
 ipa: "77.162.70.179",
 total: 725.600984,
@@ -11346,7 +11266,7 @@ created_at: "2018-07-02T19:09:54.647Z",
 updated_at: "2018-07-02T19:09:54.647Z"
 )
 Score.create(
-id: 745,
+
 username: "victor",
 ipa: "187.3.179.76",
 total: 687.224501,
@@ -11427,7 +11347,7 @@ created_at: "2018-07-30T01:01:36.236Z",
 updated_at: "2018-07-30T01:01:36.236Z"
 )
 Score.create(
-id: 776,
+
 username: "jxws",
 ipa: "47.74.56.47",
 total: 950.947776,
@@ -11508,7 +11428,7 @@ created_at: "2018-08-02T01:12:36.690Z",
 updated_at: "2018-08-02T01:12:36.690Z"
 )
 Score.create(
-id: 231,
+
 username: "Taprus",
 ipa: "200.104.60.239",
 total: 1016.825926,
@@ -11589,7 +11509,7 @@ created_at: "2018-07-02T17:41:46.686Z",
 updated_at: "2018-07-02T17:41:46.686Z"
 )
 Score.create(
-id: 232,
+
 username: "Skulldude",
 ipa: "177.192.253.5",
 total: 1180.004782,
@@ -11670,7 +11590,7 @@ created_at: "2018-07-02T17:47:05.149Z",
 updated_at: "2018-07-02T17:47:05.149Z"
 )
 Score.create(
-id: 234,
+
 username: "Quof",
 ipa: "98.27.30.144",
 total: 850.251929,
@@ -11751,7 +11671,7 @@ created_at: "2018-07-02T18:07:10.882Z",
 updated_at: "2018-07-02T18:07:10.882Z"
 )
 Score.create(
-id: 237,
+
 username: "letcreate123",
 ipa: "190.47.148.9",
 total: 1259.949717,
@@ -11832,7 +11752,7 @@ created_at: "2018-07-02T18:16:54.401Z",
 updated_at: "2018-07-02T18:16:54.401Z"
 )
 Score.create(
-id: 239,
+
 username: "a17devil",
 ipa: "111.194.45.61",
 total: 2739.852557,
@@ -11913,7 +11833,7 @@ created_at: "2018-07-02T18:26:33.165Z",
 updated_at: "2018-07-02T18:26:33.165Z"
 )
 Score.create(
-id: 240,
+
 username: "Fragnaticc",
 ipa: "186.19.126.181",
 total: 1535.572856,
@@ -11994,7 +11914,7 @@ created_at: "2018-07-02T18:26:45.113Z",
 updated_at: "2018-07-02T18:26:45.113Z"
 )
 Score.create(
-id: 243,
+
 username: "Loffah",
 ipa: "85.167.30.62",
 total: 333.092261,
@@ -12075,7 +11995,7 @@ created_at: "2018-07-02T18:35:45.611Z",
 updated_at: "2018-07-02T18:35:45.611Z"
 )
 Score.create(
-id: 725,
+
 username: "Nine3water",
 ipa: "113.249.208.181",
 total: 693.849866,
@@ -12156,7 +12076,7 @@ created_at: "2018-07-23T15:40:46.334Z",
 updated_at: "2018-07-23T15:40:46.334Z"
 )
 Score.create(
-id: 246,
+
 username: "tree",
 ipa: "65.94.167.44",
 total: 390.103962,
@@ -12237,7 +12157,7 @@ created_at: "2018-07-02T18:44:18.908Z",
 updated_at: "2018-07-02T18:44:18.908Z"
 )
 Score.create(
-id: 247,
+
 username: "Smang",
 ipa: "68.195.119.78",
 total: 1040.259881,
@@ -12318,7 +12238,7 @@ created_at: "2018-07-02T18:48:01.996Z",
 updated_at: "2018-07-02T18:48:01.996Z"
 )
 Score.create(
-id: 249,
+
 username: "a17devil",
 ipa: "111.194.45.61",
 total: 2681.810779,
@@ -12399,7 +12319,7 @@ created_at: "2018-07-02T18:54:09.179Z",
 updated_at: "2018-07-02T18:54:09.179Z"
 )
 Score.create(
-id: 746,
+
 username: "NO37",
 ipa: "190.5.48.107",
 total: 653.98031,
@@ -12480,7 +12400,7 @@ created_at: "2018-07-30T05:29:44.798Z",
 updated_at: "2018-07-30T05:29:44.798Z"
 )
 Score.create(
-id: 252,
+
 username: "BreedPineapple",
 ipa: "85.76.87.178",
 total: 725.950615,
@@ -12561,7 +12481,7 @@ created_at: "2018-07-02T19:04:22.833Z",
 updated_at: "2018-07-02T19:04:22.833Z"
 )
 Score.create(
-id: 255,
+
 username: "Pipetonio",
 ipa: "190.162.167.169",
 total: 1154.832022,
@@ -12642,7 +12562,7 @@ created_at: "2018-07-02T19:10:50.490Z",
 updated_at: "2018-07-02T19:10:50.490Z"
 )
 Score.create(
-id: 256,
+
 username: "Desticler",
 ipa: "5.227.7.253",
 total: 466.299054,
@@ -12723,7 +12643,7 @@ created_at: "2018-07-02T19:20:40.323Z",
 updated_at: "2018-07-02T19:20:40.323Z"
 )
 Score.create(
-id: 257,
+
 username: "Gaborro",
 ipa: "187.189.90.144",
 total: 1065.457866,
@@ -12804,7 +12724,7 @@ created_at: "2018-07-02T19:23:31.877Z",
 updated_at: "2018-07-02T19:23:31.877Z"
 )
 Score.create(
-id: 258,
+
 username: "Neil",
 ipa: "99.239.104.53",
 total: 406.393633,
@@ -12885,7 +12805,7 @@ created_at: "2018-07-02T19:26:08.079Z",
 updated_at: "2018-07-02T19:26:08.079Z"
 )
 Score.create(
-id: 259,
+
 username: "Kiyoshi",
 ipa: "172.13.150.228",
 total: 1521.495661,
@@ -12966,7 +12886,7 @@ created_at: "2018-07-02T19:53:06.399Z",
 updated_at: "2018-07-02T19:53:06.399Z"
 )
 Score.create(
-id: 260,
+
 username: "tree",
 ipa: "65.94.167.44",
 total: 475.658492,
@@ -13047,7 +12967,7 @@ created_at: "2018-07-02T20:06:29.635Z",
 updated_at: "2018-07-02T20:06:29.635Z"
 )
 Score.create(
-id: 261,
+
 username: "SlonEstLunu",
 ipa: "188.227.77.55",
 total: 685.415755,
@@ -13128,7 +13048,7 @@ created_at: "2018-07-02T20:14:49.141Z",
 updated_at: "2018-07-02T20:14:49.141Z"
 )
 Score.create(
-id: 262,
+
 username: "Zorgo",
 ipa: "5.16.25.112",
 total: 1062.569582,
@@ -13209,7 +13129,7 @@ created_at: "2018-07-02T20:15:09.779Z",
 updated_at: "2018-07-02T20:15:09.779Z"
 )
 Score.create(
-id: 264,
+
 username: "Zorgo",
 ipa: "5.16.25.112",
 total: 1113.666585,
@@ -13290,7 +13210,7 @@ created_at: "2018-07-02T20:28:42.798Z",
 updated_at: "2018-07-02T20:28:42.798Z"
 )
 Score.create(
-id: 268,
+
 username: "LiquidRage",
 ipa: "69.127.115.147",
 total: 876.922287,
@@ -13371,7 +13291,7 @@ created_at: "2018-07-02T21:00:47.666Z",
 updated_at: "2018-07-02T21:00:47.666Z"
 )
 Score.create(
-id: 269,
+
 username: "Welowas",
 ipa: "217.87.156.76",
 total: 1004.449462,
@@ -13452,7 +13372,7 @@ created_at: "2018-07-02T21:00:54.295Z",
 updated_at: "2018-07-02T21:00:54.295Z"
 )
 Score.create(
-id: 270,
+
 username: "Kiyoshi",
 ipa: "172.13.150.228",
 total: 1454.843496,
@@ -13533,7 +13453,7 @@ created_at: "2018-07-02T21:12:21.538Z",
 updated_at: "2018-07-02T21:12:21.538Z"
 )
 Score.create(
-id: 726,
+
 username: "tingsl",
 ipa: "113.85.84.66",
 total: 1471.203714,
@@ -13614,7 +13534,7 @@ created_at: "2018-07-24T07:30:10.373Z",
 updated_at: "2018-07-24T07:30:10.373Z"
 )
 Score.create(
-id: 275,
+
 username: "Pipetonio",
 ipa: "190.162.167.169",
 total: 1228.901468,
@@ -13695,7 +13615,7 @@ created_at: "2018-07-02T22:21:10.112Z",
 updated_at: "2018-07-02T22:21:10.112Z"
 )
 Score.create(
-id: 276,
+
 username: "Marios",
 ipa: "179.62.82.168",
 total: 1280.975974,
@@ -13776,7 +13696,7 @@ created_at: "2018-07-02T22:55:00.464Z",
 updated_at: "2018-07-02T22:55:00.464Z"
 )
 Score.create(
-id: 277,
+
 username: "Crillex",
 ipa: "81.170.199.85",
 total: 1176.705759,
@@ -13857,7 +13777,7 @@ created_at: "2018-07-02T22:59:57.076Z",
 updated_at: "2018-07-02T22:59:57.076Z"
 )
 Score.create(
-id: 279,
+
 username: "Geezy",
 ipa: "71.120.205.106",
 total: 1525.961789,
@@ -13938,7 +13858,7 @@ created_at: "2018-07-02T23:06:12.105Z",
 updated_at: "2018-07-02T23:06:12.105Z"
 )
 Score.create(
-id: 283,
+
 username: "cousinoer5",
 ipa: "76.219.134.31",
 total: 868.006617,
@@ -14019,7 +13939,7 @@ created_at: "2018-07-02T23:22:52.181Z",
 updated_at: "2018-07-02T23:22:52.181Z"
 )
 Score.create(
-id: 287,
+
 username: "Gemilous",
 ipa: "115.44.90.235",
 total: 1525.548203,
@@ -14100,7 +14020,7 @@ created_at: "2018-07-02T23:31:52.398Z",
 updated_at: "2018-07-02T23:31:52.398Z"
 )
 Score.create(
-id: 263,
+
 username: "Pipetonio",
 ipa: "190.162.167.169",
 total: 1422.610156,
@@ -14181,7 +14101,7 @@ created_at: "2018-07-02T20:27:13.081Z",
 updated_at: "2018-07-02T20:27:13.081Z"
 )
 Score.create(
-id: 265,
+
 username: "Zorgo",
 ipa: "5.16.25.112",
 total: 1379.806095,
@@ -14262,7 +14182,7 @@ created_at: "2018-07-02T20:45:04.177Z",
 updated_at: "2018-07-02T20:45:04.177Z"
 )
 Score.create(
-id: 272,
+
 username: "Tehninza",
 ipa: "98.220.32.33",
 total: 1565.985351,
@@ -14343,7 +14263,7 @@ created_at: "2018-07-02T21:19:25.328Z",
 updated_at: "2018-07-02T21:19:25.328Z"
 )
 Score.create(
-id: 278,
+
 username: "Neb",
 ipa: "97.102.12.252",
 total: 444.769653,
@@ -14424,7 +14344,7 @@ created_at: "2018-07-02T23:05:30.629Z",
 updated_at: "2018-07-02T23:05:30.629Z"
 )
 Score.create(
-id: 280,
+
 username: "Skulldude",
 ipa: "177.192.253.5",
 total: 1019.405627,
@@ -14505,7 +14425,7 @@ created_at: "2018-07-02T23:12:57.842Z",
 updated_at: "2018-07-02T23:12:57.842Z"
 )
 Score.create(
-id: 284,
+
 username: "TIL",
 ipa: "87.92.81.50",
 total: 1631.490526,
@@ -14586,7 +14506,7 @@ created_at: "2018-07-02T23:24:55.924Z",
 updated_at: "2018-07-02T23:24:55.924Z"
 )
 Score.create(
-id: 294,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 1006.563834,
@@ -14667,7 +14587,7 @@ created_at: "2018-07-03T00:16:27.191Z",
 updated_at: "2018-07-03T00:16:27.191Z"
 )
 Score.create(
-id: 295,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 1277.261406,
@@ -14748,7 +14668,7 @@ created_at: "2018-07-03T00:36:52.360Z",
 updated_at: "2018-07-03T00:36:52.360Z"
 )
 Score.create(
-id: 297,
+
 username: "Anonymous",
 ipa: "126.141.211.58",
 total: 1307.943023,
@@ -14829,7 +14749,7 @@ created_at: "2018-07-03T01:06:42.514Z",
 updated_at: "2018-07-03T01:06:42.514Z"
 )
 Score.create(
-id: 298,
+
 username: "FABRY",
 ipa: "181.21.2.118",
 total: 634.346954,
@@ -14910,7 +14830,7 @@ created_at: "2018-07-03T01:21:35.160Z",
 updated_at: "2018-07-03T01:21:35.160Z"
 )
 Score.create(
-id: 300,
+
 username: "xwidghet",
 ipa: "24.22.219.232",
 total: 806.52655,
@@ -14991,7 +14911,7 @@ created_at: "2018-07-03T01:39:35.584Z",
 updated_at: "2018-07-03T01:39:35.584Z"
 )
 Score.create(
-id: 314,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 1686.637178,
@@ -15072,7 +14992,7 @@ created_at: "2018-07-03T03:08:13.281Z",
 updated_at: "2018-07-03T03:08:13.281Z"
 )
 Score.create(
-id: 321,
+
 username: "PerkinThePenguin",
 ipa: "181.168.98.246",
 total: 1064.09637,
@@ -15153,7 +15073,7 @@ created_at: "2018-07-03T03:30:47.909Z",
 updated_at: "2018-07-03T03:30:47.909Z"
 )
 Score.create(
-id: 322,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 1973.149826,
@@ -15234,7 +15154,7 @@ created_at: "2018-07-03T03:37:56.891Z",
 updated_at: "2018-07-03T03:37:56.891Z"
 )
 Score.create(
-id: 727,
+
 username: "CLOUD",
 ipa: "111.79.178.1",
 total: 841.409392,
@@ -15315,7 +15235,7 @@ created_at: "2018-07-24T11:51:30.876Z",
 updated_at: "2018-07-24T11:51:30.876Z"
 )
 Score.create(
-id: 747,
+
 username: "erque",
 ipa: "58.20.69.33",
 total: 1127.1001,
@@ -15396,7 +15316,7 @@ created_at: "2018-07-30T07:06:16.422Z",
 updated_at: "2018-07-30T07:06:16.422Z"
 )
 Score.create(
-id: 266,
+
 username: "Gaborro",
 ipa: "187.189.90.144",
 total: 1652.284182,
@@ -15477,7 +15397,7 @@ created_at: "2018-07-02T20:47:54.456Z",
 updated_at: "2018-07-02T20:47:54.456Z"
 )
 Score.create(
-id: 267,
+
 username: "Zorgo",
 ipa: "5.16.25.112",
 total: 1394.506481,
@@ -15558,7 +15478,7 @@ created_at: "2018-07-02T20:59:06.233Z",
 updated_at: "2018-07-02T20:59:06.233Z"
 )
 Score.create(
-id: 273,
+
 username: "PlayerDash2017",
 ipa: "190.47.69.238",
 total: 707.284772,
@@ -15639,7 +15559,7 @@ created_at: "2018-07-02T21:32:17.782Z",
 updated_at: "2018-07-02T21:32:17.782Z"
 )
 Score.create(
-id: 274,
+
 username: "CYR_Rieux",
 ipa: "187.214.142.64",
 total: 622.140036,
@@ -15720,7 +15640,7 @@ created_at: "2018-07-02T22:02:08.604Z",
 updated_at: "2018-07-02T22:02:08.604Z"
 )
 Score.create(
-id: 281,
+
 username: "arzztt",
 ipa: "162.194.152.72",
 total: 990.73107,
@@ -15801,7 +15721,7 @@ created_at: "2018-07-02T23:18:33.242Z",
 updated_at: "2018-07-02T23:18:33.242Z"
 )
 Score.create(
-id: 282,
+
 username: "Ruben",
 ipa: "67.85.87.125",
 total: 680.508358,
@@ -15882,7 +15802,7 @@ created_at: "2018-07-02T23:22:01.967Z",
 updated_at: "2018-07-02T23:22:01.967Z"
 )
 Score.create(
-id: 285,
+
 username: "Geezy",
 ipa: "71.120.205.106",
 total: 1709.853849,
@@ -15963,7 +15883,7 @@ created_at: "2018-07-02T23:25:11.520Z",
 updated_at: "2018-07-02T23:25:11.520Z"
 )
 Score.create(
-id: 286,
+
 username: "Skulldude",
 ipa: "177.192.253.5",
 total: 1245.585533,
@@ -16044,7 +15964,7 @@ created_at: "2018-07-02T23:27:54.178Z",
 updated_at: "2018-07-02T23:27:54.178Z"
 )
 Score.create(
-id: 289,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 990.175412,
@@ -16125,7 +16045,7 @@ created_at: "2018-07-02T23:36:42.755Z",
 updated_at: "2018-07-02T23:36:42.755Z"
 )
 Score.create(
-id: 292,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 960.93964,
@@ -16206,7 +16126,7 @@ created_at: "2018-07-02T23:56:27.880Z",
 updated_at: "2018-07-02T23:56:27.880Z"
 )
 Score.create(
-id: 293,
+
 username: "Problems",
 ipa: "179.55.1.33",
 total: 641.771284,
@@ -16287,7 +16207,7 @@ created_at: "2018-07-03T00:12:47.910Z",
 updated_at: "2018-07-03T00:12:47.910Z"
 )
 Score.create(
-id: 299,
+
 username: "Problems",
 ipa: "179.55.1.33",
 total: 821.288787,
@@ -16368,7 +16288,7 @@ created_at: "2018-07-03T01:39:12.423Z",
 updated_at: "2018-07-03T01:39:12.423Z"
 )
 Score.create(
-id: 301,
+
 username: "Sheep",
 ipa: "5.68.240.112",
 total: 1039.190722,
@@ -16449,7 +16369,7 @@ created_at: "2018-07-03T01:41:42.899Z",
 updated_at: "2018-07-03T01:41:42.899Z"
 )
 Score.create(
-id: 302,
+
 username: "MegaKid",
 ipa: "171.241.131.118",
 total: 985.402932,
@@ -16530,7 +16450,7 @@ created_at: "2018-07-03T01:42:17.788Z",
 updated_at: "2018-07-03T01:42:17.788Z"
 )
 Score.create(
-id: 318,
+
 username: "JUST",
 ipa: "190.162.188.57",
 total: 1001.518335,
@@ -16611,7 +16531,7 @@ created_at: "2018-07-03T03:22:15.168Z",
 updated_at: "2018-07-03T03:22:15.168Z"
 )
 Score.create(
-id: 728,
+
 username: "Murry04",
 ipa: "117.36.24.242",
 total: 1104.17955,
@@ -16692,7 +16612,7 @@ created_at: "2018-07-24T14:36:03.190Z",
 updated_at: "2018-07-24T14:36:03.190Z"
 )
 Score.create(
-id: 288,
+
 username: "Marios",
 ipa: "179.62.82.168",
 total: 1669.536677,
@@ -16773,7 +16693,7 @@ created_at: "2018-07-02T23:33:31.093Z",
 updated_at: "2018-07-02T23:33:31.093Z"
 )
 Score.create(
-id: 306,
+
 username: "djoshi85",
 ipa: "68.129.98.23",
 total: 832.489501,
@@ -16854,7 +16774,7 @@ created_at: "2018-07-03T02:10:49.451Z",
 updated_at: "2018-07-03T02:10:49.451Z"
 )
 Score.create(
-id: 310,
+
 username: "djoshi85",
 ipa: "68.129.98.23",
 total: 1058.259478,
@@ -16935,7 +16855,7 @@ created_at: "2018-07-03T02:27:02.524Z",
 updated_at: "2018-07-03T02:27:02.524Z"
 )
 Score.create(
-id: 729,
+
 username: "Oaildlo",
 ipa: "183.11.203.133",
 total: 1573.253551,
@@ -17016,7 +16936,7 @@ created_at: "2018-07-24T15:44:03.084Z",
 updated_at: "2018-07-24T15:44:03.084Z"
 )
 Score.create(
-id: 748,
+
 username: "needle",
 ipa: "183.162.182.18",
 total: 1287.908326,
@@ -17097,7 +17017,7 @@ created_at: "2018-07-30T08:09:26.663Z",
 updated_at: "2018-07-30T08:09:26.663Z"
 )
 Score.create(
-id: 290,
+
 username: "TIL",
 ipa: "87.92.81.50",
 total: 1621.235794,
@@ -17178,7 +17098,7 @@ created_at: "2018-07-02T23:41:35.248Z",
 updated_at: "2018-07-02T23:41:35.248Z"
 )
 Score.create(
-id: 305,
+
 username: "xwidghet",
 ipa: "24.22.219.232",
 total: 991.848194,
@@ -17259,7 +17179,7 @@ created_at: "2018-07-03T02:08:40.005Z",
 updated_at: "2018-07-03T02:08:40.005Z"
 )
 Score.create(
-id: 307,
+
 username: "Swordslinger",
 ipa: "173.23.224.191",
 total: 1209.154804,
@@ -17340,7 +17260,7 @@ created_at: "2018-07-03T02:17:31.508Z",
 updated_at: "2018-07-03T02:17:31.508Z"
 )
 Score.create(
-id: 308,
+
 username: "Christopher",
 ipa: "80.41.112.129",
 total: 432.034474,
@@ -17421,7 +17341,7 @@ created_at: "2018-07-03T02:23:46.005Z",
 updated_at: "2018-07-03T02:23:46.005Z"
 )
 Score.create(
-id: 313,
+
 username: "JUST",
 ipa: "190.162.188.57",
 total: 1114.997211,
@@ -17502,7 +17422,7 @@ created_at: "2018-07-03T03:05:29.907Z",
 updated_at: "2018-07-03T03:05:29.907Z"
 )
 Score.create(
-id: 316,
+
 username: "PerkinThePenguin",
 ipa: "181.168.98.246",
 total: 852.286385,
@@ -17583,7 +17503,7 @@ created_at: "2018-07-03T03:14:50.611Z",
 updated_at: "2018-07-03T03:14:50.611Z"
 )
 Score.create(
-id: 730,
+
 username: "burntcirno",
 ipa: "218.14.122.68",
 total: 983.034155,
@@ -17664,7 +17584,7 @@ created_at: "2018-07-24T19:53:38.077Z",
 updated_at: "2018-07-24T19:53:38.077Z"
 )
 Score.create(
-id: 749,
+
 username: "jxws",
 ipa: "58.194.168.162",
 total: 821.152248,
@@ -17745,7 +17665,7 @@ created_at: "2018-07-30T10:22:56.714Z",
 updated_at: "2018-07-30T10:22:56.714Z"
 )
 Score.create(
-id: 291,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 1255.438386,
@@ -17826,7 +17746,7 @@ created_at: "2018-07-02T23:48:51.286Z",
 updated_at: "2018-07-02T23:48:51.286Z"
 )
 Score.create(
-id: 296,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 1311.705892,
@@ -17907,7 +17827,7 @@ created_at: "2018-07-03T00:58:27.321Z",
 updated_at: "2018-07-03T00:58:27.321Z"
 )
 Score.create(
-id: 303,
+
 username: "Christopher",
 ipa: "80.41.112.129",
 total: 231.962001,
@@ -17988,7 +17908,7 @@ created_at: "2018-07-03T01:48:17.572Z",
 updated_at: "2018-07-03T01:48:17.572Z"
 )
 Score.create(
-id: 304,
+
 username: "Christopher",
 ipa: "80.41.112.129",
 total: 350.796192,
@@ -18069,7 +17989,7 @@ created_at: "2018-07-03T02:02:00.582Z",
 updated_at: "2018-07-03T02:02:00.582Z"
 )
 Score.create(
-id: 309,
+
 username: "Rach",
 ipa: "74.83.68.45",
 total: 769.344288,
@@ -18150,7 +18070,7 @@ created_at: "2018-07-03T02:26:28.995Z",
 updated_at: "2018-07-03T02:26:28.995Z"
 )
 Score.create(
-id: 311,
+
 username: "WhattayaBrian",
 ipa: "98.207.250.216",
 total: 961.83609,
@@ -18231,7 +18151,7 @@ created_at: "2018-07-03T02:38:30.474Z",
 updated_at: "2018-07-03T02:38:30.474Z"
 )
 Score.create(
-id: 312,
+
 username: "xwidghet",
 ipa: "24.22.219.232",
 total: 931.864434,
@@ -18312,7 +18232,7 @@ created_at: "2018-07-03T03:03:18.625Z",
 updated_at: "2018-07-03T03:03:18.625Z"
 )
 Score.create(
-id: 315,
+
 username: "Sheep",
 ipa: "5.68.240.112",
 total: 1380.834479,
@@ -18393,7 +18313,7 @@ created_at: "2018-07-03T03:12:32.039Z",
 updated_at: "2018-07-03T03:12:32.039Z"
 )
 Score.create(
-id: 317,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 1953.62088,
@@ -18474,7 +18394,7 @@ created_at: "2018-07-03T03:21:10.463Z",
 updated_at: "2018-07-03T03:21:10.463Z"
 )
 Score.create(
-id: 319,
+
 username: "kedricos",
 ipa: "174.103.241.88",
 total: 576.180076,
@@ -18555,7 +18475,7 @@ created_at: "2018-07-03T03:25:38.085Z",
 updated_at: "2018-07-03T03:25:38.085Z"
 )
 Score.create(
-id: 320,
+
 username: "jdspider",
 ipa: "72.230.64.95",
 total: 477.108441,
@@ -18636,7 +18556,7 @@ created_at: "2018-07-03T03:27:21.607Z",
 updated_at: "2018-07-03T03:27:21.607Z"
 )
 Score.create(
-id: 323,
+
 username: "jdspider",
 ipa: "72.230.64.95",
 total: 621.977886,
@@ -18717,7 +18637,7 @@ created_at: "2018-07-03T03:42:22.938Z",
 updated_at: "2018-07-03T03:42:22.938Z"
 )
 Score.create(
-id: 324,
+
 username: "kedricos",
 ipa: "174.103.241.88",
 total: 672.887008,
@@ -18798,7 +18718,7 @@ created_at: "2018-07-03T03:44:10.623Z",
 updated_at: "2018-07-03T03:44:10.623Z"
 )
 Score.create(
-id: 325,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2062.445918,
@@ -18879,7 +18799,7 @@ created_at: "2018-07-03T03:50:28.937Z",
 updated_at: "2018-07-03T03:50:28.937Z"
 )
 Score.create(
-id: 326,
+
 username: "WhattayaBrian",
 ipa: "98.207.250.216",
 total: 1148.71062,
@@ -18960,7 +18880,7 @@ created_at: "2018-07-03T03:56:10.592Z",
 updated_at: "2018-07-03T03:56:10.592Z"
 )
 Score.create(
-id: 327,
+
 username: "Wistok",
 ipa: "121.137.237.164",
 total: 965.537296,
@@ -19041,7 +18961,7 @@ created_at: "2018-07-03T04:02:50.369Z",
 updated_at: "2018-07-03T04:02:50.369Z"
 )
 Score.create(
-id: 328,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2077.914657,
@@ -19122,7 +19042,7 @@ created_at: "2018-07-03T04:04:31.694Z",
 updated_at: "2018-07-03T04:04:31.694Z"
 )
 Score.create(
-id: 329,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2278.360996,
@@ -19203,7 +19123,7 @@ created_at: "2018-07-03T04:18:59.389Z",
 updated_at: "2018-07-03T04:18:59.389Z"
 )
 Score.create(
-id: 335,
+
 username: "Frey",
 ipa: "172.58.14.162",
 total: 1114.656552,
@@ -19284,7 +19204,7 @@ created_at: "2018-07-03T05:17:50.492Z",
 updated_at: "2018-07-03T05:17:50.492Z"
 )
 Score.create(
-id: 337,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2137.897341,
@@ -19365,7 +19285,7 @@ created_at: "2018-07-03T05:37:00.167Z",
 updated_at: "2018-07-03T05:37:00.167Z"
 )
 Score.create(
-id: 340,
+
 username: "lyc",
 ipa: "59.33.106.41",
 total: 1072.955058,
@@ -19446,7 +19366,7 @@ created_at: "2018-07-03T05:57:49.943Z",
 updated_at: "2018-07-03T05:57:49.943Z"
 )
 Score.create(
-id: 343,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2222.7598,
@@ -19527,7 +19447,7 @@ created_at: "2018-07-03T06:27:45.614Z",
 updated_at: "2018-07-03T06:27:45.614Z"
 )
 Score.create(
-id: 345,
+
 username: "Anonymous",
 ipa: "115.177.231.174",
 total: 1060.42813,
@@ -19608,7 +19528,7 @@ created_at: "2018-07-03T07:25:34.905Z",
 updated_at: "2018-07-03T07:25:34.905Z"
 )
 Score.create(
-id: 731,
+
 username: "burntcirno",
 ipa: "218.14.122.186",
 total: 1216.429774,
@@ -19689,7 +19609,7 @@ created_at: "2018-07-24T20:06:55.807Z",
 updated_at: "2018-07-24T20:06:55.807Z"
 )
 Score.create(
-id: 750,
+
 username: "May",
 ipa: "59.59.186.16",
 total: 685.560682,
@@ -19770,7 +19690,7 @@ created_at: "2018-07-30T13:58:59.374Z",
 updated_at: "2018-07-30T13:58:59.374Z"
 )
 Score.create(
-id: 330,
+
 username: "Wistok",
 ipa: "121.137.237.164",
 total: 1066.793244,
@@ -19851,7 +19771,7 @@ created_at: "2018-07-03T04:21:15.912Z",
 updated_at: "2018-07-03T04:21:15.912Z"
 )
 Score.create(
-id: 334,
+
 username: "RedBatNick",
 ipa: "108.214.170.115",
 total: 1300.325207,
@@ -19932,7 +19852,7 @@ created_at: "2018-07-03T05:17:24.527Z",
 updated_at: "2018-07-03T05:17:24.527Z"
 )
 Score.create(
-id: 341,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2166.479492,
@@ -20013,7 +19933,7 @@ created_at: "2018-07-03T06:02:06.158Z",
 updated_at: "2018-07-03T06:02:06.158Z"
 )
 Score.create(
-id: 346,
+
 username: "WhattayaBrian",
 ipa: "98.207.250.216",
 total: 1042.760749,
@@ -20094,7 +20014,7 @@ created_at: "2018-07-03T07:29:45.124Z",
 updated_at: "2018-07-03T07:29:45.124Z"
 )
 Score.create(
-id: 732,
+
 username: "Star",
 ipa: "58.208.252.235",
 total: 1138.510292,
@@ -20175,7 +20095,7 @@ created_at: "2018-07-25T03:41:49.359Z",
 updated_at: "2018-07-25T03:41:49.359Z"
 )
 Score.create(
-id: 751,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1444.530088,
@@ -20256,7 +20176,7 @@ created_at: "2018-07-30T16:06:29.056Z",
 updated_at: "2018-07-30T16:06:29.056Z"
 )
 Score.create(
-id: 753,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1792.227628,
@@ -20337,7 +20257,7 @@ created_at: "2018-07-30T16:19:11.481Z",
 updated_at: "2018-07-30T16:19:11.481Z"
 )
 Score.create(
-id: 331,
+
 username: "Rach",
 ipa: "74.83.68.45",
 total: 1077.175527,
@@ -20418,7 +20338,7 @@ created_at: "2018-07-03T04:35:51.567Z",
 updated_at: "2018-07-03T04:35:51.567Z"
 )
 Score.create(
-id: 339,
+
 username: "RedBatNick",
 ipa: "108.214.170.115",
 total: 1794.346946,
@@ -20499,7 +20419,7 @@ created_at: "2018-07-03T05:57:21.576Z",
 updated_at: "2018-07-03T05:57:21.576Z"
 )
 Score.create(
-id: 342,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2333.37342,
@@ -20580,7 +20500,7 @@ created_at: "2018-07-03T06:14:51.099Z",
 updated_at: "2018-07-03T06:14:51.099Z"
 )
 Score.create(
-id: 344,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2291.897001,
@@ -20661,7 +20581,7 @@ created_at: "2018-07-03T06:41:08.897Z",
 updated_at: "2018-07-03T06:41:08.897Z"
 )
 Score.create(
-id: 733,
+
 username: "yaoyao",
 ipa: "117.136.41.43",
 total: 935.048139,
@@ -20742,7 +20662,7 @@ created_at: "2018-07-25T12:22:00.417Z",
 updated_at: "2018-07-25T12:22:00.417Z"
 )
 Score.create(
-id: 752,
+
 username: "Oaildlo",
 ipa: "113.116.114.101",
 total: 1405.427024,
@@ -20823,7 +20743,7 @@ created_at: "2018-07-30T16:09:24.527Z",
 updated_at: "2018-07-30T16:09:24.527Z"
 )
 Score.create(
-id: 754,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1926.512037,
@@ -20904,7 +20824,7 @@ created_at: "2018-07-30T16:31:29.329Z",
 updated_at: "2018-07-30T16:31:29.329Z"
 )
 Score.create(
-id: 332,
+
 username: "Reesesaholic",
 ipa: "71.126.153.93",
 total: 1133.919658,
@@ -20985,7 +20905,7 @@ created_at: "2018-07-03T04:38:54.956Z",
 updated_at: "2018-07-03T04:38:54.956Z"
 )
 Score.create(
-id: 333,
+
 username: "kedricos",
 ipa: "174.103.241.88",
 total: 696.54665,
@@ -21066,7 +20986,7 @@ created_at: "2018-07-03T05:05:16.252Z",
 updated_at: "2018-07-03T05:05:16.252Z"
 )
 Score.create(
-id: 336,
+
 username: "xwidghet",
 ipa: "24.22.219.232",
 total: 1074.111626,
@@ -21147,7 +21067,7 @@ created_at: "2018-07-03T05:33:05.182Z",
 updated_at: "2018-07-03T05:33:05.182Z"
 )
 Score.create(
-id: 338,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2171.261038,
@@ -21228,7 +21148,7 @@ created_at: "2018-07-03T05:49:18.890Z",
 updated_at: "2018-07-03T05:49:18.890Z"
 )
 Score.create(
-id: 347,
+
 username: "SpikeFruit",
 ipa: "179.33.51.247",
 total: 455.948383,
@@ -21309,7 +21229,7 @@ created_at: "2018-07-03T07:44:47.490Z",
 updated_at: "2018-07-03T07:44:47.490Z"
 )
 Score.create(
-id: 348,
+
 username: "egg",
 ipa: "75.143.13.54",
 total: 997.399239,
@@ -21390,7 +21310,7 @@ created_at: "2018-07-03T07:44:47.889Z",
 updated_at: "2018-07-03T07:44:47.889Z"
 )
 Score.create(
-id: 349,
+
 username: "WhattayaBrian",
 ipa: "98.207.250.216",
 total: 1344.385184,
@@ -21471,7 +21391,7 @@ created_at: "2018-07-03T07:45:22.091Z",
 updated_at: "2018-07-03T07:45:22.091Z"
 )
 Score.create(
-id: 350,
+
 username: "Anonymous",
 ipa: "115.177.231.174",
 total: 1188.622232,
@@ -21552,7 +21472,7 @@ created_at: "2018-07-03T07:52:17.552Z",
 updated_at: "2018-07-03T07:52:17.552Z"
 )
 Score.create(
-id: 351,
+
 username: "ChronoGear",
 ipa: "24.171.68.42",
 total: 1119.067522,
@@ -21633,7 +21553,7 @@ created_at: "2018-07-03T08:05:06.023Z",
 updated_at: "2018-07-03T08:05:06.023Z"
 )
 Score.create(
-id: 352,
+
 username: "Fish",
 ipa: "213.231.153.95",
 total: 1389.624375,
@@ -21714,7 +21634,7 @@ created_at: "2018-07-03T08:10:12.553Z",
 updated_at: "2018-07-03T08:10:12.553Z"
 )
 Score.create(
-id: 734,
+
 username: "Nine3water",
 ipa: "113.249.215.124",
 total: 717.693055,
@@ -21795,7 +21715,7 @@ created_at: "2018-07-25T15:38:27.103Z",
 updated_at: "2018-07-25T15:38:27.103Z"
 )
 Score.create(
-id: 354,
+
 username: "Anonymous",
 ipa: "27.211.33.240",
 total: 975.943763,
@@ -21876,7 +21796,7 @@ created_at: "2018-07-03T08:57:30.476Z",
 updated_at: "2018-07-08T21:21:19.910Z"
 )
 Score.create(
-id: 355,
+
 username: "mugyuu",
 ipa: "108.238.153.20",
 total: 1012.925701,
@@ -21957,7 +21877,7 @@ created_at: "2018-07-03T09:07:59.616Z",
 updated_at: "2018-07-08T21:22:39.770Z"
 )
 Score.create(
-id: 356,
+
 username: "Anonymous",
 ipa: "123.181.170.119",
 total: 324.525764,
@@ -22038,7 +21958,7 @@ created_at: "2018-07-03T09:16:35.715Z",
 updated_at: "2018-07-08T21:22:51.734Z"
 )
 Score.create(
-id: 357,
+
 username: "mugyuu",
 ipa: "108.238.153.20",
 total: 1207.742199,
@@ -22119,7 +22039,7 @@ created_at: "2018-07-03T09:22:56.657Z",
 updated_at: "2018-07-08T21:23:18.093Z"
 )
 Score.create(
-id: 358,
+
 username: "RedBatNick",
 ipa: "108.214.170.115",
 total: 1878.511042,
@@ -22200,7 +22120,7 @@ created_at: "2018-07-03T09:45:10.430Z",
 updated_at: "2018-07-08T21:23:59.744Z"
 )
 Score.create(
-id: 359,
+
 username: "RedBatNick",
 ipa: "108.214.170.115",
 total: 1877.355341,
@@ -22281,7 +22201,7 @@ created_at: "2018-07-03T09:57:35.848Z",
 updated_at: "2018-07-08T21:24:10.669Z"
 )
 Score.create(
-id: 735,
+
 username: "zerodream",
 ipa: "183.206.6.226",
 total: 508.103804,
@@ -22362,7 +22282,7 @@ created_at: "2018-07-25T17:12:23.712Z",
 updated_at: "2018-07-25T17:12:23.712Z"
 )
 Score.create(
-id: 755,
+
 username: "Patchouli",
 ipa: "117.89.216.93",
 total: 745.984547,
@@ -22443,7 +22363,7 @@ created_at: "2018-07-31T00:23:32.186Z",
 updated_at: "2018-07-31T00:23:32.186Z"
 )
 Score.create(
-id: 758,
+
 username: "Beastzzzz",
 ipa: "14.120.130.36",
 total: 1274.421323,
@@ -22524,7 +22444,7 @@ created_at: "2018-07-31T00:58:06.322Z",
 updated_at: "2018-07-31T00:58:06.322Z"
 )
 Score.create(
-id: 760,
+
 username: "Patchouli",
 ipa: "117.89.216.93",
 total: 990.027429,
@@ -22605,7 +22525,7 @@ created_at: "2018-07-31T01:24:16.722Z",
 updated_at: "2018-07-31T01:24:16.722Z"
 )
 Score.create(
-id: 736,
+
 username: "Star",
 ipa: "58.208.252.131",
 total: 1118.745039,
@@ -22686,7 +22606,7 @@ created_at: "2018-07-26T06:41:23.595Z",
 updated_at: "2018-07-26T06:41:23.595Z"
 )
 Score.create(
-id: 361,
+
 username: "Anonymous",
 ipa: "123.181.170.119",
 total: 1650.077075,
@@ -22767,7 +22687,7 @@ created_at: "2018-07-03T10:04:28.793Z",
 updated_at: "2018-07-03T10:04:28.793Z"
 )
 Score.create(
-id: 362,
+
 username: "RedBatNick",
 ipa: "108.214.170.115",
 total: 2000.532407,
@@ -22848,7 +22768,7 @@ created_at: "2018-07-03T10:10:45.360Z",
 updated_at: "2018-07-03T10:10:45.360Z"
 )
 Score.create(
-id: 363,
+
 username: "Komachi",
 ipa: "83.97.146.38",
 total: 661.351088,
@@ -22929,7 +22849,7 @@ created_at: "2018-07-03T10:25:00.066Z",
 updated_at: "2018-07-03T10:25:00.066Z"
 )
 Score.create(
-id: 364,
+
 username: "Anonymous",
 ipa: "36.2.37.33",
 total: 792.667592,
@@ -23010,7 +22930,7 @@ created_at: "2018-07-03T10:36:25.786Z",
 updated_at: "2018-07-03T10:36:25.786Z"
 )
 Score.create(
-id: 365,
+
 username: "TXJ123",
 ipa: "106.39.42.30",
 total: 841.02188,
@@ -23091,7 +23011,7 @@ created_at: "2018-07-03T10:42:33.699Z",
 updated_at: "2018-07-03T10:42:33.699Z"
 )
 Score.create(
-id: 366,
+
 username: "a17devil",
 ipa: "111.194.50.92",
 total: 2591.00238,
@@ -23172,7 +23092,7 @@ created_at: "2018-07-03T10:44:22.051Z",
 updated_at: "2018-07-03T10:44:22.051Z"
 )
 Score.create(
-id: 367,
+
 username: "Anonymous",
 ipa: "112.0.232.25",
 total: 524.61668,
@@ -23253,7 +23173,7 @@ created_at: "2018-07-03T10:56:57.295Z",
 updated_at: "2018-07-03T10:56:57.295Z"
 )
 Score.create(
-id: 368,
+
 username: "Yue",
 ipa: "171.83.214.195",
 total: 727.99785,
@@ -23334,7 +23254,7 @@ created_at: "2018-07-03T11:07:19.838Z",
 updated_at: "2018-07-03T11:07:19.838Z"
 )
 Score.create(
-id: 369,
+
 username: "Anonymous",
 ipa: "112.0.232.25",
 total: 609.834046,
@@ -23415,7 +23335,7 @@ created_at: "2018-07-03T11:10:25.723Z",
 updated_at: "2018-07-03T11:10:25.723Z"
 )
 Score.create(
-id: 370,
+
 username: "Anonymous",
 ipa: "123.181.170.119",
 total: 2624.708101,
@@ -23496,7 +23416,7 @@ created_at: "2018-07-03T11:15:13.503Z",
 updated_at: "2018-07-03T11:15:13.503Z"
 )
 Score.create(
-id: 371,
+
 username: "tinkopiza",
 ipa: "60.95.215.119",
 total: 993.008996,
@@ -23577,7 +23497,7 @@ created_at: "2018-07-03T11:56:17.818Z",
 updated_at: "2018-07-03T11:56:17.818Z"
 )
 Score.create(
-id: 372,
+
 username: "Kaeru",
 ipa: "220.52.142.123",
 total: 1825.093511,
@@ -23658,7 +23578,7 @@ created_at: "2018-07-03T12:06:00.727Z",
 updated_at: "2018-07-03T12:06:00.727Z"
 )
 Score.create(
-id: 373,
+
 username: "littman",
 ipa: "60.27.31.199",
 total: 946.415448,
@@ -23739,7 +23659,7 @@ created_at: "2018-07-03T12:12:09.266Z",
 updated_at: "2018-07-03T12:12:09.266Z"
 )
 Score.create(
-id: 374,
+
 username: "hatu07",
 ipa: "111.64.206.16",
 total: 722.094764,
@@ -23820,7 +23740,7 @@ created_at: "2018-07-03T12:17:14.678Z",
 updated_at: "2018-07-03T12:17:14.678Z"
 )
 Score.create(
-id: 375,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1031.699045,
@@ -23901,7 +23821,7 @@ created_at: "2018-07-03T12:18:20.350Z",
 updated_at: "2018-07-03T12:18:20.350Z"
 )
 Score.create(
-id: 376,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1248.488741,
@@ -23982,7 +23902,7 @@ created_at: "2018-07-03T12:31:04.445Z",
 updated_at: "2018-07-03T12:31:04.445Z"
 )
 Score.create(
-id: 381,
+
 username: "Anonymous",
 ipa: "109.132.125.208",
 total: 1259.877366,
@@ -24063,7 +23983,7 @@ created_at: "2018-07-03T12:45:32.133Z",
 updated_at: "2018-07-03T12:45:32.133Z"
 )
 Score.create(
-id: 382,
+
 username: "Sugar",
 ipa: "126.153.14.41",
 total: 1986.124256,
@@ -24144,7 +24064,7 @@ created_at: "2018-07-03T12:49:45.418Z",
 updated_at: "2018-07-03T12:49:45.418Z"
 )
 Score.create(
-id: 384,
+
 username: "waka",
 ipa: "114.134.119.171",
 total: 650.831342,
@@ -24225,7 +24145,7 @@ created_at: "2018-07-03T12:56:01.325Z",
 updated_at: "2018-07-03T12:56:01.325Z"
 )
 Score.create(
-id: 385,
+
 username: "Anonymous",
 ipa: "109.132.125.208",
 total: 1496.056869,
@@ -24306,7 +24226,7 @@ created_at: "2018-07-03T13:02:22.690Z",
 updated_at: "2018-07-03T13:02:22.690Z"
 )
 Score.create(
-id: 388,
+
 username: "sacredgeo",
 ipa: "75.138.115.116",
 total: 984.865395,
@@ -24387,7 +24307,7 @@ created_at: "2018-07-03T13:25:30.181Z",
 updated_at: "2018-07-03T13:25:30.181Z"
 )
 Score.create(
-id: 389,
+
 username: "Kyuujyobukuro",
 ipa: "126.169.121.248",
 total: 1408.765184,
@@ -24468,7 +24388,7 @@ created_at: "2018-07-03T13:33:10.308Z",
 updated_at: "2018-07-03T13:33:10.308Z"
 )
 Score.create(
-id: 393,
+
 username: "sacredgeo",
 ipa: "75.138.115.116",
 total: 1143.508522,
@@ -24549,7 +24469,7 @@ created_at: "2018-07-03T13:54:50.537Z",
 updated_at: "2018-07-03T13:54:50.537Z"
 )
 Score.create(
-id: 737,
+
 username: "Irkara",
 ipa: "36.63.66.158",
 total: 1064.936513,
@@ -24630,7 +24550,7 @@ created_at: "2018-07-26T18:54:37.296Z",
 updated_at: "2018-07-26T18:54:37.296Z"
 )
 Score.create(
-id: 756,
+
 username: "Patchouli",
 ipa: "117.89.216.93",
 total: 941.385163,
@@ -24711,7 +24631,7 @@ created_at: "2018-07-31T00:40:19.610Z",
 updated_at: "2018-07-31T00:40:19.610Z"
 )
 Score.create(
-id: 757,
+
 username: "Patchouli",
 ipa: "117.89.216.93",
 total: 1108.72448,
@@ -24792,7 +24712,7 @@ created_at: "2018-07-31T00:57:42.790Z",
 updated_at: "2018-07-31T00:57:42.790Z"
 )
 Score.create(
-id: 759,
+
 username: "Beastzzzz",
 ipa: "14.120.130.36",
 total: 1501.324688,
@@ -24873,7 +24793,7 @@ created_at: "2018-07-31T01:10:30.099Z",
 updated_at: "2018-07-31T01:10:30.099Z"
 )
 Score.create(
-id: 377,
+
 username: "axxl",
 ipa: "27.154.254.144",
 total: 1304.752267,
@@ -24954,7 +24874,7 @@ created_at: "2018-07-03T12:33:25.703Z",
 updated_at: "2018-07-03T12:33:25.703Z"
 )
 Score.create(
-id: 378,
+
 username: "Sugar",
 ipa: "126.153.14.41",
 total: 1574.419233,
@@ -25035,7 +24955,7 @@ created_at: "2018-07-03T12:33:50.239Z",
 updated_at: "2018-07-03T12:33:50.239Z"
 )
 Score.create(
-id: 379,
+
 username: "Problems",
 ipa: "179.55.1.33",
 total: 808.520848,
@@ -25116,7 +25036,7 @@ created_at: "2018-07-03T12:41:16.878Z",
 updated_at: "2018-07-03T12:41:16.878Z"
 )
 Score.create(
-id: 386,
+
 username: "Rikuzyo",
 ipa: "221.52.178.179",
 total: 882.868778,
@@ -25197,7 +25117,7 @@ created_at: "2018-07-03T13:18:38.444Z",
 updated_at: "2018-07-03T13:18:38.444Z"
 )
 Score.create(
-id: 390,
+
 username: "sacredgeo",
 ipa: "75.138.115.116",
 total: 1170.000009,
@@ -25278,7 +25198,7 @@ created_at: "2018-07-03T13:38:27.349Z",
 updated_at: "2018-07-03T13:38:27.349Z"
 )
 Score.create(
-id: 392,
+
 username: "ushio",
 ipa: "59.190.39.141",
 total: 1494.86517,
@@ -25359,7 +25279,7 @@ created_at: "2018-07-03T13:53:37.717Z",
 updated_at: "2018-07-03T13:53:37.717Z"
 )
 Score.create(
-id: 738,
+
 username: "BrDowns",
 ipa: "99.174.73.244",
 total: 1466.023328,
@@ -25440,7 +25360,7 @@ created_at: "2018-07-26T23:39:44.091Z",
 updated_at: "2018-07-26T23:39:44.091Z"
 )
 Score.create(
-id: 739,
+
 username: "BrDowns",
 ipa: "99.174.73.244",
 total: 1518.201913,
@@ -25521,7 +25441,7 @@ created_at: "2018-07-26T23:53:07.161Z",
 updated_at: "2018-07-26T23:53:07.161Z"
 )
 Score.create(
-id: 761,
+
 username: "Patchouli",
 ipa: "117.89.216.93",
 total: 989.315833,
@@ -25602,7 +25522,7 @@ created_at: "2018-07-31T03:40:02.818Z",
 updated_at: "2018-07-31T03:40:02.818Z"
 )
 Score.create(
-id: 380,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1407.259364,
@@ -25683,7 +25603,7 @@ created_at: "2018-07-03T12:44:54.319Z",
 updated_at: "2018-07-03T12:44:54.319Z"
 )
 Score.create(
-id: 383,
+
 username: "zzrcorperation",
 ipa: "58.250.174.74",
 total: 792.392978,
@@ -25764,7 +25684,7 @@ created_at: "2018-07-03T12:54:03.609Z",
 updated_at: "2018-07-03T12:54:03.609Z"
 )
 Score.create(
-id: 387,
+
 username: "Kyuujyobukuro",
 ipa: "126.169.121.248",
 total: 1155.478711,
@@ -25845,7 +25765,7 @@ created_at: "2018-07-03T13:19:42.510Z",
 updated_at: "2018-07-03T13:19:42.510Z"
 )
 Score.create(
-id: 391,
+
 username: "MirrorWisper",
 ipa: "218.76.49.104",
 total: 1391.047329,
@@ -25926,7 +25846,7 @@ created_at: "2018-07-03T13:53:25.386Z",
 updated_at: "2018-07-03T13:53:25.386Z"
 )
 Score.create(
-id: 394,
+
 username: "kuro",
 ipa: "110.87.123.201",
 total: 1265.752076,
@@ -26007,7 +25927,7 @@ created_at: "2018-07-03T14:11:42.417Z",
 updated_at: "2018-07-03T14:11:42.417Z"
 )
 Score.create(
-id: 395,
+
 username: "sacredgeo",
 ipa: "75.138.115.116",
 total: 1283.631194,
@@ -26088,7 +26008,7 @@ created_at: "2018-07-03T14:12:39.469Z",
 updated_at: "2018-07-03T14:12:39.469Z"
 )
 Score.create(
-id: 396,
+
 username: "HanYing",
 ipa: "101.24.126.144",
 total: 938.773572,
@@ -26169,7 +26089,7 @@ created_at: "2018-07-03T14:19:29.317Z",
 updated_at: "2018-07-03T14:19:29.317Z"
 )
 Score.create(
-id: 397,
+
 username: "sacredgeo",
 ipa: "75.138.115.116",
 total: 1184.838282,
@@ -26250,7 +26170,7 @@ created_at: "2018-07-03T14:28:00.288Z",
 updated_at: "2018-07-03T14:28:00.288Z"
 )
 Score.create(
-id: 398,
+
 username: "sacredgeo",
 ipa: "75.138.115.116",
 total: 1379.85706,
@@ -26331,7 +26251,7 @@ created_at: "2018-07-03T14:40:58.508Z",
 updated_at: "2018-07-03T14:40:58.508Z"
 )
 Score.create(
-id: 399,
+
 username: "Yilis",
 ipa: "117.177.75.178",
 total: 605.994832,
@@ -26412,7 +26332,7 @@ created_at: "2018-07-03T14:47:52.183Z",
 updated_at: "2018-07-03T14:47:52.183Z"
 )
 Score.create(
-id: 400,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 1317.730326,
@@ -26493,7 +26413,7 @@ created_at: "2018-07-03T14:54:35.578Z",
 updated_at: "2018-07-03T14:54:35.578Z"
 )
 Score.create(
-id: 401,
+
 username: "Yilis",
 ipa: "117.177.75.178",
 total: 772.996134,
@@ -26574,7 +26494,7 @@ created_at: "2018-07-03T15:02:02.851Z",
 updated_at: "2018-07-03T15:02:02.851Z"
 )
 Score.create(
-id: 402,
+
 username: "AOZZI",
 ipa: "106.89.166.103",
 total: 1056.330492,
@@ -26655,7 +26575,7 @@ created_at: "2018-07-03T15:06:44.899Z",
 updated_at: "2018-07-03T15:06:44.899Z"
 )
 Score.create(
-id: 403,
+
 username: "caibao",
 ipa: "101.224.13.207",
 total: 656.982282,
@@ -26736,7 +26656,7 @@ created_at: "2018-07-03T15:17:43.243Z",
 updated_at: "2018-07-03T15:17:43.243Z"
 )
 Score.create(
-id: 404,
+
 username: "tree",
 ipa: "65.94.167.44",
 total: 449.467507,
@@ -26817,7 +26737,7 @@ created_at: "2018-07-03T15:19:02.041Z",
 updated_at: "2018-07-03T15:19:02.041Z"
 )
 Score.create(
-id: 405,
+
 username: "AOZZI",
 ipa: "106.89.166.103",
 total: 1475.505904,
@@ -26898,7 +26818,7 @@ created_at: "2018-07-03T15:20:03.483Z",
 updated_at: "2018-07-03T15:20:03.483Z"
 )
 Score.create(
-id: 406,
+
 username: "Verve",
 ipa: "90.178.189.171",
 total: 873.950775,
@@ -26979,7 +26899,7 @@ created_at: "2018-07-03T15:20:31.927Z",
 updated_at: "2018-07-03T15:20:31.927Z"
 )
 Score.create(
-id: 408,
+
 username: "AOZZI",
 ipa: "106.89.166.103",
 total: 1640.883837,
@@ -27060,7 +26980,7 @@ created_at: "2018-07-03T15:40:26.152Z",
 updated_at: "2018-07-03T15:40:26.152Z"
 )
 Score.create(
-id: 412,
+
 username: "Verve",
 ipa: "90.178.189.171",
 total: 1149.204557,
@@ -27141,7 +27061,7 @@ created_at: "2018-07-03T15:55:15.678Z",
 updated_at: "2018-07-03T15:55:15.678Z"
 )
 Score.create(
-id: 414,
+
 username: "FAZZ",
 ipa: "114.42.3.4",
 total: 1531.116816,
@@ -27222,7 +27142,7 @@ created_at: "2018-07-03T16:05:41.431Z",
 updated_at: "2018-07-03T16:05:41.431Z"
 )
 Score.create(
-id: 416,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 1605.995244,
@@ -27303,7 +27223,7 @@ created_at: "2018-07-03T16:09:13.990Z",
 updated_at: "2018-07-03T16:09:13.990Z"
 )
 Score.create(
-id: 417,
+
 username: "Erik7654ka",
 ipa: "89.0.141.49",
 total: 1015.257181,
@@ -27384,7 +27304,7 @@ created_at: "2018-07-03T16:13:17.748Z",
 updated_at: "2018-07-03T16:13:17.748Z"
 )
 Score.create(
-id: 420,
+
 username: "Yakumovo",
 ipa: "183.40.139.130",
 total: 2718.115919,
@@ -27465,7 +27385,7 @@ created_at: "2018-07-03T16:36:56.100Z",
 updated_at: "2018-07-03T16:36:56.100Z"
 )
 Score.create(
-id: 424,
+
 username: "a17devil",
 ipa: "111.194.50.92",
 total: 2610.002227,
@@ -27546,7 +27466,7 @@ created_at: "2018-07-03T17:21:18.490Z",
 updated_at: "2018-07-03T17:21:18.490Z"
 )
 Score.create(
-id: 740,
+
 username: "Unintelligent_",
 ipa: "223.93.26.138",
 total: 1387.462582,
@@ -27627,7 +27547,7 @@ created_at: "2018-07-27T03:34:50.530Z",
 updated_at: "2018-07-27T03:34:50.530Z"
 )
 Score.create(
-id: 435,
+
 username: "bummerman222",
 ipa: "70.50.23.117",
 total: 2087.566904,
@@ -27708,7 +27628,7 @@ created_at: "2018-07-03T18:29:27.562Z",
 updated_at: "2018-07-03T18:29:27.562Z"
 )
 Score.create(
-id: 437,
+
 username: "caibao",
 ipa: "101.224.13.207",
 total: 1319.515077,
@@ -27789,7 +27709,7 @@ created_at: "2018-07-03T19:22:51.580Z",
 updated_at: "2018-07-03T19:22:51.580Z"
 )
 Score.create(
-id: 442,
+
 username: "swag",
 ipa: "104.9.98.246",
 total: 1141.612271,
@@ -27870,7 +27790,7 @@ created_at: "2018-07-03T23:31:03.805Z",
 updated_at: "2018-07-03T23:31:03.805Z"
 )
 Score.create(
-id: 447,
+
 username: "CYR_Rieux",
 ipa: "187.214.142.64",
 total: 655.292857,
@@ -27951,7 +27871,7 @@ created_at: "2018-07-04T01:38:53.299Z",
 updated_at: "2018-07-04T01:38:53.299Z"
 )
 Score.create(
-id: 450,
+
 username: "bootstrap1988",
 ipa: "73.25.177.27",
 total: 1464.281306,
@@ -28032,7 +27952,7 @@ created_at: "2018-07-04T02:46:47.593Z",
 updated_at: "2018-07-04T02:46:47.593Z"
 )
 Score.create(
-id: 452,
+
 username: "Kaeru",
 ipa: "220.52.142.123",
 total: 1874.222043,
@@ -28113,7 +28033,7 @@ created_at: "2018-07-04T03:03:54.585Z",
 updated_at: "2018-07-04T03:03:54.585Z"
 )
 Score.create(
-id: 453,
+
 username: "Anonymous",
 ipa: "223.87.198.5",
 total: 358.124978,
@@ -28194,7 +28114,7 @@ created_at: "2018-07-04T04:25:04.963Z",
 updated_at: "2018-07-04T04:25:04.963Z"
 )
 Score.create(
-id: 407,
+
 username: "Kaeru",
 ipa: "220.52.142.123",
 total: 1602.732053,
@@ -28275,7 +28195,7 @@ created_at: "2018-07-03T15:23:52.635Z",
 updated_at: "2018-07-03T15:23:52.635Z"
 )
 Score.create(
-id: 409,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 1379.169806,
@@ -28356,7 +28276,7 @@ created_at: "2018-07-03T15:40:56.827Z",
 updated_at: "2018-07-03T15:40:56.827Z"
 )
 Score.create(
-id: 410,
+
 username: "caibao",
 ipa: "101.224.13.207",
 total: 1262.236403,
@@ -28437,7 +28357,7 @@ created_at: "2018-07-03T15:47:46.461Z",
 updated_at: "2018-07-03T15:47:46.461Z"
 )
 Score.create(
-id: 419,
+
 username: "SlonEstLunu",
 ipa: "188.227.77.55",
 total: 905.3517,
@@ -28518,7 +28438,7 @@ created_at: "2018-07-03T16:35:24.191Z",
 updated_at: "2018-07-03T16:35:24.191Z"
 )
 Score.create(
-id: 421,
+
 username: "xeli",
 ipa: "69.180.174.50",
 total: 446.96806,
@@ -28599,7 +28519,7 @@ created_at: "2018-07-03T16:42:59.749Z",
 updated_at: "2018-07-03T16:42:59.749Z"
 )
 Score.create(
-id: 431,
+
 username: "bummerman222",
 ipa: "70.50.23.117",
 total: 2084.733827,
@@ -28680,7 +28600,7 @@ created_at: "2018-07-03T18:15:55.770Z",
 updated_at: "2018-07-03T18:15:55.770Z"
 )
 Score.create(
-id: 434,
+
 username: "Inosu",
 ipa: "126.177.176.224",
 total: 1063.545722,
@@ -28761,7 +28681,7 @@ created_at: "2018-07-03T18:27:49.363Z",
 updated_at: "2018-07-03T18:27:49.363Z"
 )
 Score.create(
-id: 436,
+
 username: "bummerman222",
 ipa: "70.50.23.117",
 total: 2165.974006,
@@ -28842,7 +28762,7 @@ created_at: "2018-07-03T18:42:18.591Z",
 updated_at: "2018-07-03T18:42:18.591Z"
 )
 Score.create(
-id: 446,
+
 username: "kuro",
 ipa: "27.154.22.207",
 total: 1547.663838,
@@ -28923,7 +28843,7 @@ created_at: "2018-07-04T01:14:36.491Z",
 updated_at: "2018-07-04T01:14:36.491Z"
 )
 Score.create(
-id: 741,
+
 username: "malkutn",
 ipa: "223.104.250.196",
 total: 336.430411,
@@ -29004,7 +28924,7 @@ created_at: "2018-07-27T07:52:41.861Z",
 updated_at: "2018-07-27T07:52:41.861Z"
 )
 Score.create(
-id: 762,
+
 username: "Patchouli",
 ipa: "114.222.227.35",
 total: 1052.008253,
@@ -29085,7 +29005,7 @@ created_at: "2018-07-31T06:15:33.871Z",
 updated_at: "2018-07-31T06:15:33.871Z"
 )
 Score.create(
-id: 411,
+
 username: "seasnake",
 ipa: "220.177.100.106",
 total: 2096.513982,
@@ -29166,7 +29086,7 @@ created_at: "2018-07-03T15:49:10.849Z",
 updated_at: "2018-07-03T15:49:10.849Z"
 )
 Score.create(
-id: 413,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 1466.564412,
@@ -29247,7 +29167,7 @@ created_at: "2018-07-03T15:55:17.352Z",
 updated_at: "2018-07-03T15:55:17.352Z"
 )
 Score.create(
-id: 415,
+
 username: "Jadian",
 ipa: "98.166.210.69",
 total: 461.119231,
@@ -29328,7 +29248,7 @@ created_at: "2018-07-03T16:08:15.055Z",
 updated_at: "2018-07-03T16:08:15.055Z"
 )
 Score.create(
-id: 418,
+
 username: "Frey",
 ipa: "65.34.68.82",
 total: 1522.892987,
@@ -29409,7 +29329,7 @@ created_at: "2018-07-03T16:25:58.316Z",
 updated_at: "2018-07-03T16:25:58.316Z"
 )
 Score.create(
-id: 422,
+
 username: "waka",
 ipa: "114.134.119.171",
 total: 771.315334,
@@ -29490,7 +29410,7 @@ created_at: "2018-07-03T17:05:18.568Z",
 updated_at: "2018-07-03T17:05:18.568Z"
 )
 Score.create(
-id: 423,
+
 username: "Problems",
 ipa: "179.55.1.33",
 total: 1046.733657,
@@ -29571,7 +29491,7 @@ created_at: "2018-07-03T17:11:51.439Z",
 updated_at: "2018-07-03T17:11:51.439Z"
 )
 Score.create(
-id: 425,
+
 username: "Anonymous",
 ipa: "217.173.189.98",
 total: 872.255435,
@@ -29652,7 +29572,7 @@ created_at: "2018-07-03T17:24:55.478Z",
 updated_at: "2018-07-03T17:24:55.478Z"
 )
 Score.create(
-id: 430,
+
 username: "Anonymous",
 ipa: "217.173.189.98",
 total: 921.956567,
@@ -29733,7 +29653,7 @@ created_at: "2018-07-03T17:38:58.679Z",
 updated_at: "2018-07-03T17:38:58.679Z"
 )
 Score.create(
-id: 432,
+
 username: "Anonymous",
 ipa: "100.38.32.206",
 total: 466.46049,
@@ -29814,7 +29734,7 @@ created_at: "2018-07-03T18:18:57.693Z",
 updated_at: "2018-07-03T18:18:57.693Z"
 )
 Score.create(
-id: 433,
+
 username: "Anonymous",
 ipa: "217.173.189.98",
 total: 1160.956811,
@@ -29895,7 +29815,7 @@ created_at: "2018-07-03T18:21:12.164Z",
 updated_at: "2018-07-03T18:21:12.164Z"
 )
 Score.create(
-id: 438,
+
 username: "Anonymous",
 ipa: "217.173.189.98",
 total: 1222.731442,
@@ -29976,7 +29896,7 @@ created_at: "2018-07-03T19:35:35.589Z",
 updated_at: "2018-07-03T19:35:35.589Z"
 )
 Score.create(
-id: 439,
+
 username: "Bgm_",
 ipa: "217.173.189.98",
 total: 1302.272019,
@@ -30057,7 +29977,7 @@ created_at: "2018-07-03T20:04:00.717Z",
 updated_at: "2018-07-03T20:04:00.717Z"
 )
 Score.create(
-id: 440,
+
 username: "Bgm_",
 ipa: "217.173.189.98",
 total: 1318.52983,
@@ -30138,7 +30058,7 @@ created_at: "2018-07-03T20:27:48.099Z",
 updated_at: "2018-07-03T20:27:48.099Z"
 )
 Score.create(
-id: 441,
+
 username: "Werum",
 ipa: "212.204.137.106",
 total: 946.346785,
@@ -30219,7 +30139,7 @@ created_at: "2018-07-03T20:31:24.736Z",
 updated_at: "2018-07-03T20:31:24.736Z"
 )
 Score.create(
-id: 443,
+
 username: "Christopher",
 ipa: "80.41.112.129",
 total: 439.143822,
@@ -30300,7 +30220,7 @@ created_at: "2018-07-04T00:31:02.540Z",
 updated_at: "2018-07-04T00:31:02.540Z"
 )
 Score.create(
-id: 444,
+
 username: "wifie",
 ipa: "123.152.155.179",
 total: 1557.842942,
@@ -30381,7 +30301,7 @@ created_at: "2018-07-04T00:45:47.589Z",
 updated_at: "2018-07-04T00:45:47.589Z"
 )
 Score.create(
-id: 445,
+
 username: "Christopher",
 ipa: "80.41.112.129",
 total: 525.332304,
@@ -30462,7 +30382,7 @@ created_at: "2018-07-04T01:00:17.119Z",
 updated_at: "2018-07-04T01:00:17.119Z"
 )
 Score.create(
-id: 448,
+
 username: "letcreate123",
 ipa: "201.188.132.59",
 total: 1244.004511,
@@ -30543,7 +30463,7 @@ created_at: "2018-07-04T01:46:41.386Z",
 updated_at: "2018-07-04T01:46:41.386Z"
 )
 Score.create(
-id: 449,
+
 username: "bootstrap1988",
 ipa: "73.25.177.27",
 total: 1229.351201,
@@ -30624,7 +30544,7 @@ created_at: "2018-07-04T02:32:40.273Z",
 updated_at: "2018-07-04T02:32:40.273Z"
 )
 Score.create(
-id: 451,
+
 username: "xwidghet",
 ipa: "24.22.219.232",
 total: 1014.297899,
@@ -30705,7 +30625,7 @@ created_at: "2018-07-04T03:00:17.868Z",
 updated_at: "2018-07-04T03:00:17.868Z"
 )
 Score.create(
-id: 454,
+
 username: "Flames",
 ipa: "117.12.80.8",
 total: 1501.411756,
@@ -30786,7 +30706,7 @@ created_at: "2018-07-04T04:55:36.079Z",
 updated_at: "2018-07-04T04:55:36.079Z"
 )
 Score.create(
-id: 455,
+
 username: "Yilis",
 ipa: "117.177.75.178",
 total: 868.777772,
@@ -30867,7 +30787,7 @@ created_at: "2018-07-04T05:09:59.495Z",
 updated_at: "2018-07-04T05:09:59.495Z"
 )
 Score.create(
-id: 456,
+
 username: "kuro",
 ipa: "110.87.121.179",
 total: 1548.594826,
@@ -30948,7 +30868,7 @@ created_at: "2018-07-04T06:29:21.440Z",
 updated_at: "2018-07-04T06:29:21.440Z"
 )
 Score.create(
-id: 457,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 1342.901338,
@@ -31029,7 +30949,7 @@ created_at: "2018-07-04T06:54:45.664Z",
 updated_at: "2018-07-04T06:54:45.664Z"
 )
 Score.create(
-id: 458,
+
 username: "wifie",
 ipa: "123.152.155.179",
 total: 1789.867355,
@@ -31110,7 +31030,7 @@ created_at: "2018-07-04T06:55:46.082Z",
 updated_at: "2018-07-04T06:55:46.082Z"
 )
 Score.create(
-id: 459,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 1637.281624,
@@ -31191,7 +31111,7 @@ created_at: "2018-07-04T07:12:16.242Z",
 updated_at: "2018-07-04T07:12:16.242Z"
 )
 Score.create(
-id: 460,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 1919.100282,
@@ -31272,7 +31192,7 @@ created_at: "2018-07-04T07:24:55.933Z",
 updated_at: "2018-07-04T07:24:55.933Z"
 )
 Score.create(
-id: 461,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 1879.514007,
@@ -31353,7 +31273,7 @@ created_at: "2018-07-04T08:02:18.563Z",
 updated_at: "2018-07-04T08:02:18.563Z"
 )
 Score.create(
-id: 462,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 1855.329109,
@@ -31434,7 +31354,7 @@ created_at: "2018-07-04T08:19:48.147Z",
 updated_at: "2018-07-04T08:19:48.147Z"
 )
 Score.create(
-id: 463,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 2040.458284,
@@ -31515,7 +31435,7 @@ created_at: "2018-07-04T08:55:08.878Z",
 updated_at: "2018-07-04T08:55:08.878Z"
 )
 Score.create(
-id: 464,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 1896.945422,
@@ -31596,7 +31516,7 @@ created_at: "2018-07-04T09:49:20.840Z",
 updated_at: "2018-07-04T09:49:20.840Z"
 )
 Score.create(
-id: 465,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 2037.123725,
@@ -31677,7 +31597,7 @@ created_at: "2018-07-04T10:25:10.781Z",
 updated_at: "2018-07-04T10:25:10.781Z"
 )
 Score.create(
-id: 466,
+
 username: "noob",
 ipa: "117.22.13.87",
 total: 743.252525,
@@ -31758,7 +31678,7 @@ created_at: "2018-07-04T10:39:42.053Z",
 updated_at: "2018-07-04T10:39:42.053Z"
 )
 Score.create(
-id: 467,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 2148.291501,
@@ -31839,7 +31759,7 @@ created_at: "2018-07-04T10:47:16.900Z",
 updated_at: "2018-07-04T10:47:16.900Z"
 )
 Score.create(
-id: 468,
+
 username: "Fcuk_",
 ipa: "46.72.79.67",
 total: 1408.340927,
@@ -31920,7 +31840,7 @@ created_at: "2018-07-04T10:47:27.541Z",
 updated_at: "2018-07-04T10:47:27.541Z"
 )
 Score.create(
-id: 469,
+
 username: "Code",
 ipa: "183.236.19.210",
 total: 815.098062,
@@ -32001,7 +31921,7 @@ created_at: "2018-07-04T11:30:30.535Z",
 updated_at: "2018-07-04T11:30:30.535Z"
 )
 Score.create(
-id: 470,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1508.589654,
@@ -32082,7 +32002,7 @@ created_at: "2018-07-04T11:34:35.577Z",
 updated_at: "2018-07-04T11:34:35.577Z"
 )
 Score.create(
-id: 471,
+
 username: "Code",
 ipa: "183.236.19.210",
 total: 970.074375,
@@ -32163,7 +32083,7 @@ created_at: "2018-07-04T11:42:56.172Z",
 updated_at: "2018-07-04T11:42:56.172Z"
 )
 Score.create(
-id: 472,
+
 username: "maple",
 ipa: "115.231.11.23",
 total: 914.438375,
@@ -32244,7 +32164,7 @@ created_at: "2018-07-04T11:52:52.912Z",
 updated_at: "2018-07-04T11:52:52.912Z"
 )
 Score.create(
-id: 473,
+
 username: "Code",
 ipa: "183.236.19.210",
 total: 1009.529741,
@@ -32325,7 +32245,7 @@ created_at: "2018-07-04T11:55:48.669Z",
 updated_at: "2018-07-04T11:55:48.669Z"
 )
 Score.create(
-id: 474,
+
 username: "Electric",
 ipa: "70.44.141.192",
 total: 1193.14873,
@@ -32406,7 +32326,7 @@ created_at: "2018-07-04T12:10:23.035Z",
 updated_at: "2018-07-04T12:10:23.035Z"
 )
 Score.create(
-id: 475,
+
 username: "YellowMaster",
 ipa: "125.90.48.100",
 total: 1451.881161,
@@ -32487,7 +32407,7 @@ created_at: "2018-07-04T12:11:29.042Z",
 updated_at: "2018-07-04T12:11:29.042Z"
 )
 Score.create(
-id: 476,
+
 username: "RedBatNick",
 ipa: "108.214.170.115",
 total: 1887.794049,
@@ -32568,7 +32488,7 @@ created_at: "2018-07-04T12:15:11.649Z",
 updated_at: "2018-07-04T12:15:11.649Z"
 )
 Score.create(
-id: 477,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2018.64142,
@@ -32649,7 +32569,7 @@ created_at: "2018-07-04T12:16:05.608Z",
 updated_at: "2018-07-04T12:16:05.608Z"
 )
 Score.create(
-id: 478,
+
 username: "Fish",
 ipa: "213.231.153.95",
 total: 1269.066809,
@@ -32730,7 +32650,7 @@ created_at: "2018-07-04T12:22:20.594Z",
 updated_at: "2018-07-04T12:22:20.594Z"
 )
 Score.create(
-id: 479,
+
 username: "YellowMaster",
 ipa: "125.90.48.100",
 total: 1668.019552,
@@ -32811,7 +32731,7 @@ created_at: "2018-07-04T12:26:04.062Z",
 updated_at: "2018-07-04T12:26:04.062Z"
 )
 Score.create(
-id: 480,
+
 username: "128_Up",
 ipa: "86.171.207.11",
 total: 1415.403501,
@@ -32892,7 +32812,7 @@ created_at: "2018-07-04T13:55:58.097Z",
 updated_at: "2018-07-04T13:55:58.097Z"
 )
 Score.create(
-id: 481,
+
 username: "Ghost",
 ipa: "153.126.183.237",
 total: 951.483161,
@@ -32973,7 +32893,7 @@ created_at: "2018-07-04T14:45:23.198Z",
 updated_at: "2018-07-04T14:45:23.198Z"
 )
 Score.create(
-id: 742,
+
 username: "Happilous",
 ipa: "223.73.192.193",
 total: 718.091965,
@@ -33054,7 +32974,7 @@ created_at: "2018-07-28T16:01:06.196Z",
 updated_at: "2018-07-28T16:01:06.196Z"
 )
 Score.create(
-id: 485,
+
 username: "Murry04",
 ipa: "117.36.21.126",
 total: 818.392201,
@@ -33135,7 +33055,7 @@ created_at: "2018-07-04T17:39:27.206Z",
 updated_at: "2018-07-04T17:39:27.206Z"
 )
 Score.create(
-id: 763,
+
 username: "Patchouli",
 ipa: "114.222.227.35",
 total: 1095.125038,
@@ -33216,7 +33136,7 @@ created_at: "2018-07-31T07:24:54.944Z",
 updated_at: "2018-07-31T07:24:54.944Z"
 )
 Score.create(
-id: 483,
+
 username: "Welowas",
 ipa: "217.87.157.248",
 total: 1214.157051,
@@ -33297,7 +33217,7 @@ created_at: "2018-07-04T15:37:48.523Z",
 updated_at: "2018-07-04T15:37:48.523Z"
 )
 Score.create(
-id: 764,
+
 username: "jxws",
 ipa: "47.74.56.47",
 total: 883.652039,
@@ -33378,7 +33298,7 @@ created_at: "2018-07-31T10:03:38.750Z",
 updated_at: "2018-07-31T10:03:38.750Z"
 )
 Score.create(
-id: 486,
+
 username: "PlayerDash2017",
 ipa: "190.47.69.238",
 total: 680.272801,
@@ -33459,7 +33379,7 @@ created_at: "2018-07-04T22:25:30.138Z",
 updated_at: "2018-07-04T22:25:30.138Z"
 )
 Score.create(
-id: 487,
+
 username: "Yilis",
 ipa: "223.86.172.248",
 total: 724.957979,
@@ -33540,7 +33460,7 @@ created_at: "2018-07-05T02:30:11.495Z",
 updated_at: "2018-07-05T02:30:11.495Z"
 )
 Score.create(
-id: 489,
+
 username: "Wistok",
 ipa: "121.137.237.164",
 total: 1483.170058,
@@ -33621,7 +33541,7 @@ created_at: "2018-07-05T05:45:36.909Z",
 updated_at: "2018-07-05T05:45:36.909Z"
 )
 Score.create(
-id: 490,
+
 username: "Cosowl",
 ipa: "121.137.237.164",
 total: 1602.036461,
@@ -33702,7 +33622,7 @@ created_at: "2018-07-05T06:12:17.062Z",
 updated_at: "2018-07-05T06:12:17.062Z"
 )
 Score.create(
-id: 491,
+
 username: "Kiriuchuu",
 ipa: "113.250.219.58",
 total: 936.965656,
@@ -33783,7 +33703,7 @@ created_at: "2018-07-05T07:17:15.682Z",
 updated_at: "2018-07-05T07:17:15.682Z"
 )
 Score.create(
-id: 492,
+
 username: "Chance",
 ipa: "164.52.0.234",
 total: 1593.644231,
@@ -33864,7 +33784,7 @@ created_at: "2018-07-05T08:26:25.009Z",
 updated_at: "2018-07-05T08:26:25.009Z"
 )
 Score.create(
-id: 493,
+
 username: "Code",
 ipa: "120.236.177.123",
 total: 1018.195941,
@@ -33945,7 +33865,7 @@ created_at: "2018-07-05T09:05:01.230Z",
 updated_at: "2018-07-05T09:05:01.230Z"
 )
 Score.create(
-id: 494,
+
 username: "Code",
 ipa: "120.236.177.123",
 total: 1043.822233,
@@ -34026,7 +33946,7 @@ created_at: "2018-07-05T09:19:23.914Z",
 updated_at: "2018-07-05T09:19:23.914Z"
 )
 Score.create(
-id: 495,
+
 username: "Anonymous",
 ipa: "112.10.114.136",
 total: 744.343168,
@@ -34107,7 +34027,7 @@ created_at: "2018-07-05T11:02:46.531Z",
 updated_at: "2018-07-05T11:02:46.531Z"
 )
 Score.create(
-id: 496,
+
 username: "Yoshii198",
 ipa: "86.209.134.132",
 total: 1083.464748,
@@ -34188,7 +34108,7 @@ created_at: "2018-07-05T11:57:59.596Z",
 updated_at: "2018-07-05T11:57:59.596Z"
 )
 Score.create(
-id: 497,
+
 username: "TANAKA",
 ipa: "58.3.237.168",
 total: 862.158654,
@@ -34269,7 +34189,7 @@ created_at: "2018-07-05T12:04:33.782Z",
 updated_at: "2018-07-05T12:04:33.782Z"
 )
 Score.create(
-id: 498,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 1378.67001,
@@ -34350,7 +34270,7 @@ created_at: "2018-07-05T12:18:03.745Z",
 updated_at: "2018-07-05T12:18:03.745Z"
 )
 Score.create(
-id: 499,
+
 username: "Aiwana",
 ipa: "202.220.236.76",
 total: 1100.344352,
@@ -34431,7 +34351,7 @@ created_at: "2018-07-05T12:25:02.378Z",
 updated_at: "2018-07-05T12:25:02.378Z"
 )
 Score.create(
-id: 500,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 1432.920944,
@@ -34512,7 +34432,7 @@ created_at: "2018-07-05T12:37:37.647Z",
 updated_at: "2018-07-05T12:37:37.647Z"
 )
 Score.create(
-id: 501,
+
 username: "__c__",
 ipa: "106.156.249.61",
 total: 1137.426232,
@@ -34593,7 +34513,7 @@ created_at: "2018-07-05T12:58:31.472Z",
 updated_at: "2018-07-05T12:58:31.472Z"
 )
 Score.create(
-id: 502,
+
 username: "lifu",
 ipa: "223.74.59.117",
 total: 940.729567,
@@ -34674,7 +34594,7 @@ created_at: "2018-07-05T13:01:25.574Z",
 updated_at: "2018-07-05T13:01:25.574Z"
 )
 Score.create(
-id: 503,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1291.623965,
@@ -34755,7 +34675,7 @@ created_at: "2018-07-05T13:03:10.322Z",
 updated_at: "2018-07-05T13:03:10.322Z"
 )
 Score.create(
-id: 505,
+
 username: "lifu",
 ipa: "223.74.59.117",
 total: 1320.380168,
@@ -34836,7 +34756,7 @@ created_at: "2018-07-05T13:15:34.703Z",
 updated_at: "2018-07-05T13:15:34.703Z"
 )
 Score.create(
-id: 506,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1323.972049,
@@ -34917,7 +34837,7 @@ created_at: "2018-07-05T13:24:19.396Z",
 updated_at: "2018-07-05T13:24:19.396Z"
 )
 Score.create(
-id: 508,
+
 username: "ushio",
 ipa: "59.190.39.141",
 total: 1774.381784,
@@ -34998,7 +34918,7 @@ created_at: "2018-07-05T13:49:57.562Z",
 updated_at: "2018-07-05T13:49:57.562Z"
 )
 Score.create(
-id: 513,
+
 username: "sandbox",
 ipa: "85.226.64.20",
 total: 1169.684146,
@@ -35079,7 +34999,7 @@ created_at: "2018-07-05T14:08:31.284Z",
 updated_at: "2018-07-05T14:08:31.284Z"
 )
 Score.create(
-id: 516,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 1552.520878,
@@ -35160,7 +35080,7 @@ created_at: "2018-07-05T14:49:08.872Z",
 updated_at: "2018-07-05T14:49:08.872Z"
 )
 Score.create(
-id: 520,
+
 username: "Kendotlibero",
 ipa: "95.245.223.189",
 total: 375.272625,
@@ -35241,7 +35161,7 @@ created_at: "2018-07-05T15:19:01.216Z",
 updated_at: "2018-07-05T15:19:01.216Z"
 )
 Score.create(
-id: 522,
+
 username: "tree",
 ipa: "65.94.167.44",
 total: 523.778303,
@@ -35322,7 +35242,7 @@ created_at: "2018-07-05T16:01:39.117Z",
 updated_at: "2018-07-05T16:01:39.117Z"
 )
 Score.create(
-id: 765,
+
 username: "May",
 ipa: "59.59.186.16",
 total: 594.032351,
@@ -35403,7 +35323,7 @@ created_at: "2018-07-31T10:46:54.785Z",
 updated_at: "2018-07-31T10:46:54.785Z"
 )
 Score.create(
-id: 504,
+
 username: "GGMGGM",
 ipa: "221.238.245.48",
 total: 1366.133259,
@@ -35484,7 +35404,7 @@ created_at: "2018-07-05T13:12:19.927Z",
 updated_at: "2018-07-05T13:12:19.927Z"
 )
 Score.create(
-id: 507,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1353.367468,
@@ -35565,7 +35485,7 @@ created_at: "2018-07-05T13:47:13.385Z",
 updated_at: "2018-07-05T13:47:13.385Z"
 )
 Score.create(
-id: 509,
+
 username: "Welowas",
 ipa: "217.87.157.51",
 total: 1205.37448,
@@ -35646,7 +35566,7 @@ created_at: "2018-07-05T13:55:38.011Z",
 updated_at: "2018-07-05T13:55:38.011Z"
 )
 Score.create(
-id: 510,
+
 username: "ArthurTheGuy",
 ipa: "109.91.36.6",
 total: 1187.109042,
@@ -35727,7 +35647,7 @@ created_at: "2018-07-05T13:55:38.135Z",
 updated_at: "2018-07-05T13:55:38.135Z"
 )
 Score.create(
-id: 511,
+
 username: "axxl",
 ipa: "27.154.254.144",
 total: 1624.416326,
@@ -35808,7 +35728,7 @@ created_at: "2018-07-05T13:59:58.142Z",
 updated_at: "2018-07-05T13:59:58.142Z"
 )
 Score.create(
-id: 512,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1362.044935,
@@ -35889,7 +35809,7 @@ created_at: "2018-07-05T14:06:12.510Z",
 updated_at: "2018-07-05T14:06:12.510Z"
 )
 Score.create(
-id: 514,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1208.439531,
@@ -35970,7 +35890,7 @@ created_at: "2018-07-05T14:25:35.146Z",
 updated_at: "2018-07-05T14:25:35.146Z"
 )
 Score.create(
-id: 515,
+
 username: "Goran",
 ipa: "181.229.229.8",
 total: 1502.409563,
@@ -36051,7 +35971,7 @@ created_at: "2018-07-05T14:37:40.614Z",
 updated_at: "2018-07-05T14:37:40.614Z"
 )
 Score.create(
-id: 517,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 1496.24377,
@@ -36132,7 +36052,7 @@ created_at: "2018-07-05T15:01:47.512Z",
 updated_at: "2018-07-05T15:01:47.512Z"
 )
 Score.create(
-id: 518,
+
 username: "Anonymous",
 ipa: "27.38.247.159",
 total: 478.911953,
@@ -36213,7 +36133,7 @@ created_at: "2018-07-05T15:09:22.043Z",
 updated_at: "2018-07-05T15:09:22.043Z"
 )
 Score.create(
-id: 519,
+
 username: "sunbla",
 ipa: "95.91.239.4",
 total: 1360.616249,
@@ -36294,7 +36214,7 @@ created_at: "2018-07-05T15:11:43.676Z",
 updated_at: "2018-07-05T15:11:43.676Z"
 )
 Score.create(
-id: 521,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 2282.955141,
@@ -36375,7 +36295,7 @@ created_at: "2018-07-05T15:35:14.338Z",
 updated_at: "2018-07-05T15:35:14.338Z"
 )
 Score.create(
-id: 523,
+
 username: "sonicdv",
 ipa: "69.166.84.236",
 total: 617.570427,
@@ -36456,7 +36376,7 @@ created_at: "2018-07-05T16:05:49.752Z",
 updated_at: "2018-07-05T16:05:49.752Z"
 )
 Score.create(
-id: 524,
+
 username: "tree",
 ipa: "65.94.167.44",
 total: 753.453824,
@@ -36537,7 +36457,7 @@ created_at: "2018-07-05T17:01:42.982Z",
 updated_at: "2018-07-05T17:01:42.982Z"
 )
 Score.create(
-id: 525,
+
 username: "Anonymous",
 ipa: "94.25.181.90",
 total: 1054.282208,
@@ -36618,7 +36538,7 @@ created_at: "2018-07-05T18:38:42.423Z",
 updated_at: "2018-07-05T18:38:42.423Z"
 )
 Score.create(
-id: 526,
+
 username: "Schulzer",
 ipa: "91.14.159.71",
 total: 1335.69112,
@@ -36699,7 +36619,7 @@ created_at: "2018-07-05T20:08:08.941Z",
 updated_at: "2018-07-05T20:08:08.941Z"
 )
 Score.create(
-id: 527,
+
 username: "Syuuu",
 ipa: "91.159.42.16",
 total: 1577.19828,
@@ -36780,7 +36700,7 @@ created_at: "2018-07-05T21:06:14.424Z",
 updated_at: "2018-07-05T21:06:14.424Z"
 )
 Score.create(
-id: 528,
+
 username: "narutouzmacky",
 ipa: "74.197.245.237",
 total: 706.12619,
@@ -36861,7 +36781,7 @@ created_at: "2018-07-05T22:01:13.200Z",
 updated_at: "2018-07-05T22:01:13.200Z"
 )
 Score.create(
-id: 530,
+
 username: "Christopher",
 ipa: "80.41.112.129",
 total: 523.346779,
@@ -36942,7 +36862,7 @@ created_at: "2018-07-05T22:18:16.186Z",
 updated_at: "2018-07-05T22:18:16.186Z"
 )
 Score.create(
-id: 532,
+
 username: "sandbox",
 ipa: "85.226.64.20",
 total: 1158.47242,
@@ -37023,7 +36943,7 @@ created_at: "2018-07-05T22:45:52.566Z",
 updated_at: "2018-07-05T22:45:52.566Z"
 )
 Score.create(
-id: 535,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1728.807951,
@@ -37104,7 +37024,7 @@ created_at: "2018-07-06T00:44:08.900Z",
 updated_at: "2018-07-06T00:44:08.900Z"
 )
 Score.create(
-id: 536,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1843.959196,
@@ -37185,7 +37105,7 @@ created_at: "2018-07-06T01:10:38.374Z",
 updated_at: "2018-07-06T01:10:38.374Z"
 )
 Score.create(
-id: 539,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1375.867047,
@@ -37266,7 +37186,7 @@ created_at: "2018-07-06T01:54:20.265Z",
 updated_at: "2018-07-06T01:54:20.265Z"
 )
 Score.create(
-id: 541,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1834.214748,
@@ -37347,7 +37267,7 @@ created_at: "2018-07-06T02:13:36.806Z",
 updated_at: "2018-07-06T02:13:36.806Z"
 )
 Score.create(
-id: 766,
+
 username: "Oaildlo",
 ipa: "113.116.114.101",
 total: 1512.847321,
@@ -37428,7 +37348,7 @@ created_at: "2018-07-31T14:59:51.652Z",
 updated_at: "2018-07-31T14:59:51.652Z"
 )
 Score.create(
-id: 529,
+
 username: "Loffah",
 ipa: "85.167.30.62",
 total: 442.439918,
@@ -37509,7 +37429,7 @@ created_at: "2018-07-05T22:02:53.613Z",
 updated_at: "2018-07-05T22:02:53.613Z"
 )
 Score.create(
-id: 533,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1329.861336,
@@ -37590,7 +37510,7 @@ created_at: "2018-07-05T23:41:48.522Z",
 updated_at: "2018-07-05T23:41:48.522Z"
 )
 Score.create(
-id: 537,
+
 username: "Yoshii198",
 ipa: "86.209.134.132",
 total: 1398.457525,
@@ -37671,7 +37591,7 @@ created_at: "2018-07-06T01:15:05.719Z",
 updated_at: "2018-07-06T01:15:05.719Z"
 )
 Score.create(
-id: 538,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1224.350485,
@@ -37752,7 +37672,7 @@ created_at: "2018-07-06T01:40:09.918Z",
 updated_at: "2018-07-06T01:40:09.918Z"
 )
 Score.create(
-id: 545,
+
 username: "Gaborro",
 ipa: "187.189.90.144",
 total: 1742.332613,
@@ -37833,7 +37753,7 @@ created_at: "2018-07-06T03:32:53.525Z",
 updated_at: "2018-07-06T03:32:53.525Z"
 )
 Score.create(
-id: 767,
+
 username: "victor",
 ipa: "187.3.179.76",
 total: 845.386656,
@@ -37914,7 +37834,7 @@ created_at: "2018-07-31T16:21:02.607Z",
 updated_at: "2018-07-31T16:21:02.607Z"
 )
 Score.create(
-id: 531,
+
 username: "Loffah",
 ipa: "85.167.30.62",
 total: 567.535438,
@@ -37995,7 +37915,7 @@ created_at: "2018-07-05T22:27:10.731Z",
 updated_at: "2018-07-05T22:27:10.731Z"
 )
 Score.create(
-id: 534,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1756.278633,
@@ -38076,7 +37996,7 @@ created_at: "2018-07-05T23:56:50.041Z",
 updated_at: "2018-07-05T23:56:50.041Z"
 )
 Score.create(
-id: 540,
+
 username: "YoshikageKira",
 ipa: "27.83.218.4",
 total: 1409.435131,
@@ -38157,7 +38077,7 @@ created_at: "2018-07-06T02:13:00.740Z",
 updated_at: "2018-07-06T02:13:00.740Z"
 )
 Score.create(
-id: 542,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2146.420939,
@@ -38238,7 +38158,7 @@ created_at: "2018-07-06T02:28:07.369Z",
 updated_at: "2018-07-06T02:28:07.369Z"
 )
 Score.create(
-id: 543,
+
 username: "LiftedTech",
 ipa: "73.11.104.165",
 total: 2247.765073,
@@ -38319,7 +38239,7 @@ created_at: "2018-07-06T02:41:30.058Z",
 updated_at: "2018-07-06T02:41:30.058Z"
 )
 Score.create(
-id: 544,
+
 username: "Gaborro",
 ipa: "187.189.90.144",
 total: 1674.155495,
@@ -38400,7 +38320,7 @@ created_at: "2018-07-06T03:15:05.898Z",
 updated_at: "2018-07-06T03:15:05.898Z"
 )
 Score.create(
-id: 546,
+
 username: "TXJ123",
 ipa: "106.39.42.30",
 total: 1175.396465,
@@ -38481,7 +38401,7 @@ created_at: "2018-07-06T05:10:02.710Z",
 updated_at: "2018-07-06T05:10:02.710Z"
 )
 Score.create(
-id: 547,
+
 username: "Cosowl",
 ipa: "121.137.237.164",
 total: 1653.126179,
@@ -38562,7 +38482,7 @@ created_at: "2018-07-06T05:13:08.002Z",
 updated_at: "2018-07-06T05:13:08.002Z"
 )
 Score.create(
-id: 548,
+
 username: "wifie",
 ipa: "123.152.221.172",
 total: 1885.786451,
@@ -38643,7 +38563,7 @@ created_at: "2018-07-06T05:16:24.528Z",
 updated_at: "2018-07-06T05:16:24.528Z"
 )
 Score.create(
-id: 549,
+
 username: "Anonymous",
 ipa: "114.241.67.98",
 total: 896.167985,
@@ -38724,7 +38644,7 @@ created_at: "2018-07-06T05:28:28.563Z",
 updated_at: "2018-07-06T05:28:28.563Z"
 )
 Score.create(
-id: 550,
+
 username: "AOZZI",
 ipa: "106.89.160.58",
 total: 1550.165474,
@@ -38805,7 +38725,7 @@ created_at: "2018-07-06T05:33:52.569Z",
 updated_at: "2018-07-06T05:33:52.569Z"
 )
 Score.create(
-id: 551,
+
 username: "Cosowl",
 ipa: "121.137.237.164",
 total: 1762.022873,
@@ -38886,7 +38806,7 @@ created_at: "2018-07-06T05:46:49.891Z",
 updated_at: "2018-07-06T05:46:49.891Z"
 )
 Score.create(
-id: 552,
+
 username: "zzrcorperation",
 ipa: "120.234.10.130",
 total: 639.804335,
@@ -38967,7 +38887,7 @@ created_at: "2018-07-06T06:16:54.054Z",
 updated_at: "2018-07-06T06:16:54.054Z"
 )
 Score.create(
-id: 553,
+
 username: "toshi",
 ipa: "121.102.0.142",
 total: 813.140634,
@@ -39048,7 +38968,7 @@ created_at: "2018-07-06T06:18:44.110Z",
 updated_at: "2018-07-06T06:18:44.110Z"
 )
 Score.create(
-id: 554,
+
 username: "zzrcorperation",
 ipa: "120.234.10.130",
 total: 781.656369,
@@ -39129,7 +39049,7 @@ created_at: "2018-07-06T06:32:22.991Z",
 updated_at: "2018-07-06T06:32:22.991Z"
 )
 Score.create(
-id: 555,
+
 username: "toshi",
 ipa: "121.102.0.142",
 total: 1027.181347,
@@ -39210,7 +39130,7 @@ created_at: "2018-07-06T06:33:34.517Z",
 updated_at: "2018-07-06T06:33:34.517Z"
 )
 Score.create(
-id: 556,
+
 username: "Cosowl",
 ipa: "121.137.237.164",
 total: 1902.72427,
@@ -39291,7 +39211,7 @@ created_at: "2018-07-06T06:38:37.993Z",
 updated_at: "2018-07-06T06:38:37.993Z"
 )
 Score.create(
-id: 768,
+
 username: "Patchouli",
 ipa: "114.222.227.35",
 total: 1113.866337,
@@ -39372,7 +39292,7 @@ created_at: "2018-07-31T20:59:53.126Z",
 updated_at: "2018-07-31T20:59:53.126Z"
 )
 Score.create(
-id: 557,
+
 username: "zzrcorperation",
 ipa: "120.234.10.130",
 total: 889.117955,
@@ -39453,7 +39373,7 @@ created_at: "2018-07-06T06:47:20.951Z",
 updated_at: "2018-07-06T06:47:20.951Z"
 )
 Score.create(
-id: 558,
+
 username: "ekurea",
 ipa: "101.140.125.200",
 total: 1170.391954,
@@ -39534,7 +39454,7 @@ created_at: "2018-07-06T08:52:55.233Z",
 updated_at: "2018-07-06T08:52:55.233Z"
 )
 Score.create(
-id: 559,
+
 username: "Kiriuchuu",
 ipa: "113.250.222.228",
 total: 969.593448,
@@ -39615,7 +39535,7 @@ created_at: "2018-07-06T09:29:35.365Z",
 updated_at: "2018-07-06T09:29:35.365Z"
 )
 Score.create(
-id: 560,
+
 username: "Yoshii198",
 ipa: "86.209.134.132",
 total: 1684.311969,
@@ -39696,7 +39616,7 @@ created_at: "2018-07-06T10:05:05.677Z",
 updated_at: "2018-07-06T10:05:05.677Z"
 )
 Score.create(
-id: 561,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1653.228091,
@@ -39777,7 +39697,7 @@ created_at: "2018-07-06T10:19:40.905Z",
 updated_at: "2018-07-06T10:19:40.905Z"
 )
 Score.create(
-id: 562,
+
 username: "ainyante",
 ipa: "60.114.104.233",
 total: 632.580788,
@@ -39858,7 +39778,7 @@ created_at: "2018-07-06T10:27:16.753Z",
 updated_at: "2018-07-06T10:27:16.753Z"
 )
 Score.create(
-id: 563,
+
 username: "mintosan",
 ipa: "124.215.19.115",
 total: 1270.361197,
@@ -39939,7 +39859,7 @@ created_at: "2018-07-06T10:30:09.292Z",
 updated_at: "2018-07-06T10:30:09.292Z"
 )
 Score.create(
-id: 564,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1895.649581,
@@ -40020,7 +39940,7 @@ created_at: "2018-07-06T10:30:45.200Z",
 updated_at: "2018-07-06T10:30:45.200Z"
 )
 Score.create(
-id: 565,
+
 username: "ainyante",
 ipa: "60.114.104.233",
 total: 767.146393,
@@ -40101,7 +40021,7 @@ created_at: "2018-07-06T10:39:48.657Z",
 updated_at: "2018-07-06T10:39:48.657Z"
 )
 Score.create(
-id: 566,
+
 username: "BrDowns",
 ipa: "99.174.73.244",
 total: 1109.115616,
@@ -40182,7 +40102,7 @@ created_at: "2018-07-06T11:03:35.313Z",
 updated_at: "2018-07-06T11:03:35.313Z"
 )
 Score.create(
-id: 567,
+
 username: "Plane",
 ipa: "190.136.20.245",
 total: 686.814092,
@@ -40263,7 +40183,7 @@ created_at: "2018-07-06T11:32:52.461Z",
 updated_at: "2018-07-06T11:32:52.461Z"
 )
 Score.create(
-id: 568,
+
 username: "The_Kid",
 ipa: "31.28.211.73",
 total: 1140.299882,
@@ -40344,7 +40264,7 @@ created_at: "2018-07-06T11:34:16.235Z",
 updated_at: "2018-07-06T11:34:16.235Z"
 )
 Score.create(
-id: 569,
+
 username: "azure",
 ipa: "36.102.208.117",
 total: 781.705507,
@@ -40425,7 +40345,7 @@ created_at: "2018-07-06T11:53:53.750Z",
 updated_at: "2018-07-06T11:53:53.750Z"
 )
 Score.create(
-id: 570,
+
 username: "BENI",
 ipa: "126.141.213.240",
 total: 1298.343557,
@@ -40506,7 +40426,7 @@ created_at: "2018-07-06T12:24:58.048Z",
 updated_at: "2018-07-06T12:24:58.048Z"
 )
 Score.create(
-id: 571,
+
 username: "BrDowns",
 ipa: "99.174.73.244",
 total: 1357.770143,
@@ -40587,7 +40507,7 @@ created_at: "2018-07-06T12:48:42.972Z",
 updated_at: "2018-07-06T12:48:42.972Z"
 )
 Score.create(
-id: 572,
+
 username: "Chance",
 ipa: "45.32.253.96",
 total: 1697.528071,
@@ -40668,7 +40588,7 @@ created_at: "2018-07-06T14:46:33.801Z",
 updated_at: "2018-07-06T14:46:33.801Z"
 )
 Score.create(
-id: 573,
+
 username: "__c__",
 ipa: "106.156.249.61",
 total: 1582.264326,
@@ -40749,7 +40669,7 @@ created_at: "2018-07-06T14:55:44.973Z",
 updated_at: "2018-07-06T14:55:44.973Z"
 )
 Score.create(
-id: 575,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1916.672121,
@@ -40830,7 +40750,7 @@ created_at: "2018-07-06T15:10:42.179Z",
 updated_at: "2018-07-06T15:10:42.179Z"
 )
 Score.create(
-id: 579,
+
 username: "HighBPM",
 ipa: "37.21.180.32",
 total: 331.121773,
@@ -40911,7 +40831,7 @@ created_at: "2018-07-06T16:32:11.870Z",
 updated_at: "2018-07-06T16:32:11.870Z"
 )
 Score.create(
-id: 580,
+
 username: "Lettuce",
 ipa: "180.144.120.123",
 total: 805.063354,
@@ -40992,7 +40912,7 @@ created_at: "2018-07-06T16:43:32.365Z",
 updated_at: "2018-07-06T16:43:32.365Z"
 )
 Score.create(
-id: 582,
+
 username: "HeXeRMaN",
 ipa: "178.1.102.132",
 total: 1556.564893,
@@ -41073,7 +40993,7 @@ created_at: "2018-07-06T16:53:14.846Z",
 updated_at: "2018-07-06T16:53:14.846Z"
 )
 Score.create(
-id: 583,
+
 username: "Lettuce",
 ipa: "180.144.120.123",
 total: 961.414311,
@@ -41154,7 +41074,7 @@ created_at: "2018-07-06T16:59:25.972Z",
 updated_at: "2018-07-06T16:59:25.972Z"
 )
 Score.create(
-id: 584,
+
 username: "ArthurTheGuy",
 ipa: "109.91.35.201",
 total: 1471.988564,
@@ -41235,7 +41155,7 @@ created_at: "2018-07-06T17:23:17.973Z",
 updated_at: "2018-07-06T17:23:17.973Z"
 )
 Score.create(
-id: 769,
+
 username: "Reesesaholic",
 ipa: "71.126.153.93",
 total: 1139.903743,
@@ -41316,7 +41236,7 @@ created_at: "2018-07-31T23:57:58.721Z",
 updated_at: "2018-07-31T23:57:58.721Z"
 )
 Score.create(
-id: 574,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1927.073113,
@@ -41397,7 +41317,7 @@ created_at: "2018-07-06T14:57:30.429Z",
 updated_at: "2018-07-06T14:57:30.429Z"
 )
 Score.create(
-id: 576,
+
 username: "AsukaRabbit",
 ipa: "180.2.189.140",
 total: 1615.200106,
@@ -41478,7 +41398,7 @@ created_at: "2018-07-06T15:23:05.744Z",
 updated_at: "2018-07-06T15:23:05.744Z"
 )
 Score.create(
-id: 577,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1887.269227,
@@ -41559,7 +41479,7 @@ created_at: "2018-07-06T15:40:04.105Z",
 updated_at: "2018-07-06T15:40:04.105Z"
 )
 Score.create(
-id: 578,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1898.298433,
@@ -41640,7 +41560,7 @@ created_at: "2018-07-06T15:52:42.599Z",
 updated_at: "2018-07-06T15:52:42.599Z"
 )
 Score.create(
-id: 581,
+
 username: "HighBPM",
 ipa: "37.21.180.32",
 total: 492.221008,
@@ -41721,7 +41641,7 @@ created_at: "2018-07-06T16:46:15.590Z",
 updated_at: "2018-07-06T16:46:15.590Z"
 )
 Score.create(
-id: 585,
+
 username: "Inosu",
 ipa: "126.177.176.224",
 total: 1240.895346,
@@ -41802,7 +41722,7 @@ created_at: "2018-07-06T18:50:29.162Z",
 updated_at: "2018-07-06T18:50:29.162Z"
 )
 Score.create(
-id: 586,
+
 username: "Inosu",
 ipa: "126.177.176.224",
 total: 1416.871295,
@@ -41883,7 +41803,7 @@ created_at: "2018-07-06T19:05:53.967Z",
 updated_at: "2018-07-06T19:05:53.967Z"
 )
 Score.create(
-id: 587,
+
 username: "Skuldafn",
 ipa: "90.106.212.143",
 total: 1078.846294,
@@ -41964,7 +41884,7 @@ created_at: "2018-07-06T19:51:38.815Z",
 updated_at: "2018-07-06T19:51:38.815Z"
 )
 Score.create(
-id: 588,
+
 username: "UberBob",
 ipa: "107.77.173.1",
 total: 731.582972,
@@ -42045,7 +41965,7 @@ created_at: "2018-07-06T21:48:36.635Z",
 updated_at: "2018-07-06T21:48:36.635Z"
 )
 Score.create(
-id: 589,
+
 username: "Anonymous",
 ipa: "182.55.14.138",
 total: 665.986544,
@@ -42126,7 +42046,7 @@ created_at: "2018-07-06T22:27:46.114Z",
 updated_at: "2018-07-06T22:27:46.114Z"
 )
 Score.create(
-id: 590,
+
 username: "zheng",
 ipa: "1.60.72.82",
 total: 1318.602338,
@@ -42207,7 +42127,7 @@ created_at: "2018-07-07T00:28:52.123Z",
 updated_at: "2018-07-07T00:28:52.123Z"
 )
 Score.create(
-id: 591,
+
 username: "Unintelligent_",
 ipa: "223.93.26.234",
 total: 357.209745,
@@ -42288,7 +42208,7 @@ created_at: "2018-07-07T00:41:17.489Z",
 updated_at: "2018-07-07T00:41:17.489Z"
 )
 Score.create(
-id: 592,
+
 username: "Blue_Sky",
 ipa: "223.88.169.52",
 total: 310.866418,
@@ -42369,7 +42289,7 @@ created_at: "2018-07-07T01:07:48.139Z",
 updated_at: "2018-07-07T01:07:48.139Z"
 )
 Score.create(
-id: 593,
+
 username: "Blue_Sky",
 ipa: "223.88.169.52",
 total: 484.920865,
@@ -42450,7 +42370,7 @@ created_at: "2018-07-07T01:22:29.712Z",
 updated_at: "2018-07-07T01:22:29.712Z"
 )
 Score.create(
-id: 594,
+
 username: "UberBob",
 ipa: "107.77.173.1",
 total: 826.647639,
@@ -42531,7 +42451,7 @@ created_at: "2018-07-07T01:37:36.859Z",
 updated_at: "2018-07-07T01:37:36.859Z"
 )
 Score.create(
-id: 595,
+
 username: "UberBob",
 ipa: "107.77.173.1",
 total: 970.448044,
@@ -42612,7 +42532,7 @@ created_at: "2018-07-07T01:49:47.973Z",
 updated_at: "2018-07-07T01:49:47.973Z"
 )
 Score.create(
-id: 596,
+
 username: "Blue_Sky",
 ipa: "223.88.169.52",
 total: 460.622166,
@@ -42693,7 +42613,7 @@ created_at: "2018-07-07T03:01:39.880Z",
 updated_at: "2018-07-07T03:01:39.880Z"
 )
 Score.create(
-id: 597,
+
 username: "Unintelligent_",
 ipa: "223.93.26.234",
 total: 476.895267,
@@ -42774,7 +42694,7 @@ created_at: "2018-07-07T04:08:42.875Z",
 updated_at: "2018-07-07T04:08:42.875Z"
 )
 Score.create(
-id: 598,
+
 username: "Unintelligent_",
 ipa: "223.93.26.234",
 total: 1137.667838,
@@ -42855,7 +42775,7 @@ created_at: "2018-07-07T04:34:01.028Z",
 updated_at: "2018-07-07T04:34:01.028Z"
 )
 Score.create(
-id: 599,
+
 username: "toshi",
 ipa: "121.102.0.142",
 total: 1500.350879,
@@ -42936,7 +42856,7 @@ created_at: "2018-07-07T04:56:47.087Z",
 updated_at: "2018-07-07T04:56:47.087Z"
 )
 Score.create(
-id: 603,
+
 username: "ainyante",
 ipa: "60.114.104.233",
 total: 859.9494,
@@ -43017,7 +42937,7 @@ created_at: "2018-07-07T07:09:20.088Z",
 updated_at: "2018-07-07T07:09:20.088Z"
 )
 Score.create(
-id: 604,
+
 username: "ainyante",
 ipa: "60.114.104.233",
 total: 946.989536,
@@ -43098,7 +43018,7 @@ created_at: "2018-07-07T07:26:45.206Z",
 updated_at: "2018-07-07T07:26:45.206Z"
 )
 Score.create(
-id: 606,
+
 username: "ainyante",
 ipa: "60.114.104.233",
 total: 900.615612,
@@ -43179,7 +43099,7 @@ created_at: "2018-07-07T07:49:25.705Z",
 updated_at: "2018-07-07T07:49:25.705Z"
 )
 Score.create(
-id: 607,
+
 username: "tommi_iw",
 ipa: "88.112.30.5",
 total: 1267.252027,
@@ -43260,7 +43180,7 @@ created_at: "2018-07-07T07:54:52.161Z",
 updated_at: "2018-07-07T07:54:52.161Z"
 )
 Score.create(
-id: 609,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1788.476262,
@@ -43341,7 +43261,7 @@ created_at: "2018-07-07T08:17:54.462Z",
 updated_at: "2018-07-07T08:17:54.462Z"
 )
 Score.create(
-id: 611,
+
 username: "lmb",
 ipa: "219.74.238.194",
 total: 555.771149,
@@ -43422,7 +43342,7 @@ created_at: "2018-07-07T09:05:15.939Z",
 updated_at: "2018-07-07T09:05:15.939Z"
 )
 Score.create(
-id: 613,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1975.77268,
@@ -43503,7 +43423,7 @@ created_at: "2018-07-07T09:09:13.610Z",
 updated_at: "2018-07-07T09:09:13.610Z"
 )
 Score.create(
-id: 614,
+
 username: "lmb",
 ipa: "219.74.238.194",
 total: 751.117135,
@@ -43584,7 +43504,7 @@ created_at: "2018-07-07T09:18:31.841Z",
 updated_at: "2018-07-07T09:18:31.841Z"
 )
 Score.create(
-id: 617,
+
 username: "Anonymous",
 ipa: "222.2.32.215",
 total: 484.15785,
@@ -43665,7 +43585,7 @@ created_at: "2018-07-07T09:25:57.777Z",
 updated_at: "2018-07-07T09:25:57.777Z"
 )
 Score.create(
-id: 618,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1978.1255,
@@ -43746,7 +43666,7 @@ created_at: "2018-07-07T09:33:44.185Z",
 updated_at: "2018-07-07T09:33:44.185Z"
 )
 Score.create(
-id: 619,
+
 username: "lmb",
 ipa: "219.74.238.194",
 total: 960.493693,
@@ -43827,7 +43747,7 @@ created_at: "2018-07-07T09:46:15.090Z",
 updated_at: "2018-07-07T09:46:15.090Z"
 )
 Score.create(
-id: 621,
+
 username: "lmb",
 ipa: "219.74.238.194",
 total: 1020.434294,
@@ -43908,7 +43828,7 @@ created_at: "2018-07-07T10:14:21.495Z",
 updated_at: "2018-07-07T10:14:21.495Z"
 )
 Score.create(
-id: 600,
+
 username: "AOZZI",
 ipa: "106.89.160.58",
 total: 1624.062715,
@@ -43989,7 +43909,7 @@ created_at: "2018-07-07T05:27:02.001Z",
 updated_at: "2018-07-07T05:27:02.001Z"
 )
 Score.create(
-id: 601,
+
 username: "341231",
 ipa: "221.209.42.88",
 total: 519.536064,
@@ -44070,7 +43990,7 @@ created_at: "2018-07-07T05:48:47.990Z",
 updated_at: "2018-07-07T05:48:47.990Z"
 )
 Score.create(
-id: 602,
+
 username: "ainyante",
 ipa: "60.114.104.233",
 total: 774.846874,
@@ -44151,7 +44071,7 @@ created_at: "2018-07-07T06:57:32.967Z",
 updated_at: "2018-07-07T06:57:32.967Z"
 )
 Score.create(
-id: 605,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1821.545413,
@@ -44232,7 +44152,7 @@ created_at: "2018-07-07T07:48:21.266Z",
 updated_at: "2018-07-07T07:48:21.266Z"
 )
 Score.create(
-id: 608,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1914.647969,
@@ -44313,7 +44233,7 @@ created_at: "2018-07-07T08:05:41.180Z",
 updated_at: "2018-07-07T08:05:41.180Z"
 )
 Score.create(
-id: 610,
+
 username: "lyzqs",
 ipa: "218.64.211.168",
 total: 1018.592847,
@@ -44394,7 +44314,7 @@ created_at: "2018-07-07T08:57:59.761Z",
 updated_at: "2018-07-07T08:57:59.761Z"
 )
 Score.create(
-id: 612,
+
 username: "Anonymous",
 ipa: "114.69.97.30",
 total: 1306.830695,
@@ -44475,7 +44395,7 @@ created_at: "2018-07-07T09:06:25.441Z",
 updated_at: "2018-07-07T09:06:25.441Z"
 )
 Score.create(
-id: 615,
+
 username: "Rumaine",
 ipa: "126.140.224.203",
 total: 1995.679825,
@@ -44556,7 +44476,7 @@ created_at: "2018-07-07T09:20:54.803Z",
 updated_at: "2018-07-07T09:20:54.803Z"
 )
 Score.create(
-id: 616,
+
 username: "a17devil",
 ipa: "111.194.46.51",
 total: 2455.640827,
@@ -44637,7 +44557,7 @@ created_at: "2018-07-07T09:24:24.023Z",
 updated_at: "2018-07-07T09:24:24.023Z"
 )
 Score.create(
-id: 620,
+
 username: "lmb",
 ipa: "219.74.238.194",
 total: 906.986485,
@@ -44718,7 +44638,7 @@ created_at: "2018-07-07T10:01:04.450Z",
 updated_at: "2018-07-07T10:01:04.450Z"
 )
 Score.create(
-id: 622,
+
 username: "AOZZI",
 ipa: "106.89.164.248",
 total: 1766.867151,
@@ -44799,7 +44719,7 @@ created_at: "2018-07-07T11:33:56.474Z",
 updated_at: "2018-07-07T11:33:56.474Z"
 )
 Score.create(
-id: 623,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1500.890432,
@@ -44880,7 +44800,7 @@ created_at: "2018-07-07T13:14:59.357Z",
 updated_at: "2018-07-07T13:14:59.357Z"
 )
 Score.create(
-id: 624,
+
 username: "lnko",
 ipa: "176.63.222.210",
 total: 2034.809225,
@@ -44961,7 +44881,7 @@ created_at: "2018-07-07T13:27:27.769Z",
 updated_at: "2018-07-07T13:27:27.769Z"
 )
 Score.create(
-id: 625,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1391.605007,
@@ -45042,7 +44962,7 @@ created_at: "2018-07-07T13:31:38.186Z",
 updated_at: "2018-07-07T13:31:38.186Z"
 )
 Score.create(
-id: 626,
+
 username: "__c__",
 ipa: "106.156.249.61",
 total: 1625.370466,
@@ -45123,7 +45043,7 @@ created_at: "2018-07-07T13:34:14.130Z",
 updated_at: "2018-07-07T13:34:14.130Z"
 )
 Score.create(
-id: 627,
+
 username: "Rikuzyo",
 ipa: "221.52.178.179",
 total: 1306.253164,
@@ -45204,7 +45124,7 @@ created_at: "2018-07-07T13:51:34.423Z",
 updated_at: "2018-07-07T13:51:34.423Z"
 )
 Score.create(
-id: 628,
+
 username: "Only",
 ipa: "153.217.52.234",
 total: 1632.032327,
@@ -45285,7 +45205,7 @@ created_at: "2018-07-07T13:52:02.980Z",
 updated_at: "2018-07-07T13:52:02.980Z"
 )
 Score.create(
-id: 629,
+
 username: "Anonymous",
 ipa: "123.245.22.54",
 total: 376.541918,
@@ -45366,7 +45286,7 @@ created_at: "2018-07-07T15:15:52.066Z",
 updated_at: "2018-07-07T15:15:52.066Z"
 )
 Score.create(
-id: 630,
+
 username: "gyogyo",
 ipa: "126.217.92.149",
 total: 736.9374,
@@ -45447,7 +45367,7 @@ created_at: "2018-07-07T15:24:02.930Z",
 updated_at: "2018-07-07T15:24:02.930Z"
 )
 Score.create(
-id: 631,
+
 username: "Smetak",
 ipa: "193.165.130.254",
 total: 163.381638,
@@ -45528,7 +45448,7 @@ created_at: "2018-07-07T20:11:27.250Z",
 updated_at: "2018-07-07T20:11:27.250Z"
 )
 Score.create(
-id: 632,
+
 username: "Reesesaholic",
 ipa: "71.126.153.93",
 total: 1097.864266,
@@ -45609,7 +45529,7 @@ created_at: "2018-07-07T20:46:48.667Z",
 updated_at: "2018-07-07T20:46:48.667Z"
 )
 Score.create(
-id: 633,
+
 username: "Sage",
 ipa: "69.89.101.185",
 total: 959.476831,
@@ -45690,7 +45610,7 @@ created_at: "2018-07-08T00:28:57.857Z",
 updated_at: "2018-07-08T00:28:57.857Z"
 )
 Score.create(
-id: 634,
+
 username: "Reesesaholic",
 ipa: "71.126.153.93",
 total: 1139.178368,
@@ -45771,7 +45691,7 @@ created_at: "2018-07-08T01:03:14.129Z",
 updated_at: "2018-07-08T01:03:14.129Z"
 )
 Score.create(
-id: 635,
+
 username: "Reesesaholic",
 ipa: "71.126.153.93",
 total: 1293.580106,
@@ -45852,7 +45772,7 @@ created_at: "2018-07-08T01:14:08.659Z",
 updated_at: "2018-07-08T01:14:08.659Z"
 )
 Score.create(
-id: 636,
+
 username: "Anonymous",
 ipa: "211.87.217.139",
 total: 644.153542,
@@ -45933,7 +45853,7 @@ created_at: "2018-07-08T02:53:29.353Z",
 updated_at: "2018-07-08T02:53:29.353Z"
 )
 Score.create(
-id: 637,
+
 username: "harubou2004",
 ipa: "153.192.135.106",
 total: 500.044248,
@@ -46014,7 +45934,7 @@ created_at: "2018-07-08T04:03:20.859Z",
 updated_at: "2018-07-08T04:03:20.859Z"
 )
 Score.create(
-id: 638,
+
 username: "Anonymous",
 ipa: "211.87.217.139",
 total: 767.677092,
@@ -46095,7 +46015,7 @@ created_at: "2018-07-08T07:12:20.789Z",
 updated_at: "2018-07-08T07:12:20.789Z"
 )
 Score.create(
-id: 639,
+
 username: "Anonymous",
 ipa: "219.164.40.73",
 total: 1171.190912,
@@ -46176,7 +46096,7 @@ created_at: "2018-07-08T07:37:33.366Z",
 updated_at: "2018-07-08T07:37:33.366Z"
 )
 Score.create(
-id: 640,
+
 username: "ironball",
 ipa: "219.164.40.73",
 total: 1385.356482,
@@ -46257,7 +46177,7 @@ created_at: "2018-07-08T08:03:33.487Z",
 updated_at: "2018-07-08T08:03:33.487Z"
 )
 Score.create(
-id: 641,
+
 username: "Anonymous",
 ipa: "174.68.75.228",
 total: 872.007563,
@@ -46338,7 +46258,7 @@ created_at: "2018-07-08T08:06:20.683Z",
 updated_at: "2018-07-08T08:06:20.683Z"
 )
 Score.create(
-id: 642,
+
 username: "Kepipi",
 ipa: "39.110.121.190",
 total: 1077.437712,
@@ -46419,7 +46339,7 @@ created_at: "2018-07-08T08:13:08.287Z",
 updated_at: "2018-07-08T08:13:08.287Z"
 )
 Score.create(
-id: 643,
+
 username: "TANAKA",
 ipa: "58.3.237.168",
 total: 1012.998074,
@@ -46500,7 +46420,7 @@ created_at: "2018-07-08T08:18:14.336Z",
 updated_at: "2018-07-08T08:18:14.336Z"
 )
 Score.create(
-id: 644,
+
 username: "Kepipi",
 ipa: "39.110.121.190",
 total: 1175.1319,
@@ -46581,7 +46501,7 @@ created_at: "2018-07-08T08:26:57.924Z",
 updated_at: "2018-07-08T08:26:57.924Z"
 )
 Score.create(
-id: 646,
+
 username: "Kepipi",
 ipa: "39.110.121.190",
 total: 1253.78873,
@@ -46662,7 +46582,7 @@ created_at: "2018-07-08T08:46:24.733Z",
 updated_at: "2018-07-08T08:46:24.733Z"
 )
 Score.create(
-id: 647,
+
 username: "SSS",
 ipa: "150.249.149.67",
 total: 1080.053031,
@@ -46743,7 +46663,7 @@ created_at: "2018-07-08T08:47:59.288Z",
 updated_at: "2018-07-08T08:47:59.288Z"
 )
 Score.create(
-id: 770,
+
 username: "jxws",
 ipa: "",
 total: 951.384438,
@@ -46824,7 +46744,7 @@ created_at: "2018-08-01T03:08:44.815Z",
 updated_at: "2018-08-01T03:08:44.815Z"
 )
 Score.create(
-id: 645,
+
 username: "TANAKA",
 ipa: "58.3.237.168",
 total: 1146.602906,
@@ -46905,7 +46825,7 @@ created_at: "2018-07-08T08:32:04.441Z",
 updated_at: "2018-07-08T08:32:04.441Z"
 )
 Score.create(
-id: 648,
+
 username: "jimmy0824",
 ipa: "218.161.6.27",
 total: 76.015695,
@@ -46986,7 +46906,7 @@ created_at: "2018-07-08T09:08:36.898Z",
 updated_at: "2018-07-08T09:08:36.898Z"
 )
 Score.create(
-id: 649,
+
 username: "Kepipi",
 ipa: "39.110.121.190",
 total: 1549.697753,
@@ -47067,7 +46987,7 @@ created_at: "2018-07-08T10:30:48.402Z",
 updated_at: "2018-07-08T10:30:48.402Z"
 )
 Score.create(
-id: 650,
+
 username: "Kepipi",
 ipa: "39.110.121.190",
 total: 1753.210967,
@@ -47148,7 +47068,7 @@ created_at: "2018-07-08T10:46:17.952Z",
 updated_at: "2018-07-08T10:46:17.952Z"
 )
 Score.create(
-id: 651,
+
 username: "Anonymous",
 ipa: "178.71.88.91",
 total: 318.43986,
@@ -47229,7 +47149,7 @@ created_at: "2018-07-08T11:24:42.896Z",
 updated_at: "2018-07-08T11:24:42.896Z"
 )
 Score.create(
-id: 652,
+
 username: "Kyuujyobukuro",
 ipa: "126.169.121.248",
 total: 1564.070046,
@@ -47310,7 +47230,7 @@ created_at: "2018-07-08T12:34:14.592Z",
 updated_at: "2018-07-08T12:34:14.592Z"
 )
 Score.create(
-id: 653,
+
 username: "ushio",
 ipa: "59.190.39.141",
 total: 1916.241959,
@@ -47391,7 +47311,7 @@ created_at: "2018-07-08T12:37:13.880Z",
 updated_at: "2018-07-08T12:37:13.880Z"
 )
 Score.create(
-id: 654,
+
 username: "Sugar",
 ipa: "126.153.14.41",
 total: 1679.376639,
@@ -47472,7 +47392,7 @@ created_at: "2018-07-08T12:47:41.330Z",
 updated_at: "2018-07-08T12:47:41.330Z"
 )
 Score.create(
-id: 655,
+
 username: "letcreate123",
 ipa: "201.188.212.126",
 total: 1494.193312,
@@ -47553,7 +47473,7 @@ created_at: "2018-07-08T16:34:02.028Z",
 updated_at: "2018-07-08T16:34:02.028Z"
 )
 Score.create(
-id: 656,
+
 username: "lmb",
 ipa: "42.61.71.4",
 total: 814.54405,
@@ -47634,7 +47554,7 @@ created_at: "2018-07-08T16:54:17.764Z",
 updated_at: "2018-07-08T16:54:17.764Z"
 )
 Score.create(
-id: 657,
+
 username: "lmb",
 ipa: "42.61.71.4",
 total: 980.090768,
@@ -47715,7 +47635,7 @@ created_at: "2018-07-08T17:11:23.918Z",
 updated_at: "2018-07-08T17:11:23.918Z"
 )
 Score.create(
-id: 658,
+
 username: "lmb",
 ipa: "42.61.71.4",
 total: 896.281416,
@@ -47796,7 +47716,7 @@ created_at: "2018-07-08T17:25:14.080Z",
 updated_at: "2018-07-08T17:25:14.080Z"
 )
 Score.create(
-id: 659,
+
 username: "UberBob",
 ipa: "107.77.173.10",
 total: 1012.106991,
@@ -47877,7 +47797,7 @@ created_at: "2018-07-08T19:37:03.502Z",
 updated_at: "2018-07-08T19:37:03.502Z"
 )
 Score.create(
-id: 353,
+
 username: "konb",
 ipa: "76.93.129.233",
 total: 325.647342,
@@ -47958,7 +47878,7 @@ created_at: "2018-07-03T08:44:34.604Z",
 updated_at: "2018-07-08T21:19:21.559Z"
 )
 Score.create(
-id: 360,
+
 username: "Sugar",
 ipa: "126.153.14.41",
 total: 1537.403432,
@@ -48039,7 +47959,7 @@ created_at: "2018-07-03T09:59:35.745Z",
 updated_at: "2018-07-08T21:24:20.964Z"
 )
 Score.create(
-id: 660,
+
 username: "misa",
 ipa: "71.255.106.150",
 total: 1081.726202,
@@ -48120,7 +48040,7 @@ created_at: "2018-07-08T23:34:25.441Z",
 updated_at: "2018-07-08T23:34:25.441Z"
 )
 Score.create(
-id: 661,
+
 username: "letcreate123",
 ipa: "201.188.212.126",
 total: 1466.416188,
@@ -48201,7 +48121,7 @@ created_at: "2018-07-09T00:50:15.313Z",
 updated_at: "2018-07-09T00:50:15.313Z"
 )
 Score.create(
-id: 662,
+
 username: "Anonymous",
 ipa: "112.11.36.153",
 total: 501.891806,
@@ -48282,7 +48202,7 @@ created_at: "2018-07-09T05:40:46.300Z",
 updated_at: "2018-07-09T05:40:46.300Z"
 )
 Score.create(
-id: 663,
+
 username: "Lonetree",
 ipa: "104.173.11.100",
 total: 933.574754,
@@ -48363,7 +48283,7 @@ created_at: "2018-07-09T07:14:06.768Z",
 updated_at: "2018-07-09T07:14:06.768Z"
 )
 Score.create(
-id: 664,
+
 username: "Qsnow",
 ipa: "36.102.223.123",
 total: 785.694928,
@@ -48444,7 +48364,7 @@ created_at: "2018-07-09T07:58:44.227Z",
 updated_at: "2018-07-09T07:58:44.227Z"
 )
 Score.create(
-id: 665,
+
 username: "hanbao",
 ipa: "60.191.112.38",
 total: 1072.867297,
@@ -48525,7 +48445,7 @@ created_at: "2018-07-09T08:13:13.185Z",
 updated_at: "2018-07-09T08:13:13.185Z"
 )
 Score.create(
-id: 666,
+
 username: "Anonymous",
 ipa: "115.177.231.174",
 total: 1236.292443,
@@ -48606,7 +48526,7 @@ created_at: "2018-07-09T09:15:57.303Z",
 updated_at: "2018-07-09T09:15:57.303Z"
 )
 Score.create(
-id: 667,
+
 username: "axxl",
 ipa: "117.28.105.139",
 total: 1514.776006,
@@ -48687,7 +48607,7 @@ created_at: "2018-07-09T13:08:57.447Z",
 updated_at: "2018-07-09T13:08:57.447Z"
 )
 Score.create(
-id: 668,
+
 username: "tinkopiza",
 ipa: "60.95.215.119",
 total: 1223.724388,
@@ -48768,7 +48688,7 @@ created_at: "2018-07-09T13:23:14.902Z",
 updated_at: "2018-07-09T13:23:14.902Z"
 )
 Score.create(
-id: 669,
+
 username: "lmb",
 ipa: "42.61.71.4",
 total: 970.955684,
@@ -48849,7 +48769,7 @@ created_at: "2018-07-09T13:23:15.046Z",
 updated_at: "2018-07-09T13:23:15.046Z"
 )
 Score.create(
-id: 670,
+
 username: "lmb",
 ipa: "42.61.71.4",
 total: 1105.784947,
@@ -48930,7 +48850,7 @@ created_at: "2018-07-09T13:36:28.344Z",
 updated_at: "2018-07-09T13:36:28.344Z"
 )
 Score.create(
-id: 671,
+
 username: "Teadust",
 ipa: "72.183.165.130",
 total: 1320.192464,
@@ -49011,7 +48931,7 @@ created_at: "2018-07-09T21:23:31.955Z",
 updated_at: "2018-07-09T21:23:31.955Z"
 )
 Score.create(
-id: 1,
+
 username: "Anonymous",
 ipa: "71.58.243.163",
 total: 836.260729,
@@ -49092,7 +49012,7 @@ created_at: "2018-06-11T04:10:26.224Z",
 updated_at: "2018-07-09T21:55:33.790Z"
 )
 Score.create(
-id: 206,
+
 username: "Anonymous",
 ipa: "101.93.106.191",
 total: 1199.907489,
@@ -49173,7 +49093,7 @@ created_at: "2018-07-02T13:08:38.046Z",
 updated_at: "2018-07-09T22:03:00.778Z"
 )
 Score.create(
-id: 672,
+
 username: "lmb",
 ipa: "42.61.71.4",
 total: 1015.297759,
@@ -49254,7 +49174,7 @@ created_at: "2018-07-10T09:07:19.452Z",
 updated_at: "2018-07-10T09:07:19.452Z"
 )
 Score.create(
-id: 673,
+
 username: "lmb",
 ipa: "42.61.71.4",
 total: 1166.29966,
@@ -49335,7 +49255,7 @@ created_at: "2018-07-10T09:26:35.314Z",
 updated_at: "2018-07-10T09:26:35.314Z"
 )
 Score.create(
-id: 674,
+
 username: "Shatterdpixel",
 ipa: "24.20.225.235",
 total: 230.194132,
@@ -49416,7 +49336,7 @@ created_at: "2018-07-10T17:24:00.924Z",
 updated_at: "2018-07-10T17:24:00.924Z"
 )
 Score.create(
-id: 675,
+
 username: "105hbh",
 ipa: "121.31.77.244",
 total: 185.937333,
@@ -49497,7 +49417,7 @@ created_at: "2018-07-10T17:26:41.225Z",
 updated_at: "2018-07-10T17:26:41.225Z"
 )
 Score.create(
-id: 677,
+
 username: "Shatterdpixel",
 ipa: "24.20.225.235",
 total: 264.374036,
@@ -49578,7 +49498,7 @@ created_at: "2018-07-10T18:02:47.406Z",
 updated_at: "2018-07-10T18:02:47.406Z"
 )
 Score.create(
-id: 771,
+
 username: "okina03",
 ipa: "114.92.174.14",
 total: 1033.408145,
@@ -49659,7 +49579,7 @@ created_at: "2018-08-01T04:42:35.457Z",
 updated_at: "2018-08-01T04:42:35.457Z"
 )
 Score.create(
-id: 676,
+
 username: "Shatterdpixel",
 ipa: "24.20.225.235",
 total: 307.940105,
@@ -49740,7 +49660,7 @@ created_at: "2018-07-10T17:44:05.634Z",
 updated_at: "2018-07-10T17:44:05.634Z"
 )
 Score.create(
-id: 678,
+
 username: "Chance",
 ipa: "221.178.182.166",
 total: 1724.030344,
@@ -49821,7 +49741,7 @@ created_at: "2018-07-11T12:18:25.453Z",
 updated_at: "2018-07-11T12:18:25.453Z"
 )
 Score.create(
-id: 679,
+
 username: "112233",
 ipa: "122.140.195.232",
 total: 766.363697,
@@ -49902,7 +49822,7 @@ created_at: "2018-07-11T12:31:19.837Z",
 updated_at: "2018-07-11T12:31:19.837Z"
 )
 Score.create(
-id: 680,
+
 username: "Beastzzzz",
 ipa: "113.77.132.233",
 total: 1222.533708,
@@ -49983,7 +49903,7 @@ created_at: "2018-07-12T05:14:53.972Z",
 updated_at: "2018-07-12T05:14:53.972Z"
 )
 Score.create(
-id: 681,
+
 username: "Icea",
 ipa: "110.177.198.31",
 total: 611.978523,
@@ -50064,7 +49984,7 @@ created_at: "2018-07-12T07:47:25.836Z",
 updated_at: "2018-07-12T07:47:25.836Z"
 )
 Score.create(
-id: 682,
+
 username: "P2shka",
 ipa: "37.1.50.96",
 total: 1660.877336,
@@ -50145,7 +50065,7 @@ created_at: "2018-07-12T17:16:26.190Z",
 updated_at: "2018-07-12T17:16:26.190Z"
 )
 Score.create(
-id: 683,
+
 username: "Plane",
 ipa: "190.136.20.245",
 total: 788.979053,
@@ -50226,7 +50146,7 @@ created_at: "2018-07-12T18:13:07.540Z",
 updated_at: "2018-07-12T18:13:07.540Z"
 )
 Score.create(
-id: 684,
+
 username: "BuGMentaL",
 ipa: "181.177.62.253",
 total: 191.025388,
@@ -50307,7 +50227,7 @@ created_at: "2018-07-14T02:32:26.812Z",
 updated_at: "2018-07-14T02:32:26.812Z"
 )
 Score.create(
-id: 685,
+
 username: "hbxk",
 ipa: "60.191.112.38",
 total: 773.965836,
@@ -50388,7 +50308,7 @@ created_at: "2018-07-14T05:17:01.081Z",
 updated_at: "2018-07-14T05:17:01.081Z"
 )
 Score.create(
-id: 686,
+
 username: "hbxk",
 ipa: "60.191.112.38",
 total: 901.78001,
@@ -50469,7 +50389,7 @@ created_at: "2018-07-14T05:32:50.069Z",
 updated_at: "2018-07-14T05:32:50.069Z"
 )
 Score.create(
-id: 687,
+
 username: "hbxk",
 ipa: "60.191.112.38",
 total: 873.703823,
@@ -50550,7 +50470,7 @@ created_at: "2018-07-14T13:44:03.567Z",
 updated_at: "2018-07-14T13:44:03.567Z"
 )
 Score.create(
-id: 688,
+
 username: "Rumaine",
 ipa: "126.2.145.229",
 total: 1808.736139,
@@ -50631,7 +50551,7 @@ created_at: "2018-07-15T08:34:58.145Z",
 updated_at: "2018-07-15T08:34:58.145Z"
 )
 Score.create(
-id: 689,
+
 username: "Strom12",
 ipa: "111.20.226.6",
 total: 1064.124527,
@@ -50712,7 +50632,7 @@ created_at: "2018-07-15T12:57:21.047Z",
 updated_at: "2018-07-15T12:57:21.047Z"
 )
 Score.create(
-id: 690,
+
 username: "Lyndis",
 ipa: "112.40.108.67",
 total: 749.652144,
@@ -50793,7 +50713,7 @@ created_at: "2018-07-16T03:39:24.211Z",
 updated_at: "2018-07-16T03:39:24.211Z"
 )
 Score.create(
-id: 691,
+
 username: "Ivan",
 ipa: "111.63.11.16",
 total: 640.075358,
@@ -50874,7 +50794,7 @@ created_at: "2018-07-16T07:05:17.888Z",
 updated_at: "2018-07-16T07:05:17.888Z"
 )
 Score.create(
-id: 692,
+
 username: "wifie",
 ipa: "123.152.220.245",
 total: 2015.557384,
@@ -50955,7 +50875,7 @@ created_at: "2018-07-16T10:01:29.715Z",
 updated_at: "2018-07-16T10:01:29.715Z"
 )
 Score.create(
-id: 693,
+
 username: "Oaildlo",
 ipa: "113.116.114.85",
 total: 1256.138657,
@@ -51036,7 +50956,7 @@ created_at: "2018-07-16T15:12:59.719Z",
 updated_at: "2018-07-16T15:12:59.719Z"
 )
 Score.create(
-id: 695,
+
 username: "Ivan",
 ipa: "111.63.11.16",
 total: 717.317133,
@@ -51117,7 +51037,7 @@ created_at: "2018-07-17T01:50:14.322Z",
 updated_at: "2018-07-17T01:50:14.322Z"
 )
 Score.create(
-id: 696,
+
 username: "Oaildlo",
 ipa: "183.11.203.142",
 total: 1275.578587,
@@ -51198,7 +51118,7 @@ created_at: "2018-07-17T04:11:11.566Z",
 updated_at: "2018-07-17T04:11:11.566Z"
 )
 Score.create(
-id: 697,
+
 username: "HR",
 ipa: "117.171.165.28",
 total: 566.549855,
@@ -51279,7 +51199,7 @@ created_at: "2018-07-17T05:17:50.102Z",
 updated_at: "2018-07-17T05:17:50.102Z"
 )
 Score.create(
-id: 698,
+
 username: "Anonymous",
 ipa: "217.173.189.98",
 total: 1039.160438,
@@ -51360,7 +51280,7 @@ created_at: "2018-07-17T14:57:28.117Z",
 updated_at: "2018-07-17T14:57:28.117Z"
 )
 Score.create(
-id: 699,
+
 username: "Anonymous",
 ipa: "106.6.119.163",
 total: 124.404172,
@@ -51441,7 +51361,7 @@ created_at: "2018-07-18T02:57:39.813Z",
 updated_at: "2018-07-18T02:57:39.813Z"
 )
 Score.create(
-id: 700,
+
 username: "Yilis",
 ipa: "117.177.75.65",
 total: 851.942703,
@@ -51522,7 +51442,7 @@ created_at: "2018-07-18T04:23:09.336Z",
 updated_at: "2018-07-18T04:23:09.336Z"
 )
 Score.create(
-id: 701,
+
 username: "JXY",
 ipa: "182.141.196.204",
 total: 865.206014,
@@ -51603,7 +51523,7 @@ created_at: "2018-07-18T08:45:41.299Z",
 updated_at: "2018-07-18T08:45:41.299Z"
 )
 Score.create(
-id: 702,
+
 username: "Lyndis",
 ipa: "112.40.108.191",
 total: 376.250928,
@@ -51684,7 +51604,7 @@ created_at: "2018-07-18T12:06:28.056Z",
 updated_at: "2018-07-18T12:06:28.056Z"
 )
 Score.create(
-id: 703,
+
 username: "Icea",
 ipa: "110.177.198.31",
 total: 552.790966,
@@ -51765,7 +51685,7 @@ created_at: "2018-07-20T15:50:41.979Z",
 updated_at: "2018-07-20T15:50:41.979Z"
 )
 Score.create(
-id: 704,
+
 username: "luk",
 ipa: "181.167.226.104",
 total: 836.512581,
@@ -51846,7 +51766,7 @@ created_at: "2018-07-20T23:05:19.320Z",
 updated_at: "2018-07-20T23:05:19.320Z"
 )
 Score.create(
-id: 705,
+
 username: "Oaildlo",
 ipa: "116.25.97.120",
 total: 1482.226779,
@@ -51927,7 +51847,7 @@ created_at: "2018-07-21T03:56:59.536Z",
 updated_at: "2018-07-21T03:56:59.536Z"
 )
 Score.create(
-id: 706,
+
 username: "Flames",
 ipa: "125.37.29.135",
 total: 1567.006662,
@@ -52008,7 +51928,7 @@ created_at: "2018-07-21T04:10:37.783Z",
 updated_at: "2018-07-21T04:10:37.783Z"
 )
 Score.create(
-id: 707,
+
 username: "Skaydox",
 ipa: "181.192.40.97",
 total: 883.620475,
@@ -52089,7 +52009,7 @@ created_at: "2018-07-21T04:45:28.681Z",
 updated_at: "2018-07-21T04:45:28.681Z"
 )
 Score.create(
-id: 708,
+
 username: "Scorpio",
 ipa: "36.42.28.230",
 total: 809.501176,
@@ -52170,7 +52090,7 @@ created_at: "2018-07-21T05:22:33.560Z",
 updated_at: "2018-07-21T05:22:33.560Z"
 )
 Score.create(
-id: 709,
+
 username: "Scorpio",
 ipa: "36.42.28.230",
 total: 887.026849,
@@ -52251,7 +52171,7 @@ created_at: "2018-07-21T05:35:17.920Z",
 updated_at: "2018-07-21T05:35:17.920Z"
 )
 Score.create(
-id: 710,
+
 username: "SGGK",
 ipa: "180.107.223.172",
 total: 999.014735,
@@ -52332,7 +52252,7 @@ created_at: "2018-07-21T05:37:48.127Z",
 updated_at: "2018-07-21T05:37:48.127Z"
 )
 Score.create(
-id: 712,
+
 username: "Scorpio",
 ipa: "36.42.28.230",
 total: 969.50378,
@@ -52413,7 +52333,7 @@ created_at: "2018-07-21T05:50:50.771Z",
 updated_at: "2018-07-21T05:50:50.771Z"
 )
 Score.create(
-id: 772,
+
 username: "NoCuiRuo",
 ipa: "223.74.192.62",
 total: 1624.33711,
@@ -52494,7 +52414,7 @@ created_at: "2018-08-01T10:28:42.951Z",
 updated_at: "2018-08-01T10:28:42.951Z"
 )
 Score.create(
-id: 711,
+
 username: "SGGK",
 ipa: "180.107.223.172",
 total: 1135.898584,
@@ -52575,7 +52495,7 @@ created_at: "2018-07-21T05:49:54.296Z",
 updated_at: "2018-07-21T05:49:54.296Z"
 )
 Score.create(
-id: 713,
+
 username: "hamusuta",
 ipa: "112.51.34.52",
 total: 669.828416,
@@ -52656,7 +52576,7 @@ created_at: "2018-07-21T05:51:24.312Z",
 updated_at: "2018-07-21T05:51:24.312Z"
 )
 Score.create(
-id: 714,
+
 username: "Scorpio",
 ipa: "36.42.28.230",
 total: 880.763513,
@@ -52737,7 +52657,7 @@ created_at: "2018-07-21T06:05:58.387Z",
 updated_at: "2018-07-21T06:05:58.387Z"
 )
 Score.create(
-id: 715,
+
 username: "zerodream",
 ipa: "183.206.5.27",
 total: 562.620655,
@@ -52818,7 +52738,7 @@ created_at: "2018-07-21T14:23:56.042Z",
 updated_at: "2018-07-21T14:23:56.042Z"
 )
 Score.create(
-id: 716,
+
 username: "May",
 ipa: "120.38.225.68",
 total: 478.073733,
@@ -52899,7 +52819,7 @@ created_at: "2018-07-22T03:20:43.370Z",
 updated_at: "2018-07-22T03:20:43.370Z"
 )
 Score.create(
-id: 717,
+
 username: "May",
 ipa: "120.38.225.68",
 total: 571.299521,
@@ -52980,7 +52900,7 @@ created_at: "2018-07-22T03:37:18.958Z",
 updated_at: "2018-07-22T03:37:18.958Z"
 )
 Score.create(
-id: 718,
+
 username: "herry",
 ipa: "27.126.96.56",
 total: 667.190661,
@@ -53061,7 +52981,88 @@ created_at: "2018-07-22T09:49:47.893Z",
 updated_at: "2018-07-22T09:49:47.893Z"
 )
 Score.create(
-id: 773,
+
+username: "Summer",
+ipa: "113.85.113.109",
+total: 800.93227,
+jumps: 284,
+deaths: 283,
+longest_streak: 17,
+bestjump_type: "T-Bone",
+bestjump_points: 75.784565,
+easy_points: 148.260066,
+easy_jumps: 104,
+gate_jumps: 39,
+gate_streak: 17,
+gate_points: 65.804741,
+diagonal_jumps: 24,
+diagonal_streak: 5,
+diagonal_points: 30.094876,
+fjump_jumps: 11,
+fjump_streak: 4,
+fjump_points: 12.982271,
+sgate_jumps: 20,
+sgate_streak: 5,
+sgate_points: 26.219815,
+platform_jumps: 10,
+platform_streak: 5,
+platform_points: 13.158362,
+medium_points: 213.308263,
+medium_jumps: 81,
+cascade_jumps: 13,
+cascade_streak: 6,
+cascade_points: 33.873027,
+tbone_jumps: 26,
+tbone_streak: 8,
+tbone_points: 75.784565,
+mjump2_jumps: 14,
+mjump2_streak: 4,
+mjump2_points: 32.566602,
+shuriken_jumps: 15,
+shuriken_streak: 9,
+shuriken_points: 41.721586,
+hdiamond_jumps: 13,
+hdiamond_streak: 3,
+hdiamond_points: 29.362482,
+hard_points: 191.275166,
+hard_jumps: 54,
+mjump1_jumps: 12,
+mjump1_streak: 6,
+mjump1_points: 45.475087,
+diamond_jumps: 16,
+diamond_streak: 4,
+diamond_points: 58.615721,
+bubble_jumps: 9,
+bubble_streak: 3,
+bubble_points: 31.140634,
+vortex_jumps: 15,
+vortex_streak: 3,
+vortex_points: 50.043724,
+hourglass_jumps: 2,
+hourglass_streak: 1,
+hourglass_points: 6,
+hardest_points: 248.088775,
+hardest_jumps: 45,
+plane_jumps: 12,
+plane_streak: 3,
+plane_points: 65.395906,
+corner_jumps: 10,
+corner_streak: 1,
+corner_points: 50,
+valve_jumps: 12,
+valve_streak: 3,
+valve_points: 70.791812,
+ninejump_jumps: 7,
+ninejump_streak: 4,
+ninejump_points: 41.901056,
+ddiamond_jumps: 4,
+ddiamond_streak: 1,
+ddiamond_points: 20,
+created_at: "2018-07-23T05:03:07.765Z",
+updated_at: "2018-07-23T05:03:07.765Z"
+)
+Score.create(
+
 username: "SKY10w",
 ipa: "116.233.208.118",
 total: 884.982319,
