@@ -1,6 +1,7 @@
 class Api::V1::ScoresController < ApplicationController
 
   def version
+#    render json: { "version" => "1.1", "notes" => "Leaderboard reset with new features:#New unlockable jumps and eggs along with a jump leaderboard!#Names for top scores/totals/streaks#More bug squashing" }
     render json: { "version" => "1.04", "notes" => "'S' to skip countdown,#score font updated,#many bugfixes & visuals/website upgrades" }
   end
 
