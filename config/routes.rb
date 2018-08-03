@@ -16,7 +16,7 @@ Rails.application.routes.draw do
       get '/unique', to: 'scores#unique'
 
       resources :jumps, only: [:index, :create, :show]
-      get '/extra_jumps', to: 'jumps#top'
+      get '/extra_jumps', to: 'jumps#extra_jumps'
     end
   end
 
