@@ -19,6 +19,7 @@ Bundler.require(*Rails.groups)
 module JumpMasterLeaderboardAPI
   class Application < Rails::Application
     config.load_defaults 5.1
+    config.autoload_paths += %W(#{config.root}/lib)
 
     config.api_only = true
     Rails.application.config.middleware.insert_before 0, Rack::Cors do
