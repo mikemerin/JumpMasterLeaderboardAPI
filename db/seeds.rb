@@ -53139,7 +53139,7 @@ created_at: "2018-08-01T12:25:58.069Z",
 updated_at: "2018-08-01T12:25:58.069Z"
 )
 Score.create(
-id: 654,
+
 username: "Fragnaticc",
 ipa: "186.19.126.181",
 total: 1574.303671,
@@ -53220,7 +53220,7 @@ created_at: "2018-08-02T05:14:37.376Z",
 updated_at: "2018-08-02T05:14:37.376Z"
 )
 Score.create(
-id: 655,
+
 username: "Lyndis",
 ipa: "112.40.110.219",
 total: 926.634306,
@@ -53301,7 +53301,7 @@ created_at: "2018-08-02T07:12:09.120Z",
 updated_at: "2018-08-02T07:12:09.120Z"
 )
 Score.create(
-id: 656,
+
 username: "jxws",
 ipa: "47.74.56.47",
 total: 1106.19831,
@@ -53382,7 +53382,7 @@ created_at: "2018-08-02T08:16:33.152Z",
 updated_at: "2018-08-02T08:16:33.152Z"
 )
 Score.create(
-id: 657,
+
 username: "Chance",
 ipa: "112.0.99.124",
 total: 1783.979352,
@@ -53463,7 +53463,7 @@ created_at: "2018-08-02T13:22:29.124Z",
 updated_at: "2018-08-02T13:22:29.124Z"
 )
 Score.create(
-id: 658,
+
 username: "Oaildlo",
 ipa: "116.25.99.7",
 total: 1446.444632,
@@ -53544,7 +53544,7 @@ created_at: "2018-08-02T15:49:54.893Z",
 updated_at: "2018-08-02T15:49:54.893Z"
 )
 Score.create(
-id: 659,
+
 username: "Welowas",
 ipa: "217.87.152.225",
 total: 1379.342125,
@@ -53625,7 +53625,6 @@ created_at: "2018-08-02T18:19:15.793Z",
 updated_at: "2018-08-02T18:19:15.793Z"
 )
 Score.create(
-id: 660,
 username: "Sparxe",
 ipa: "37.47.34.247",
 total: 862.71089,
