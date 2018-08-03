@@ -12,7 +12,7 @@ class Api::V1::JumpsController < ApplicationController
     end
   end
 
-  def top
+  def extra_jumps
     # array of hashes
     @array = [
       "16px", "rdiagonal", "cdiagonal", "rukito",
@@ -35,6 +35,8 @@ class Api::V1::JumpsController < ApplicationController
     @jump_types.each do |type|
       @jumps[type] = { 'username' => '', 'multi' => {}, 'id' => '', 'number' => 0 };
     end
+
+    byebug
 
     Jump.all.each do |score|
       @jump_types.each do |type|
