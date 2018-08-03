@@ -1,4 +1,4 @@
-class Api::V1::JumpsController < ApplicationController
+class api::V1::JumpsController < ApplicationController
 
   def index
     @jumps = Jump.all
