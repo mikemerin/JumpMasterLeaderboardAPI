@@ -36,7 +36,7 @@ class Api::V1::JumpsController < ApplicationController
       @jumps[type] = { 'username' => '', 'multi' => {}, 'id' => '', 'number' => 0 };
     end
 
-    Jumps.all.each do |score|
+    Jump.all.each do |score|
       @jump_types.each do |type|
         if (score[type.to_sym].round(2) > @scores[type]['number']) then
           @scores[type]['number'] = score[type.to_sym].round(2);
