@@ -1,2 +1,2 @@
-class Score < ApplicationRecord
+class Jump < ApplicationRecord
 end
