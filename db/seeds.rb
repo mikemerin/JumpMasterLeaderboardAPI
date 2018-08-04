@@ -1,5 +1,5 @@
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: '16px',
   deaths: 0,
@@ -8,7 +8,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'rdiagonal',
   deaths: 0,
@@ -17,7 +17,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'cdiagonal',
   deaths: 0,
@@ -26,7 +26,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'rukito',
   deaths: 0,
@@ -35,7 +35,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'tas',
   deaths: 0,
@@ -44,7 +44,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'uvalve',
   deaths: 0,
@@ -53,7 +53,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'dvalve',
   deaths: 0,
@@ -62,7 +62,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'fang',
   deaths: 0,
@@ -71,7 +71,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'invert',
   deaths: 0,
@@ -80,7 +80,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'rcorner',
   deaths: 0,
@@ -89,7 +89,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'charlie',
   deaths: 0,
@@ -98,7 +98,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'superf',
   deaths: 0,
@@ -107,7 +107,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'dplane',
   deaths: 0,
@@ -116,7 +116,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'jdiamond',
   deaths: 0,
@@ -125,7 +125,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'cddiamond',
   deaths: 0,
@@ -134,7 +134,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: '45',
   deaths: 0,
@@ -143,7 +143,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'boxcorner',
   deaths: 0,
@@ -152,7 +152,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'fspike',
   deaths: 0,
@@ -161,7 +161,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'bvalve',
   deaths: 0,
@@ -170,7 +170,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'tvalve',
   deaths: 0,
@@ -179,7 +179,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'dcascade',
   deaths: 0,
@@ -188,7 +188,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: '?????',
   deaths: 0,
@@ -197,7 +197,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'minif',
   deaths: 0,
@@ -206,7 +206,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'dinvert',
   deaths: 0,
@@ -215,7 +215,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'ljump',
   deaths: 0,
@@ -224,7 +224,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'dbvalve',
   deaths: 0,
@@ -233,7 +233,7 @@ Jump.create(
   streak: 0
 )
 Jump.create(
-  username: "No One",
+  username: "Nobody",
   ipa: "000.000.000.000",
   jump_name: 'ldiamond',
   deaths: 0,
