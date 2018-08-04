@@ -30,35 +30,41 @@ class Api::V1::JumpsController < ApplicationController
       end
     end
 
-    @jumps = {};
+    @scores = {};
 
     @jump_types.each do |type|
-      @jumps[type] = { 'username' => '', 'multi' => {}, 'id' => '', 'number' => 0 };
+      @scores[type] = { 'username' => '', 'multi' => {}, 'id' => '', 'number' => -1 };
     end
 
-    # byebug
-    #
-    # Jump.all.each do |score|
-    #   @jump_types.each do |type|
-    #     if (score[type.to_sym].round(2) > @scores[type]['number']) then
-    #       @scores[type]['number'] = score[type.to_sym].round(2);
-    #       @scores[type]['username'] = score[:'username'];
-    #       @scores[type]['multi'] = {};
-    #       @scores[type]['multi'][score[:'username']] = [score[:'id']];
-    #       @scores[type]['id'] = score[:'id'];
-    #     elsif (score[type.to_sym].round(2) == @scores[type]['number']) then
-    #       if (@scores[type]['multi'][score[:'username']]) then
-    #         @scores[type]['multi'][score[:'username']] << score[:'id'];
-    #       else
-    #         @scores[type]['multi'][score[:'username']] = [score[:'id']];
-    #         @scores[type]['username'] = 'Multiple People';
-    #         @scores[type]['id'] = '';
-    #       end
-    #     end
-    #   end
-    # end
+    Jump.all.each do |score|
+      # p score
+      # p "-----"
+      ['jumps', 'streak', 'points'].each do |type|
+        # p "type: "+type+", name: "+score[:jump_name]
+        run_score = score[type.to_sym].round(2)
+        score_name = score[:jump_name]+"_"+type
+        top_score = @scores[score_name]['number']
+        # p run_score.to_s + " > "+top_score.to_s
+        if run_score > top_score then
+          @scores[score_name]['number'] = run_score
+          @scores[score_name]['username'] = score[:'username'];
+          @scores[score_name]['multi'] = {};
+          @scores[score_name]['multi'][score[:'username']] = [score[:'id']];
+          @scores[score_name]['id'] = score[:'id'];
+          elsif (run_score == top_score) then
+            if (@scores[score_name]['multi'][score[:'username']]) then
+              @scores[score_name]['multi'][score[:'username']] << score[:'id'];
+            else
+              @scores[score_name]['multi'][score[:'username']] = [score[:'id']];
+              @scores[score_name]['username'] = 'Multiple People';
+              @scores[score_name]['id'] = '';
+            end
+        end
+        # p '-------'
+      end
+    end
 
-    render json: @jumps
+    render json: @scores
 
   end
 
