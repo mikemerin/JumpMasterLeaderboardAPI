@@ -121,17 +121,17 @@ class Api::V1::ScoresController < ApplicationController
       score = run[0][jump]
       score = (score*100).round/100.0 if score.class == Float
 
-      i = 1
-      while i < n
-        score_compare = run[i][jump]
+      idx = 1
+      while idx < n
+        score_compare = run[idx][jump]
         score_compare = (score_compare*100).round/100.0 if score_compare.class == Float
         if score != score_compare then
-          i = n
-        elsif username == run[i]['username'] then
+          idx = n
+        elsif username == run[idx]['username'] then
           username = 'Multiple People'
-          i = n
+          idx = n
         else
-          i += 1
+          idx += 1
         end
       end
 
