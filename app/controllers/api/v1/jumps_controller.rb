@@ -51,16 +51,15 @@ class Api::V1::JumpsController < ApplicationController
           @scores[score_name]['multi'] = {};
           @scores[score_name]['multi'][score[:'username']] = [score[:'id']];
           @scores[score_name]['id'] = score[:'id'];
-          elsif (run_score == top_score) then
-            if (@scores[score_name]['multi'][score[:'username']]) then
-              @scores[score_name]['multi'][score[:'username']] << score[:'id'];
-            else
-              @scores[score_name]['multi'][score[:'username']] = [score[:'id']];
-              @scores[score_name]['username'] = 'Multiple People';
-              @scores[score_name]['id'] = '';
-            end
+        elsif (run_score == top_score) then
+          if (@scores[score_name]['multi'][score[:'username']]) then
+            @scores[score_name]['multi'][score[:'username']] << score[:'id'];
+          else
+            @scores[score_name]['multi'][score[:'username']] = [score[:'id']];
+            @scores[score_name]['username'] = 'Multiple People';
+            @scores[score_name]['id'] = '';
+          end
         end
-        # p '-------'
       end
     end
 
