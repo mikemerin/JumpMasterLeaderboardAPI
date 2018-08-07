@@ -115,10 +115,26 @@ class Api::V1::ScoresController < ApplicationController
     @scores = [];
     @jumps = {};
     @array.each_with_index do |jump, i|
-      run = Score.order(jump).reverse.first
-      username = run['username']
-      score = run[jump]
+      n = 5
+      run = Score.order(jump).reverse.first(n)
+      username = run[0]['username']
+      score = run[0][jump]
       score = (score*100).round/100.0 if score.class == Float
+
+      i = 1
+      while i < n
+        score_compare = run[i][jump]
+        score_compare = (score_compare*100).round/100.0 if score_compare.class == Float
+        if score != score_compare then
+          i = n
+        elsif username == run[i]['username'] then
+          username = 'Multiple People'
+          i = n
+        else
+          i += 1
+        end
+      end
+
       if i % 3 == 0
         @jumps = {}
         @jumps["jumps"] = score
