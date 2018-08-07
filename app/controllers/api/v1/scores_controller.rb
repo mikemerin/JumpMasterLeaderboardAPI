@@ -158,8 +158,8 @@ class Api::V1::ScoresController < ApplicationController
     @jumps = {};
     @array.each_with_index do |jump, i|
       run = Score.order(jump).reverse.first
-      id = run['id']
-      username = run['username']
+      # id = run['id']
+      # username = run['username']
       score = run[jump]
       score = (score*100).round/100.0 if score.class == Float
       if i % 3 == 0
@@ -169,8 +169,8 @@ class Api::V1::ScoresController < ApplicationController
         @jumps["streak"] = score
       elsif i % 3 == 2
         @jumps["points"] = score
-        @jumps['id'] = id
-        @jumps['username'] = username
+        # @jumps['id'] = id
+        # @jumps['username'] = username
         @scores << @jumps
       end
     end
