@@ -127,7 +127,7 @@ class Api::V1::ScoresController < ApplicationController
         score_compare = (score_compare*100).round/100.0 if score_compare.class == Float
         if score != score_compare then
           idx = n
-        elsif username == run[idx]['username'] then
+        elsif username != run[idx]['username'] then
           username = 'Multiple People'
           idx = n
         else
