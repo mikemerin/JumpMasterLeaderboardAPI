@@ -115,7 +115,10 @@ class Api::V1::ScoresController < ApplicationController
     @scores = [];
     @jumps = {};
     @array.each_with_index do |jump, i|
-      score = Score.order(jump).reverse.first[jump]
+      run = Score.order(jump).reverse.first
+      id = run['id']
+      username = run['username']
+      score = run[jump]
       score = (score*100).round/100.0 if score.class == Float
       if i % 3 == 0
         @jumps = {}
@@ -124,6 +127,8 @@ class Api::V1::ScoresController < ApplicationController
         @jumps["streak"] = score
       elsif i % 3 == 2
         @jumps["points"] = score
+        @jumps['id'] = id
+        @jumps['username'] = username
         @scores << @jumps
       end
     end
@@ -131,7 +136,7 @@ class Api::V1::ScoresController < ApplicationController
     render json: @scores
   end
 
-  def top_jumps_each
+  def top_jumps_gml_list_with_names
     # array of hashes
     @array = [
       'gate_jumps','gate_streak','gate_points',
@@ -157,7 +162,10 @@ class Api::V1::ScoresController < ApplicationController
     @scores = [];
     @jumps = {};
     @array.each_with_index do |jump, i|
-      score = Score.order(jump).reverse.first[jump]
+      run = Score.order(jump).reverse.first
+      id = run['id']
+      username = run['username']
+      score = run[jump]
       score = (score*100).round/100.0 if score.class == Float
       if i % 3 == 0
         @jumps = {}
@@ -166,6 +174,8 @@ class Api::V1::ScoresController < ApplicationController
         @jumps["streak"] = score
       elsif i % 3 == 2
         @jumps["points"] = score
+        @jumps['id'] = id
+        @jumps['username'] = username
         @scores << @jumps
       end
     end
