@@ -125,6 +125,7 @@ class Api::V1::JumpsController < ApplicationController
       jumps = @scores["#{jump}_jumps"]
       streak = @scores["#{jump}_streak"]
       points = @scores["#{jump}_points"]
+      @info["name"] = jump
       @info["jumps"] = jumps['number']
       @info["jumps_username"] = jumps['username']
       @info["streak"] = streak['number']
