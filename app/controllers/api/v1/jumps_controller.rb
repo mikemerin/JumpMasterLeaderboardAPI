@@ -120,19 +120,19 @@ class Api::V1::JumpsController < ApplicationController
 
     @scores_array = [];
 
-    # @array.each do |jump|
-    #   @info = {}
-    #   jumps = @scores["#{jump}_jumps"]
-    #   streak = @scores["#{jump}_streak"]
-    #   points = @scores["#{jump}_points"]
-    #   @info["jumps"] = jumps['number']
-    #   @info["jumps_username"] = jumps['username']
-    #   @info["streak"] = streak['number']
-    #   @info["streak_username"] = streak['username']
-    #   @info["points"] = points['number']
-    #   @info["points_username"] = points['username']
-    #   @scores_array << @info
-    # end
+    @array.each do |jump|
+      @info = {}
+      jumps = @scores["#{jump}_jumps"]
+      streak = @scores["#{jump}_streak"]
+      points = @scores["#{jump}_points"]
+      @info["jumps"] = jumps['number']
+      @info["jumps_username"] = jumps['username']
+      @info["streak"] = streak['number']
+      @info["streak_username"] = streak['username']
+      @info["points"] = points['number']
+      @info["points_username"] = points['username']
+      @scores_array << @info
+    end
 
     render json: @scores_array
 
