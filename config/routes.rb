@@ -17,6 +17,7 @@ Rails.application.routes.draw do
 
       resources :jumps, only: [:index, :create, :show]
       get '/extra_jumps', to: 'jumps#extra_jumps'
+      get '/extra_jumps_each', to: 'jumps#extra_jumps_each'
     end
   end
 
