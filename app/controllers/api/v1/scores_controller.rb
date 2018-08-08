@@ -137,7 +137,7 @@ class Api::V1::ScoresController < ApplicationController
 
       if i % 3 == 0
         @jumps = {}
-        @jumps["name"] = jump
+        @jumps["name"] = jump[0..-7]
         @jumps["jumps"] = score
         @jumps['jumps_username'] = username
       elsif i % 3 == 1
